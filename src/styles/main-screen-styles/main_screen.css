@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/fty-strategycide-ncv");
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  width: 100%;
+  height: auto;
+  background-color: #FFF6F4;
+}
+* body button, * body a {
+  cursor: pointer;
+  transition: 0.3s all;
+  border: none;
+}
+* body .main-screen {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+* body .main-screen .separator {
+  width: 86.4583333333%;
+  height: 1px;
+  background-color: #00346E;
+  margin: auto;
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+}
+* body .main-screen .container {
+  width: 86.4583333333%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  margin-top: clamp(50px, 5.2083333333vw, 200px);
+  justify-content: space-between;
+}
+* body .main-screen .container .proto-photo {
+  width: clamp(336.5px, 35.0520833333vw, 1346px);
+  height: clamp(289px, 30.1041666667vw, 1156px);
+}
+* body .main-screen .container .main-heading {
+  width: clamp(350px, 36.4583333333vw, 1400px);
+  height: clamp(80px, 8.3333333333vw, 320px);
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(32.5px, 3.3854166667vw, 130px);
+  color: #00346E;
+}
+* body .main-screen .container .description {
+  width: clamp(391.5px, 40.78125vw, 1566px);
+  height: clamp(54px, 5.625vw, 216px);
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(15px, 1.5625vw, 60px);
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+  color: #00346E;
+}
+* body .main-screen .container .buttons {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: clamp(42.5px, 4.4270833333vw, 170px);
+}
+* body .main-screen .container .buttons .main-button {
+  width: clamp(179px, 18.6458333333vw, 716px);
+  height: clamp(32px, 3.3333333333vw, 128px);
+  background-color: #D23127;
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  border: none;
+  color: #FFF6F4;
+  border-radius: 6px;
+  font-size: clamp(14.5px, 1.5104166667vw, 58px);
+}
+* body .main-screen .container .buttons .main-button:hover {
+  background-color: #B52B21;
+}
+* body .main-screen .container .buttons .main-button .telegram-icon {
+  margin-right: clamp(6px, 0.625vw, 24px);
+}
+* body .main-screen .container .buttons .more-button {
+  width: clamp(179px, 18.6458333333vw, 716px);
+  height: clamp(32px, 3.3333333333vw, 128px);
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  border: 3px solid #D23127;
+  color: #D23127;
+  background-color: transparent;
+  font-size: clamp(14.5px, 1.5104166667vw, 58px);
+  margin-left: clamp(16px, 1.6666666667vw, 64px);
+  border-radius: 6px;
+}
+* body .main-screen .container .buttons .more-button:hover {
+  background-color: #D23127;
+  color: #FFF6F4;
+}/*# sourceMappingURL=main_screen.css.map */

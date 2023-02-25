@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
+// Screens
+import MainScreen from "./screens/MainScreen";
+import Reviews from "./pages/Reviews";
+import Verification from "./pages/Verification";
+
+// Styles
+import styles from "./styles/main-screen-styles/main_screen.css";
+import AboutJinScreen from "./screens/AboutJinScreen";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <MainScreen />
+      <AboutJinScreen />
     </div>
   );
-}
+};
 
 export default App;

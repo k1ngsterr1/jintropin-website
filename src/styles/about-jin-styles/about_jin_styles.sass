@@ -1,0 +1,101 @@
+$red: #D23127
+$light_red: #EEA6A1
+$main_cream: #EDE9D0
+$main_blue: #00346E
+$selected_blue: #008AA2
+$background: #FFF6F4
+$button_hover: #B52B21
+
+// Margins
+$eightclamp: clamp(4px,0.4166666666666667vw,16px)
+$sixteenclamp: clamp(8px,0.8333333333333334vw,32px)
+$twentyclamp: clamp(10px,1.0416666666666667vw,40px)
+
+$thirtytwoclamp: clamp(16px,1.6666666666666667vw,64px)
+$sixtyfourclamp: clamp(32px,3.3333333333333335vw,128px)
+$onetwoeightclamp: clamp(64px,6.666666666666667vw,256px)
+$twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap')
+@import url('https://fonts.cdnfonts.com/css/fty-strategycide-ncv')
+
+*
+    margin: 0
+    padding: 0
+
+    body
+        width: 100%
+        height: auto
+        background-color: $background
+
+        button, a
+            cursor: pointer
+            transition: 0.3s all
+
+        .about-jin
+            width: 100%
+            height: auto
+            display: flex
+            flex-direction: column
+            margin-top: $sixtyfourclamp
+            background-color: $main_cream
+
+            .about-jin-container
+                width: 86.45833333333333%
+                height: auto
+                display: flex
+                flex-direction: column
+                margin: auto
+
+                .about-proto
+                    width: 650px
+                    height: 550px
+                    margin-top: clamp(37.5px,3.90625vw,150px)
+
+                .about-heading-container
+                    margin: auto
+                    margin-top: $sixtyfourclamp
+                    display: flex
+                    align-items: center
+                    flex-direction: column
+
+                    .about-heading
+                        font-family: 'FTY STRATEGYCIDE NCV'
+                        font-style: normal
+                        font-weight: 400
+                        font-size: clamp(30px,3.125vw,120px)
+                        color: #D23127
+
+                    .separator
+                        width: clamp(295px,30.729166666666668vw,1180px)
+                        height: 1px
+                        margin-top: $sixteenclamp
+                        background-color: $red
+
+                .about-content
+                    width: auto
+                    height: auto
+                    display: flex
+                    align-items: center
+                    text-align: right
+
+                    .about-paragraph
+                        width: clamp(381.5px,39.739583333333336vw,1526px)
+                        font-family: 'Blinker'
+                        font-style: normal
+                        font-weight: 400
+                        font-size: clamp(15px,1.5625vw,60px)
+                        color: #00346E
+
+                    .more-info
+                        width: clamp(212.5px,22.135416666666668vw,850px)
+                        height: $sixtyfourclamp
+                        background-color: $red
+                        font-family: 'FTY STRATEGYCIDE NCV'
+                        font-style: normal
+                        font-weight: 400
+                        margin-top: $sixtyfourclamp
+                        color: $background
+                        font-size: 29px
+                        border-radius: 6px

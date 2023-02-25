@@ -1,0 +1,101 @@
+$red: #D23127
+$light_red: #EEA6A1
+$main_cream: #EDE9D0
+$main_blue: #00346E
+$selected_blue: #008AA2
+$background: #FFF6F4
+
+// Margins
+$eightclamp: clamp(4px,0.4166666666666667vw,16px)
+$sixteenclamp: clamp(8px,0.8333333333333334vw,32px)
+$twentyclamp: clamp(10px,1.0416666666666667vw,40px)
+
+$thirtytwoclamp: clamp(16px,1.6666666666666667vw,64px)
+$sixtyfourclamp: clamp(32px,3.3333333333333335vw,128px)
+$onetwoeightclamp: clamp(64px,6.666666666666667vw,256px)
+$twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap')
+@import url('https://fonts.cdnfonts.com/css/fty-strategycide-ncv')
+
+*
+    margin: 0
+    padding: 0
+
+    body
+        width: 100%
+        height: auto
+        font-family: 'Blinker', sans-serif
+        background-color: $background
+
+        .main-screen
+            width: 100%
+            height: auto
+            display: flex
+            margin: auto
+            flex-direction: column
+
+            .nav-container
+                width: 100%
+                height: auto
+                display: flex
+                justify-content: center
+                margin-top: $sixtyfourclamp
+
+                .nav
+                    width: 86.45833333333333%
+                    height: auto
+                    margin: auto
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+
+                    .logo
+                        width: clamp(119px,12.395833333333334vw,476px)
+                        height: clamp(20.5px,2.1354166666666665vw,82px)
+
+                    .navigation
+                        display: flex
+                        align-items: center
+
+                        .link-main
+                            font-style: normal
+                            font-weight: 600
+                            font-size: clamp(9px,0.9375vw,36px)
+                            cursor: pointer
+                            margin-left: clamp(323px,33.645833333333336vw,1292px)
+                            text-decoration-line: underline
+                            color: $selected_blue
+
+                        .link-review, .link-verification
+                            font-style: normal
+                            font-weight: 500
+                            cursor: pointer
+                            font-size: clamp(9px,0.9375vw,36px)
+                            color: $main_blue
+                            &:hover
+                                color: $selected_blue
+
+                        .link-verification
+                            margin-right: $sixtyfourclamp
+
+                        .link-review
+                            margin-right: $thirtytwoclamp
+
+                        .link-main
+                            margin-right: $thirtytwoclamp
+
+                        .contact-button
+                            width: clamp(135px,14.0625vw,540px)
+                            height: clamp(24.5px,2.5520833333333335vw,98px)
+                            font-family: 'FTY STRATEGYCIDE NCV', sans-serif
+                            color: $background
+                            background-color: $red
+                            cursor: pointer
+                            border-radius: 4px
+                            font-size: clamp(12.5px,1.3020833333333333vw,50px)
+                            border: none
+                            transition: 0.3s all
+                            &:hover
+                                background-color: #B52B21

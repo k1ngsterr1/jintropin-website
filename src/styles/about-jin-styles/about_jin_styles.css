@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/fty-strategycide-ncv");
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  width: 100%;
+  height: auto;
+  background-color: #FFF6F4;
+}
+* body button, * body a {
+  cursor: pointer;
+  transition: 0.3s all;
+}
+* body .about-jin {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: clamp(32px, 3.3333333333vw, 128px);
+  background-color: #EDE9D0;
+}
+* body .about-jin .about-jin-container {
+  width: 86.4583333333%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+* body .about-jin .about-jin-container .about-proto {
+  width: 650px;
+  height: 550px;
+  margin-top: clamp(37.5px, 3.90625vw, 150px);
+}
+* body .about-jin .about-jin-container .about-heading-container {
+  margin: auto;
+  margin-top: clamp(32px, 3.3333333333vw, 128px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+* body .about-jin .about-jin-container .about-heading-container .about-heading {
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(30px, 3.125vw, 120px);
+  color: #D23127;
+}
+* body .about-jin .about-jin-container .about-heading-container .separator {
+  width: clamp(295px, 30.7291666667vw, 1180px);
+  height: 1px;
+  margin-top: clamp(8px, 0.8333333333vw, 32px);
+  background-color: #D23127;
+}
+* body .about-jin .about-jin-container .about-content {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  text-align: right;
+}
+* body .about-jin .about-jin-container .about-content .about-paragraph {
+  width: clamp(381.5px, 39.7395833333vw, 1526px);
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(15px, 1.5625vw, 60px);
+  color: #00346E;
+}
+* body .about-jin .about-jin-container .about-content .more-info {
+  width: clamp(212.5px, 22.1354166667vw, 850px);
+  height: clamp(32px, 3.3333333333vw, 128px);
+  background-color: #D23127;
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  margin-top: clamp(32px, 3.3333333333vw, 128px);
+  color: #FFF6F4;
+  font-size: 29px;
+  border-radius: 6px;
+}/*# sourceMappingURL=about_jin_styles.css.map */
