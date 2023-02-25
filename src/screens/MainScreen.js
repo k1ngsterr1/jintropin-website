@@ -12,6 +12,9 @@ import photo from "../assets/prototype_photo_svg.svg";
 // Icons
 import { FaTelegramPlane } from "react-icons/fa";
 
+// Fonts
+import "../fonts/FTY_STRATEGYCIDE_NCV.ttf";
+
 const MainScreen = () => {
   return (
     <main className="main-screen">

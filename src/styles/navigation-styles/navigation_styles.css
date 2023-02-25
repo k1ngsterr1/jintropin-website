@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap");
-@import url("https://fonts.cdnfonts.com/css/fty-strategycide-ncv");
+@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
 * {
   margin: 0;
   padding: 0;
@@ -46,8 +46,7 @@
   font-size: clamp(9px, 0.9375vw, 36px);
   cursor: pointer;
   margin-left: clamp(323px, 33.6458333333vw, 1292px);
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   color: #008AA2;
 }
 * body .main-screen .nav-container .nav .navigation .link-review, * body .main-screen .nav-container .nav .navigation .link-verification {

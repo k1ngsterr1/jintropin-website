@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap");
-@import url("https://fonts.cdnfonts.com/css/fty-strategycide-ncv");
+@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
 * {
   margin: 0;
   padding: 0;
@@ -29,9 +29,10 @@
   margin: auto;
 }
 * body .about-jin .about-jin-container .about-proto {
-  width: 650px;
-  height: 550px;
+  width: clamp(325px, 33.8541666667vw, 1300px);
+  height: clamp(275px, 28.6458333333vw, 1100px);
   margin-top: clamp(37.5px, 3.90625vw, 150px);
+  margin-bottom: clamp(45px, 4.6875vw, 180px);
 }
 * body .about-jin .about-jin-container .about-heading-container {
   margin: auto;
@@ -58,6 +59,7 @@
   height: auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   text-align: right;
 }
 * body .about-jin .about-jin-container .about-content .about-paragraph {
@@ -77,6 +79,9 @@
   font-weight: 400;
   margin-top: clamp(32px, 3.3333333333vw, 128px);
   color: #FFF6F4;
-  font-size: 29px;
+  font-size: clamp(14.5px, 1.5104166667vw, 58px);
   border-radius: 6px;
+}
+* body .about-jin .about-jin-container .about-content .more-info:hover {
+  background-color: #B52B21;
 }/*# sourceMappingURL=about_jin_styles.css.map */

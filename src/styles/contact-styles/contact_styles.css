@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap");
+@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  width: 100%;
+  height: auto;
+  font-family: "Blinker", sans-serif;
+  background-color: #FFF6F4;
+}
+* body .contacts {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+* body .contacts .contacts-container {
+  width: 86.4583333333%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+* body .contacts .contacts-container .contacts-heading-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+* body .contacts .contacts-container .contacts-heading-container .contacts-heading {
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(30px, 3.125vw, 120px);
+  margin: auto;
+  color: #00346E;
+}
+* body .contacts .contacts-container .contacts-heading-container .separator {
+  width: clamp(295px, 30.7291666667vw, 1180px);
+  height: 1px;
+  background-color: #00346E;
+  margin-top: clamp(8px, 0.8333333333vw, 32px);
+}
+* body .contacts .contacts-container .contacts-main-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+* body .contacts .contacts-container .contacts-main-content .contacts-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: clamp(50px, 5.2083333333vw, 200px);
+}
+* body .contacts .contacts-container .contacts-main-content .contacts-content .section-heading {
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(22.5px, 2.34375vw, 90px);
+  color: #D23127;
+}
+* body .contacts .contacts-container .contacts-main-content .contacts-content .section-paragraph {
+  width: clamp(316.5px, 32.96875vw, 1266px);
+  font-family: "Blinker";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(15px, 1.5625vw, 60px);
+  color: #00346E;
+  margin-top: clamp(8px, 0.8333333333vw, 32px);
+}/*# sourceMappingURL=contact_styles.css.map */

@@ -18,8 +18,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap')
-@import url('https://fonts.cdnfonts.com/css/fty-strategycide-ncv')
-
+@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg)
 *
     margin: 0
     padding: 0
@@ -49,9 +48,10 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 margin: auto
 
                 .about-proto
-                    width: 650px
-                    height: 550px
+                    width: clamp(325px,33.854166666666664vw,1300px)
+                    height: clamp(275px,28.645833333333332vw,1100px)
                     margin-top: clamp(37.5px,3.90625vw,150px)
+                    margin-bottom: clamp(45px,4.6875vw,180px)
 
                 .about-heading-container
                     margin: auto
@@ -78,6 +78,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                     height: auto
                     display: flex
                     align-items: center
+                    justify-content: space-between
                     text-align: right
 
                     .about-paragraph
@@ -97,5 +98,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         font-weight: 400
                         margin-top: $sixtyfourclamp
                         color: $background
-                        font-size: 29px
+                        font-size: clamp(14.5px,1.5104166666666667vw,58px)
                         border-radius: 6px
+                        &:hover
+                            background-color: #B52B21
