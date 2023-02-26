@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 * body {
   width: 100%;
   height: auto;
-  font-family: "Blinker", sans-serif;
+  font-family: "Gothic A1", sans-serif;
   background-color: #FFF6F4;
 }
 * body .contacts {
@@ -29,6 +29,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: clamp(32px, 3.3333333333vw, 128px);
 }
 * body .contacts .contacts-container .contacts-heading-container .contacts-heading {
   font-family: "FTY STRATEGYCIDE NCV";
@@ -48,13 +49,17 @@
   width: 100%;
   height: auto;
   display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: clamp(50px, 5.2083333333vw, 200px);
+  margin-bottom: clamp(61px, 6.3541666667vw, 244px);
 }
 * body .contacts .contacts-container .contacts-main-content .contacts-content {
   display: flex;
   flex-direction: column;
-  margin-top: clamp(50px, 5.2083333333vw, 200px);
 }
 * body .contacts .contacts-container .contacts-main-content .contacts-content .section-heading {
+  width: clamp(307.5px, 32.03125vw, 1230px);
   font-family: "FTY STRATEGYCIDE NCV";
   font-style: normal;
   font-weight: 400;
@@ -69,4 +74,64 @@
   font-size: clamp(15px, 1.5625vw, 60px);
   color: #00346E;
   margin-top: clamp(8px, 0.8333333333vw, 32px);
+}
+* body .contacts .contacts-container .contacts-main-content .form {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* body .contacts .contacts-container .contacts-main-content .form input {
+  width: clamp(266.5px, 27.7604166667vw, 1066px);
+  height: clamp(24px, 2.5vw, 96px);
+  background-color: rgba(210, 49, 39, 0.1);
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(10px, 1.0416666667vw, 40px);
+  color: #D23127;
+  cursor: pointer;
+  border: 2px solid #D23127;
+  border-radius: 4px;
+  padding-left: 16px;
+}
+* body .contacts .contacts-container .contacts-main-content .form input:focus {
+  outline: none;
+  border: 2px solid #00346E;
+}
+* body .contacts .contacts-container .contacts-main-content .form input::-moz-placeholder {
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(10px, 1.0416666667vw, 40px);
+  color: #D23127;
+}
+* body .contacts .contacts-container .contacts-main-content .form input::placeholder {
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(10px, 1.0416666667vw, 40px);
+  color: #D23127;
+}
+* body .contacts .contacts-container .contacts-main-content .form .phone-input, * body .contacts .contacts-container .contacts-main-content .form .email-input, * body .contacts .contacts-container .contacts-main-content .form .city-input {
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+}
+* body .contacts .contacts-container .contacts-main-content .form .submit-button {
+  width: clamp(221.5px, 23.0729166667vw, 886px);
+  height: clamp(29px, 3.0208333333vw, 116px);
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(14.75px, 1.5364583333vw, 59px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: #D23127;
+  margin-top: clamp(32px, 3.3333333333vw, 128px);
+  color: #FFF6F4;
+}
+* body .contacts .contacts-container .contacts-main-content .form .submit-button:hover {
+  background-color: #B52B21;
 }/*# sourceMappingURL=contact_styles.css.map */

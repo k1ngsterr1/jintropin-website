@@ -25,7 +25,41 @@ const ContactScreen = () => {
               lectus ac. Praesent purus ultrices vitae tellus blandit fermentum.
             </p>
           </section>
-          <img src={arrow} alt="arrow" className="arrow-svg"></img>
+          {/* <img src={arrow} alt="arrow" className="arrow-svg"></img> */}
+          <form className="form" id="contacts_form">
+            <input
+              className="name-input"
+              type="text"
+              placeholder="Имя"
+              required="true"
+            ></input>
+            <input
+              className="phone-input"
+              type="tel"
+              placeholder="Телефон"
+              required="true"
+            ></input>
+            <input
+              className="city-input"
+              type="text"
+              placeholder="Город"
+              required="true"
+            ></input>
+            <input
+              className="email-input"
+              type="email"
+              placeholder="E-mail"
+              required="true"
+            ></input>
+            <button
+              type="submit"
+              value="submit"
+              form="contacts_submit"
+              className="submit-button"
+            >
+              ОТПРАВИТЬ ЗАЯВКУ
+            </button>
+          </form>
         </main>
       </div>
     </div>

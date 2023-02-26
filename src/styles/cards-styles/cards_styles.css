@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 * body {
   width: 100%;
   height: auto;
-  font-family: "Blinker", sans-serif;
+  font-family: "Gothic A1", sans-serif;
   background-color: #FFF6F4;
 }
 * body .muscle-card, * body .power-card, * body .imm-card {
@@ -51,10 +51,10 @@
 }
 * body .muscle-card .power-c-p, * body .muscle-card .imm-c-p, * body .muscle-card .muscle-c-p, * body .power-card .power-c-p, * body .power-card .imm-c-p, * body .power-card .muscle-c-p, * body .imm-card .power-c-p, * body .imm-card .imm-c-p, * body .imm-card .muscle-c-p {
   width: clamp(175px, 18.2291666667vw, 700px);
-  font-family: "Blinker";
+  font-family: "Gothic A1", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: clamp(15px, 1.5625vw, 60px);
+  font-weight: 500;
+  font-size: clamp(14px, 1.4583333333vw, 46px);
   text-align: center;
   color: #00346E;
   margin-top: clamp(19px, 1.9791666667vw, 76px);
