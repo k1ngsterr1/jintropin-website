@@ -67,7 +67,7 @@
 }
 * body .main-screen .container .buttons .main-button {
   width: clamp(179px, 18.6458333333vw, 716px);
-  height: clamp(32px, 3.3333333333vw, 128px);
+  height: clamp(35px, 3.6458333333vw, 140px);
   background-color: #D23127;
   font-family: "FTY STRATEGYCIDE NCV";
   font-style: normal;
@@ -93,6 +93,9 @@
   font-style: normal;
   font-weight: 400;
   border: 3px solid #D23127;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #D23127;
   background-color: transparent;
   font-size: clamp(14.5px, 1.5104166667vw, 58px);

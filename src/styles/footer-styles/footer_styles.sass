@@ -21,14 +21,8 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 @import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg)
 
 *
-    margin: 0
-    padding: 0
 
     body
-        width: 100%
-        height: auto
-        font-family: 'Gothic A1', sans-serif
-        background-color: $background
 
         .footer
             width: 100%
@@ -41,6 +35,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 margin: auto
                 display: flex
                 padding-top: $sixtyfourclamp
+                padding-bottom: $sixtyfourclamp
 
                 .logo-content
                     width: auto
@@ -74,5 +69,102 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         text-decoration: underline
 
                 .footer-navigation
+                    width: auto
                     display: flex
                     flex-direction: column
+                    margin-left: clamp(71px,7.395833333333333vw,284px)
+
+                    .footer-header
+                        font-family: 'FTY STRATEGYCIDE NCV'
+                        font-style: normal
+                        font-weight: 400
+                        font-size: $thirtytwoclamp
+                        color: $background
+
+                    .footer-links
+                        display: flex
+                        justify-content: space-between
+                        margin-top: clamp(11.5px,1.1979166666666667vw,46px)
+
+                    .main-link
+                        font-family: 'Gothic A1', sans-serif
+                        font-style: normal
+                        font-weight: 600 !important
+                        font-size: clamp(9px,0.9375vw,36px)
+                        color: $main_cream
+                        text-decoration: underline
+                        cursor: pointer
+
+                    .link
+                        font-family: 'Gothic A1', sans-serif
+                        font-style: normal
+                        font-weight: 500
+                        font-size: clamp(9px,0.9375vw,36px)
+                        cursor: pointer
+                        color: $background
+                        transition: 0.3s all
+                        &:hover
+                            color: $main_blue
+
+                    .reviews-link
+                        margin-left: $thirtytwoclamp
+
+                    .verification-link
+                        margin-left: $thirtytwoclamp
+
+                .footer-contacts
+                    width: auto
+                    height: auto
+                    display: flex
+                    flex-direction: column
+                    margin-left: clamp(71px,7.395833333333333vw,284px)
+
+                    .contacts-header
+                        font-family: 'FTY STRATEGYCIDE NCV'
+                        font-style: normal
+                        font-weight: 400
+                        font-size: $thirtytwoclamp
+                        color: $background
+
+                    .contacts-container
+                        width: auto
+                        height: auto
+                        display: flex
+                        margin-top: $sixteenclamp
+
+                        .instagram, .telegram, .envelope
+                            color: $background
+                            font-size: clamp(14.5px,1.5104166666666667vw,58px)
+                            cursor: pointer
+                            transition: 0.3s all
+                            &:hover
+                                color: $main_blue
+
+                        .telegram
+                            margin-left: clamp(9.5px,0.9895833333333334vw,38px)
+
+                        .envelope
+                            margin-left: clamp(9.5px,0.9895833333333334vw,38px)
+
+                .upper-button
+                    width: clamp(153px,15.9375vw,612px)
+                    height: clamp(25px,2.6041666666666665vw,100px)
+                    font-family: 'FTY STRATEGYCIDE NCV'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: clamp(13px,1.3541666666666667vw,42px)
+                    display: flex
+                    align-items: center
+                    justify-content: center
+                    border-radius: 3px
+                    color: $red
+                    background-color: $main_cream
+                    margin-left: clamp(71px,7.395833333333333vw,284px)
+                    transition: 0.3s all
+                    &:hover
+                        background-color: $main_blue
+                        color: $background
+
+                    .sort-up-icon
+                        padding-top: clamp(5px,0.5208333333333334vw,20px)
+                        padding-left: clamp(5px,0.5208333333333334vw,20px)

@@ -8,7 +8,7 @@ import prototype from "../assets/asset_about_svg.svg";
 
 const AboutJinScreen = () => {
   return (
-    <div className="about-jin">
+    <div className="about-jin" id="about-jintropin">
       <div className="about-jin-container">
         <div className="about-heading-container">
           <h1 className="about-heading">Что такое джинтропин</h1>

@@ -15,9 +15,11 @@ import { FaTelegramPlane } from "react-icons/fa";
 // Fonts
 import "../fonts/FTY_STRATEGYCIDE_NCV.ttf";
 
+import { Link } from "react-scroll";
+
 const MainScreen = () => {
   return (
-    <main className="main-screen">
+    <main className="main-screen" id="main-screen">
       <Navigation></Navigation>
       <div className="separator"></div>
       <div className="container">
@@ -31,11 +33,18 @@ const MainScreen = () => {
             donec donec dui scelerisque morbi dolor.
           </p>
           <div className="buttons">
-            <button className="main-button">
+            <button
+              onClick={() =>
+                window.open("http://ppk365.com/jinsaiyaoye/, _blank")
+              }
+              className="main-button"
+            >
               <FaTelegramPlane className="telegram-icon" />
               Стать Представителем
             </button>
-            <button className="more-button">Подробнее</button>
+            <Link to="about-jintropin" smooth="true" className="more-button">
+              Подробнее
+            </Link>
           </div>
         </div>
         <img className="proto-photo" src={photo}></img>

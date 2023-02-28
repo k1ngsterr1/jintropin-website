@@ -8,7 +8,7 @@ import arrow from "../assets/arrow_right.svg";
 
 const ContactScreen = () => {
   return (
-    <div className="contacts">
+    <div className="contacts" id="contact-screen">
       <div className="contacts-container">
         <div className="contacts-heading-container">
           <h2 className="contacts-heading">Связаться с нами</h2>
@@ -31,25 +31,25 @@ const ContactScreen = () => {
               className="name-input"
               type="text"
               placeholder="Имя"
-              required="true"
+              required={true}
             ></input>
             <input
               className="phone-input"
               type="tel"
               placeholder="Телефон"
-              required="true"
+              required={true}
             ></input>
             <input
               className="city-input"
               type="text"
               placeholder="Город"
-              required="true"
+              required={true}
             ></input>
             <input
               className="email-input"
               type="email"
               placeholder="E-mail"
-              required="true"
+              required={true}
             ></input>
             <button
               type="submit"

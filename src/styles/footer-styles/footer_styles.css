@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
-* {
-  margin: 0;
-  padding: 0;
-}
-* body {
-  width: 100%;
-  height: auto;
-  font-family: "Gothic A1", sans-serif;
-  background-color: #FFF6F4;
-}
 * body .footer {
   width: 100%;
   height: auto;
@@ -21,6 +11,7 @@
   margin: auto;
   display: flex;
   padding-top: clamp(32px, 3.3333333333vw, 128px);
+  padding-bottom: clamp(32px, 3.3333333333vw, 128px);
 }
 * body .footer .footer-content .logo-content {
   width: auto;
@@ -54,6 +45,106 @@
   text-decoration: underline;
 }
 * body .footer .footer-content .footer-navigation {
+  width: auto;
   display: flex;
   flex-direction: column;
+  margin-left: clamp(71px, 7.3958333333vw, 284px);
+}
+* body .footer .footer-content .footer-navigation .footer-header {
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(16px, 1.6666666667vw, 64px);
+  color: #FFF6F4;
+}
+* body .footer .footer-content .footer-navigation .footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: clamp(11.5px, 1.1979166667vw, 46px);
+}
+* body .footer .footer-content .footer-navigation .main-link {
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: 600 !important;
+  font-size: clamp(9px, 0.9375vw, 36px);
+  color: #EDE9D0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+* body .footer .footer-content .footer-navigation .link {
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(9px, 0.9375vw, 36px);
+  cursor: pointer;
+  color: #FFF6F4;
+  transition: 0.3s all;
+}
+* body .footer .footer-content .footer-navigation .link:hover {
+  color: #00346E;
+}
+* body .footer .footer-content .footer-navigation .reviews-link {
+  margin-left: clamp(16px, 1.6666666667vw, 64px);
+}
+* body .footer .footer-content .footer-navigation .verification-link {
+  margin-left: clamp(16px, 1.6666666667vw, 64px);
+}
+* body .footer .footer-content .footer-contacts {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: clamp(71px, 7.3958333333vw, 284px);
+}
+* body .footer .footer-content .footer-contacts .contacts-header {
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(16px, 1.6666666667vw, 64px);
+  color: #FFF6F4;
+}
+* body .footer .footer-content .footer-contacts .contacts-container {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: clamp(8px, 0.8333333333vw, 32px);
+}
+* body .footer .footer-content .footer-contacts .contacts-container .instagram, * body .footer .footer-content .footer-contacts .contacts-container .telegram, * body .footer .footer-content .footer-contacts .contacts-container .envelope {
+  color: #FFF6F4;
+  font-size: clamp(14.5px, 1.5104166667vw, 58px);
+  cursor: pointer;
+  transition: 0.3s all;
+}
+* body .footer .footer-content .footer-contacts .contacts-container .instagram:hover, * body .footer .footer-content .footer-contacts .contacts-container .telegram:hover, * body .footer .footer-content .footer-contacts .contacts-container .envelope:hover {
+  color: #00346E;
+}
+* body .footer .footer-content .footer-contacts .contacts-container .telegram {
+  margin-left: clamp(9.5px, 0.9895833333vw, 38px);
+}
+* body .footer .footer-content .footer-contacts .contacts-container .envelope {
+  margin-left: clamp(9.5px, 0.9895833333vw, 38px);
+}
+* body .footer .footer-content .upper-button {
+  width: clamp(153px, 15.9375vw, 612px);
+  height: clamp(25px, 2.6041666667vw, 100px);
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(13px, 1.3541666667vw, 42px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  color: #D23127;
+  background-color: #EDE9D0;
+  margin-left: clamp(71px, 7.3958333333vw, 284px);
+  transition: 0.3s all;
+}
+* body .footer .footer-content .upper-button:hover {
+  background-color: #00346E;
+  color: #FFF6F4;
+}
+* body .footer .footer-content .upper-button .sort-up-icon {
+  padding-top: clamp(5px, 0.5208333333vw, 20px);
+  padding-left: clamp(5px, 0.5208333333vw, 20px);
 }/*# sourceMappingURL=footer_styles.css.map */
