@@ -16,7 +16,13 @@ const Navigation = () => {
         <img className="logo" src={Logo}></img>
         <div className="navigation">
           <a className="link-main">Главная</a>
-          <a className="link-verification">Проверка на подлинность</a>
+          <a
+            href="http://ppk365.com/jinsaiyaoye/"
+            target="_blank"
+            className="link-verification"
+          >
+            Проверка на подлинность
+          </a>
           <Link to="contact-screen" className="contact-button" smooth="true">
             Связаться с нами
           </Link>

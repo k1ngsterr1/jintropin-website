@@ -28,7 +28,13 @@ const Footer_Com = () => {
           <h4 className="footer-header">НАВИГАЦИЯ</h4>
           <div className="footer-links">
             <a className="main-link link">Главная</a>
-            <a className="verification-link link">Проверка на подлинность</a>
+            <a
+              href="http://ppk365.com/jinsaiyaoye/"
+              target="_blank"
+              className="verification-link link"
+            >
+              Проверка на подлинность
+            </a>
           </div>
         </nav>
         <div className="footer-contacts">

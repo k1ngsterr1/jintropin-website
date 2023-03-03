@@ -96,3 +96,31 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                             transition: 0.3s all
                             &:hover
                                 background-color: #B52B21
+
+@media screen  and (max-width: 428px)
+
+    *
+
+    body
+
+        .main-screen
+            width: 100%
+            height: auto
+            display: flex
+            margin: auto
+            flex-direction: column
+
+            .nav-container
+                width: 100%
+                height: auto
+                display: flex
+                justify-content: center
+                margin-top: $sixtyfourclamp
+
+                .nav
+                    width: 86.45833333333333%
+                    height: auto
+                    margin: auto
+                    display: none
+                    justify-content: space-between
+                    align-items: center

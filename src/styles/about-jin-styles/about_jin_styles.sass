@@ -98,3 +98,65 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         border-radius: 6px
                         &:hover
                             background-color: #B52B21
+
+@media screen  and (max-width: 428px)
+
+    .about-jin
+        width: 100%
+        height: auto
+        display: flex
+        flex-direction: column
+        margin-top: $sixtyfourclamp
+        background-color: $main_cream
+
+        .about-jin-container
+            width: 86.45833333333333%
+            height: auto
+            display: flex
+            align-items: center !important
+            justify-content: center !important
+            flex-direction: column !important
+            margin: auto !important
+
+            .about-proto
+                display: none !important
+
+        .about-heading-container
+            margin: auto
+            margin-top: clamp(32px,14.953271028037383vw,128px) !important
+            display: flex
+            align-items: center
+            flex-direction: column
+
+            .about-heading
+                font-family: 'FTY STRATEGYCIDE NCV'
+                font-style: normal
+                font-weight: 400
+                font-size: clamp(18px,8.411214953271028vw,72px) !important
+                color: #D23127
+
+            .separator
+                width: clamp(145.5px,67.99065420560747vw,582px)
+                margin-top: clamp(16px,7.4766355140186915vw,64px) !important
+
+        .about-content
+            display: flex
+            align-items: center !important
+            justify-content: center !important
+            text-align: center
+
+            .about-paragraph
+                width: clamp(126.5px,59.11214953271028vw,506px) !important
+                height: auto
+                font-size: clamp(12.5px,5.841121495327103vw,50px) !important
+                margin-top: clamp(16px,7.4766355140186915vw,64px) !important
+                font-weight: 500 !important
+                margin: auto
+                text-align: center
+
+        .more-info
+            width: clamp( 173.5px,81.07476635514018vw,694px) !important
+            height: clamp(34px,15.88785046728972vw,136px) !important
+            margin-top: 0px !important
+            margin-right: 100px !important
+            font-size: clamp(12.5px,5.841121495327103vw,50px) !important

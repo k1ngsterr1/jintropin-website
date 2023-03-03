@@ -75,4 +75,67 @@
 }
 * body .about-jin .about-jin-container .about-content .more-info:hover {
   background-color: #B52B21;
+}
+
+@media screen and (max-width: 428px) {
+  .about-jin {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: clamp(32px, 3.3333333333vw, 128px);
+    background-color: #EDE9D0;
+  }
+  .about-jin .about-jin-container {
+    width: 86.4583333333%;
+    height: auto;
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    margin: auto !important;
+  }
+  .about-jin .about-jin-container .about-proto {
+    display: none !important;
+  }
+  .about-jin .about-heading-container {
+    margin: auto;
+    margin-top: clamp(32px, 14.953271028vw, 128px) !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-jin .about-heading-container .about-heading {
+    font-family: "FTY STRATEGYCIDE NCV";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(18px, 8.4112149533vw, 72px) !important;
+    color: #D23127;
+  }
+  .about-jin .about-heading-container .separator {
+    width: clamp(145.5px, 67.9906542056vw, 582px);
+    margin-top: clamp(16px, 7.476635514vw, 64px) !important;
+  }
+  .about-jin .about-content {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+  .about-jin .about-content .about-paragraph {
+    width: clamp(126.5px, 59.1121495327vw, 506px) !important;
+    height: auto;
+    font-size: clamp(12.5px, 5.8411214953vw, 50px) !important;
+    margin-top: clamp(16px, 7.476635514vw, 64px) !important;
+    font-weight: 500 !important;
+    margin: auto;
+    text-align: center;
+  }
+  .about-jin .more-info {
+    width: clamp(173.5px, 81.0747663551vw, 694px) !important;
+    height: clamp(34px, 15.8878504673vw, 136px) !important;
+    margin-top: 0px !important;
+    margin-right: 100px !important;
+    font-size: clamp(12.5px, 5.8411214953vw, 50px) !important;
+  }
 }/*# sourceMappingURL=about_jin_styles.css.map */

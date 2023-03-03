@@ -33,12 +33,7 @@ const MainScreen = () => {
             donec donec dui scelerisque morbi dolor.
           </p>
           <div className="buttons">
-            <button
-              onClick={() =>
-                window.open("http://ppk365.com/jinsaiyaoye/, _blank")
-              }
-              className="main-button"
-            >
+            <button className="main-button">
               <FaTelegramPlane className="telegram-icon" />
               Стать Представителем
             </button>

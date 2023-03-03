@@ -105,4 +105,66 @@
 * body .main-screen .container .buttons .more-button:hover {
   background-color: #D23127;
   color: #FFF6F4;
+}
+
+@media screen and (max-width: 428px) {
+  .main-screen {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+  .main-screen .separator {
+    display: none;
+  }
+  .main-screen .container {
+    width: 86.4583333333%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .main-screen .container .proto-photo {
+    display: none;
+  }
+  .main-screen .container .main-content .main-heading {
+    width: clamp(149.5px, 69.8598130841vw, 598px) !important;
+    height: clamp(118px, 55.1401869159vw, 472px) !important;
+    font-family: "FTY STRATEGYCIDE NCV";
+    font-style: normal;
+    margin: auto;
+    font-weight: 400;
+    font-size: clamp(27.5px, 12.8504672897vw, 110px) !important;
+    text-align: center;
+  }
+  .main-screen .container .main-content .description {
+    width: 300px !important;
+    height: clamp(105px, 49.0654205607vw, 420px) !important;
+    text-align: center;
+    margin: auto;
+    font-weight: 400;
+    font-size: clamp(12.5px, 5.8411214953vw, 50px) !important;
+    margin-top: clamp(32px, 14.953271028vw, 128px) !important;
+  }
+  .main-screen .container .main-content .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: clamp(40px, 18.691588785vw, 160px);
+  }
+  .main-screen .container .main-content .buttons .main-button, .main-screen .container .main-content .buttons .more-button {
+    width: 84% !important;
+    height: clamp(31.5px, 14.7196261682vw, 126px) !important;
+    font-size: clamp(12px, 5.6074766355vw, 48px);
+    margin: auto;
+  }
+  .main-screen .container .main-content .buttons .main-button {
+    height: clamp(34px, 15.8878504673vw, 136px) !important;
+  }
+  .main-screen .container .main-content .buttons .more-button {
+    width: 83% !important;
+    margin-top: clamp(16px, 7.476635514vw, 64px);
+    margin-bottom: clamp(32px, 14.953271028vw, 128px);
+  }
 }/*# sourceMappingURL=main_screen.css.map */

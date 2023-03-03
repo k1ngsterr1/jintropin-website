@@ -75,4 +75,29 @@
 }
 * body .main-screen .nav-container .nav .navigation .contact-button:hover {
   background-color: #B52B21;
+}
+
+@media screen and (max-width: 428px) {
+  body .main-screen {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+  body .main-screen .nav-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: clamp(32px, 3.3333333333vw, 128px);
+  }
+  body .main-screen .nav-container .nav {
+    width: 86.4583333333%;
+    height: auto;
+    margin: auto;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+  }
 }/*# sourceMappingURL=navigation_styles.css.map */
