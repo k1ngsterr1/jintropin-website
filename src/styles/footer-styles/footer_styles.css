@@ -13,6 +13,12 @@
   padding-top: clamp(32px, 3.3333333333vw, 128px);
   padding-bottom: clamp(32px, 3.3333333333vw, 128px);
 }
+* body .footer .footer-content .footer-contacts-mob {
+  display: none;
+}
+* body .footer .footer-content .logo-mobile {
+  display: none !important;
+}
 * body .footer .footer-content .logo-content {
   width: auto;
   height: auto;
@@ -20,8 +26,8 @@
   flex-direction: column;
 }
 * body .footer .footer-content .logo-content .logo {
-  width: clamp(119px, 12.3958333333vw, 476px);
-  height: clamp(20.5px, 2.1354166667vw, 82px);
+  width: clamp(127px, 13.2291666667vw, 508px);
+  height: clamp(25.5px, 2.65625vw, 102px);
 }
 * body .footer .footer-content .logo-content .footer-p {
   width: clamp(169px, 17.6041666667vw, 676px);
@@ -147,4 +153,103 @@
 * body .footer .footer-content .upper-button .sort-up-icon {
   padding-top: clamp(5px, 0.5208333333vw, 20px);
   padding-left: clamp(5px, 0.5208333333vw, 20px);
+}
+
+@media screen and (max-width: 428px) {
+  .footer {
+    width: 100%;
+    height: auto;
+    background-color: #D23127;
+  }
+  .footer .footer-content {
+    width: 86.4583333333%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-top: clamp(32px, 3.3333333333vw, 128px);
+    padding-bottom: clamp(32px, 3.3333333333vw, 128px);
+  }
+  .footer .footer-content .upper-button {
+    width: clamp(161px, 75.2336448598vw, 644px) !important;
+    height: clamp(28px, 13.5514018692vw, 116px) !important;
+    margin: auto !important;
+    font-size: clamp(13px, 6.0747663551vw, 52px) !important;
+    margin-top: clamp(32px, 14.953271028vw, 128px) !important;
+  }
+  .footer .footer-content .footer-contacts {
+    display: none !important;
+  }
+  .footer .footer-content .footer-contacts-mob {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .footer .footer-content .footer-contacts-mob .contacts-header-mob {
+    font-family: "FTY STRATEGYCIDE NCV";
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(17px, 7.9439252336vw, 68px) !important;
+    color: #FFF6F4;
+  }
+  .footer .footer-content .footer-contacts-mob .contacts-container-mob {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin-top: clamp(8px, 3.738317757vw, 32px);
+  }
+  .footer .footer-content .footer-contacts-mob .contacts-container-mob .instagram-mob {
+    color: #FFF6F4;
+    font-size: clamp(17px, 7.9439252336vw, 68px) !important;
+    margin-right: clamp(16px, 7.476635514vw, 64px) !important;
+  }
+  .footer .footer-content .footer-contacts-mob .contacts-container-mob .telegram-mob {
+    color: #FFF6F4;
+    font-size: clamp(17px, 7.9439252336vw, 68px) !important;
+  }
+  .footer .footer-content .footer-contacts-mob .contacts-container-mob .envelope-mob {
+    color: #FFF6F4;
+    font-size: clamp(17px, 7.9439252336vw, 68px) !important;
+    margin-left: clamp(16px, 7.476635514vw, 64px) !important;
+  }
+  .footer .footer-content .logo-mobile {
+    display: flex !important;
+  }
+  .footer .footer-content .logo-content {
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+  .footer .footer-content .logo-content .logo {
+    display: none !important;
+  }
+  .footer .footer-content .logo-content .footer-p {
+    width: clamp(169px, 78.9719626168vw, 676px) !important;
+    font-size: clamp(13px, 6.0747663551vw, 52px) !important;
+    text-align: center !important;
+    margin-top: 32px !important;
+  }
+  .footer .footer-content .logo-content .contact-us {
+    width: clamp(178.5px, 83.4112149533vw, 714px) !important;
+    font-family: "Gothic A1", sans-serif;
+    font-style: normal;
+    margin: auto !important;
+    text-align: center !important;
+    font-weight: 500;
+    font-size: clamp(10px, 4.6728971963vw, 40px) !important;
+    color: #EDE9D0;
+    margin-top: clamp(12.5px, 5.8411214953vw, 50px) !important;
+  }
+  .footer .footer-content .logo-content .underline {
+    text-decoration: underline;
+  }
+  .footer .footer-content .footer-navigation {
+    display: none !important;
+  }
 }/*# sourceMappingURL=footer_styles.css.map */

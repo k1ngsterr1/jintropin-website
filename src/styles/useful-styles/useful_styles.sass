@@ -84,3 +84,88 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         color: $red
 
 @media screen  and (max-width: 428px)
+
+    .useful-fin
+        width: 100%
+        height: auto
+        display: flex
+        flex-direction: column
+        background-color: $red
+
+        .useful-container
+            width: 86.45833333333333%
+            height: auto
+            display: flex
+            flex-direction: column
+            margin: auto
+                // border: 2px solid blue
+
+            .useful-heading-container
+                display: flex
+                flex-direction: column
+                align-items: center
+                justify-content: center
+                margin: auto
+                margin-top: clamp(32px,14.953271028037383vw,128px) !important
+
+                .useful-heading
+                    font-family: 'FTY STRATEGYCIDE NCV'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: clamp(18px,8.411214953271028vw,72px) !important
+                    color: #EDE9D0
+
+                .separator
+                    width: clamp(295px,30.729166666666668vw,1180px)
+                    height: 1px
+                    background-color: #EDE9D0
+                    margin-top: clamp(16px,7.4766355140186915vw,64px) !important
+
+            .cards
+                width: 100%
+                height: auto
+                display: flex
+                flex-direction: column !important
+                align-items: center
+                justify-content: space-between
+                margin-top: clamp(35px, 3.6458333333333335vw, 140px)
+
+                .power-card, .muscle-card, .imm-card
+                    width: clamp(182px,85.04672897196262vw,728px)
+                    height: clamp(231px,107.94392523364486vw,924px)
+                    display: flex
+                    flex-direction: column
+                    border-radius: 6px
+                    align-items: center
+                    cursor: pointer
+                    background-color: $main_cream
+                    transition: 0.3s all
+                    margin-bottom: clamp(40px,4.166666666666667vw,160px)
+
+                    .power-circle, .muscle-circle, .imm-circle
+                        width: clamp(53px,24.766355140186917vw,212px)
+                        height: clamp(53px,24.766355140186917vw,212px)
+                        background: #EEA6A1
+                        border-radius: 100%
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        border: 5px solid #D23127
+                        margin-top: clamp(20.5px, 2.1354166666666665vw, 82px)
+
+                        .dumbbell-icon, .heart-icon, .weight-icon
+                            font-size: clamp(25px,11.682242990654206vw,100px) !important
+                            color: $red
+
+                    .imm-c-heading, .power-c-heading, .muscle-c-heading
+                        font-size: clamp(18.5px,8.644859813084112vw,74px)
+
+                    .power-c-p, .muscle-c-p, .imm-c-p
+                        width: clamp(139px,64.95327102803738vw,556px)
+                        font-size: clamp(12.5px,5.841121495327103vw,50px)
+
+            .shop-button
+                width: clamp(173.5px,81.07476635514018vw,694px) !important
+                height: clamp(32px,14.953271028037383vw,128px) !important
+                border: 4px solid $main_cream !important
+                font-size: clamp(14px,6.542056074766355vw,56px) !important

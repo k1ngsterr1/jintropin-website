@@ -42,7 +42,7 @@ const MainScreen = () => {
             </Link>
           </div>
         </div>
-        <img className="proto-photo" src={photo}></img>
+        <img className="proto-photo" src={photo} alt="mains_screen_photo"></img>
       </div>
     </main>
   );

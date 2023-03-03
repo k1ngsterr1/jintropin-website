@@ -16,7 +16,11 @@ const AboutJinScreen = () => {
         </div>
         <div className="about-content">
           {/* For Icon */}
-          <img src={prototype} className="about-proto"></img>
+          <img
+            src={prototype}
+            className="about-proto"
+            alt="about_screen_photo"
+          ></img>
           <div className="about-paragraph">
             <p className="about-text">
               Lorem ipsum dolor sit amet consectetur. Posuere duis dictumst

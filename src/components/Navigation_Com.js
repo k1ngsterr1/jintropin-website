@@ -13,7 +13,7 @@ const Navigation = () => {
   return (
     <div className="nav-container">
       <nav className="nav">
-        <img className="logo" src={Logo}></img>
+        <img className="logo" src={Logo} alt="logo"></img>
         <div className="navigation">
           <a className="link-main">Главная</a>
           <a

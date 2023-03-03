@@ -2,7 +2,7 @@ import React from "react";
 
 // Styles
 import "../styles/footer-styles/footer_styles.css";
-import logo from "../assets/LOGO_WHITE.svg";
+import logo from "../assets/jintropin-original-logo.svg";
 
 // Icons
 import { FaInstagram, FaSortUp } from "react-icons/fa";
@@ -14,6 +14,15 @@ const Footer_Com = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
+        <div className="footer-contacts-mob">
+          <h4 className="contacts-header-mob">КОНТАКТЫ</h4>
+          <div className="contacts-container-mob">
+            <FaInstagram className="instagram-mob"></FaInstagram>
+            <FaTelegram className="telegram-mob"></FaTelegram>
+            <FaEnvelope className="envelope-mob"></FaEnvelope>
+          </div>
+        </div>
+        <img className="logo-mobile" alt="logo" src={logo}></img>
         <div className="logo-content">
           <img className="logo" alt="logo" src={logo}></img>
           <p className="footer-p">

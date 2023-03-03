@@ -144,3 +144,128 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                             color: $background
                             &:hover
                                 background-color: #B52B21
+
+@media screen  and (max-width: 428px)
+
+    .contacts
+        width: 100%
+        height: auto
+        display: flex
+        flex-direction: column
+
+        .contacts-container
+            width: 86.45833333333333%
+            height: auto
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-direction: column
+            margin: auto
+
+            .contacts-heading-container
+                width: auto
+                height: auto
+                display: flex
+                align-items: center
+                flex-direction: column
+                margin-top: clamp(32px,14.953271028037383vw,128px) !important
+
+                .contacts-heading
+                    font-family: 'FTY STRATEGYCIDE NCV'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: clamp(18px,8.411214953271028vw,72px) !important
+                    margin: auto
+                    color: $main_blue
+
+                .separator
+                    width: clamp(295px,30.729166666666668vw,1180px)
+                    height: 1px
+                    background-color: $main_blue
+                    margin-top: clamp(16px,7.4766355140186915vw,64px) !important
+
+            .contacts-main-content
+                width: 100%
+                height: auto
+                display: flex
+                align-items: center !important
+                justify-content: center !important
+                flex-direction: column !important
+                margin: auto
+                margin-top: clamp(50px,5.208333333333333vw,200px)
+                margin-bottom: clamp( 61px,6.354166666666667vw,244px)
+
+                .contacts-content
+                    display: flex
+                    flex-direction: column
+
+                    .section-heading
+                        width: clamp(166px,77.57009345794393vw,664px) !important
+                        font-family: 'FTY STRATEGYCIDE NCV'
+                        font-style: normal
+                        text-align: center
+                        font-weight: 400
+                        font-size: clamp(16px,7.4766355140186915vw,64px) !important
+                        color: #D23127
+
+                    .section-paragraph
+                        width: clamp(165.5px,77.33644859813084vw,662px) !important
+                        font-family: 'Blinker'
+                        font-style: normal
+                        font-weight: 400
+                        text-align: center
+                        font-size: clamp(11.5px,5.373831775700935vw,46px) !important
+                        color: #00346E
+                        margin-top: $sixteenclamp
+
+                .form
+                    width: auto
+                    height: auto
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    margin-top: clamp(16px,7.4766355140186915vw,64px) !important
+
+                    input
+                        width: clamp(180px,84.11214953271028vw,720px) !important
+                        height: clamp(24px,11.214953271028037vw,96px) !important
+                        background-color: rgba(210, 49, 39, 0.1)
+                        font-family: 'Gothic A1', sans-serif
+                        font-style: normal
+                        font-weight: 500
+                        font-size: clamp(9px,4.205607476635514vw,36px) !important
+                        color: #D23127
+                        cursor: pointer
+                        border: 2px solid $red
+                        border-radius: 4px
+                        padding-left: 16px
+                        &:focus
+                            outline: none
+                            border: 2px solid $main_blue
+
+                    input::placeholder
+                        font-family: 'Gothic A1', sans-serif
+                        font-style: normal
+                        font-weight: 500
+                        font-size: clamp(9px,4.205607476635514vw,36px) !important
+                        color: #D23127
+
+                    .phone-input, .email-input, .city-input
+                        margin-top: $thirtytwoclamp
+
+                    .submit-button
+                        width: clamp(180px,84.11214953271028vw,720px) !important
+                        height: clamp(30px,14.018691588785046vw,120px) !important
+                        font-family: 'FTY STRATEGYCIDE NCV'
+                        font-style: normal
+                        font-weight: 400
+                        font-size: clamp(14.5px,6.775700934579439vw,58px) !important
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        border-radius: 4px
+                        background-color: $red
+                        margin-top: $sixtyfourclamp
+                        color: $background
+                        &:hover
+                            background-color: #B52B21
