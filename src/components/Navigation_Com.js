@@ -4,10 +4,17 @@ import React from "react";
 import styles from "../styles/navigation-styles/navigation_styles.css";
 
 // Assets
-import Logo from "../assets/header_assets/logo_jintropin.svg";
+import Logo from "../assets/jintropin-original-logo.svg";
 
 // Links
 import { Link, animateScroll as scroll } from "react-scroll";
+
+// Icons
+import { FaBars } from "react-icons/fa";
+import { FaCross } from "react-icons/fa";
+
+// Menu
+import { fallDown as Menu } from "react-burger-menu";
 
 const Navigation = () => {
   return (
@@ -27,6 +34,22 @@ const Navigation = () => {
             Связаться с нами
           </Link>
         </div>
+      </nav>
+      <nav className="nav-mob">
+        <Menu
+          customBurgerIcon={<FaBars></FaBars>}
+          customCrossIcon={<FaCross></FaCross>}
+        >
+          <a id="home" className="menu-item" href="/">
+            Home
+          </a>
+          <a id="about" className="menu-item" href="/about">
+            About
+          </a>
+          <a id="contact" className="menu-item" href="/contact">
+            Contact
+          </a>
+        </Menu>
       </nav>
     </div>
   );

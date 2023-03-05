@@ -76,6 +76,9 @@
 * body .main-screen .nav-container .nav .navigation .contact-button:hover {
   background-color: #B52B21;
 }
+* body .main-screen .nav-container .nav-mob {
+  display: none;
+}
 
 @media screen and (max-width: 428px) {
   body .main-screen {
@@ -99,5 +102,8 @@
     display: none;
     justify-content: space-between;
     align-items: center;
+  }
+  body .main-screen .nav-container .nav-mob {
+    display: flex;
   }
 }/*# sourceMappingURL=navigation_styles.css.map */
