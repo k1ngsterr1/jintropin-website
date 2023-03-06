@@ -24,20 +24,27 @@ import Nav_Links from "./Nav_Links";
 
 const Navigation = () => {
   const [open, setOpen] = useState("false");
-  let [textLanguage, setTextLanguage] = useState("Русский");
+  let languageButtonText = "Русский";
+  let [textLanguage, setTextLanguage] = useState(languageButtonText);
 
   function onSelect({ key }) {
     switch (key) {
       case "russian-language":
         setTextLanguage = "Русский";
+        languageButtonText = setTextLanguage;
+        console.log(languageButtonText);
         break;
 
       case "english-language":
         setTextLanguage = "English";
+        languageButtonText = setTextLanguage;
+        console.log(languageButtonText);
         break;
 
       case "kazakh-language":
         setTextLanguage = "Kazakh";
+        languageButtonText = setTextLanguage;
+        console.log(languageButtonText);
         break;
     }
   }
@@ -49,24 +56,6 @@ const Navigation = () => {
   const closeMenu = (
     <RxCross2 className="cross-icon" onClick={() => setOpen(!open)}></RxCross2>
   );
-
-  // const RuLanguageItem = (
-  //   <MenuItem key="russian-language" className="ru-item">
-  //     <span class="fi fi-ru fis"></span> Русский
-  //   </MenuItem>
-  // );
-
-  // const EngLanguageItem = (
-  //   <MenuItem key="english-language" className="eng-item">
-  //     <span class="fi fi-us fis"></span> English
-  //   </MenuItem>
-  // );
-
-  // const KzLanguageItem = (
-  //   <MenuItem key="kazakh-language" className="kz-item">
-  //     <span class="fi fi-kz fis"></span> Қазақша
-  //   </MenuItem>
-  // );
 
   const menuCallback = () => (
     <Menu onSelect={onSelect}>
@@ -101,10 +90,10 @@ const Navigation = () => {
             animation="slide-up"
           >
             <button
-              onClick={() => (textLanguage = setTextLanguage)}
+              onClick={() => console.log(languageButtonText)}
               className="language-button"
             >
-              {textLanguage}
+              {languageButtonText}
               <FaCaretDown className="arrow-down"></FaCaretDown>
             </button>
           </Dropdown>
