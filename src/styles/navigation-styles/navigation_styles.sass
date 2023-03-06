@@ -44,7 +44,6 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                     display: flex
                     justify-content: space-between
                     align-items: center
-
                     .logo
                         width: clamp(119px,12.395833333333334vw,476px)
                         height: clamp(20.5px,2.1354166666666665vw,82px)
@@ -72,9 +71,6 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                                 color: $selected_blue
 
                         .link-verification
-                            margin-right: $sixtyfourclamp
-
-                        .link-review
                             margin-right: $thirtytwoclamp
 
                         .link-main
@@ -96,6 +92,25 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                             transition: 0.3s all
                             &:hover
                                 background-color: #B52B21
+
+                        .language-button
+                            font-style: normal
+                            font-weight: 500
+                            cursor: pointer
+                            font-size: clamp(9px,0.9375vw,36px)
+                            color: $main_blue
+                            margin: 0
+                            margin-right: $thirtytwoclamp
+                            background: transparent
+                            display: flex
+                            &:hover
+                                color: $selected_blue
+
+                            .arrow-down
+                                margin-left: $eightclamp
+
+                            .fi-ru
+                                margin-right: $eightclamp
 
                 .nav-mob
                     display: none
@@ -129,4 +144,57 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                     align-items: center
 
                 .nav-mob
+                    width: 85.51401869158879%
                     display: flex
+                    justify-content: space-between
+                    align-items: center
+
+                    .mobile-logo
+                        width: clamp(20px,9.345794392523365vw,80px)
+                        height: clamp(24.5px,11.448598130841122vw,98px)
+
+                    .for-burger-menu
+                        display: flex
+                        flex-direction: column
+
+                        .bars
+                            font-size: clamp(20px,9.345794392523365vw,80px)
+                            cursor: pointer
+                            color: $red
+
+                        .cross-icon
+                            font-size: clamp(20px,9.345794392523365vw,80px)
+                            cursor: pointer
+                            color: $red
+
+                        .nav-links-mobile
+                            width: 100% !important
+                            height: auto !important
+                            background-color: $background !important
+                            top: clamp(34.5px,16.121495327102803vw,138px)
+                            box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.1) !important
+                            display: flex !important
+                            z-index: 10 !important
+                            flex-direction: column !important
+                            margin-left: auto !important
+                            margin-right: auto !important
+                            left: 0 !important
+                            right: 0 !important
+                            top: 90px !important
+                            text-align: center !important
+                            position: absolute !important
+
+                            .main-link-mobile, .verification-mobile-link, .contact-with-us-mob
+                                font-size: clamp(10px,4.672897196261682vw,40px)
+                                color: $main_blue
+                                text-decoration: none
+
+                            .main-link-mobile
+                                margin-top: $thirtytwoclamp
+
+                            .verification-mobile-link
+                                margin-top: $thirtytwoclamp
+
+                            .contact-with-us-mob
+                                margin-top: $thirtytwoclamp
+                                margin-bottom: $thirtytwoclamp

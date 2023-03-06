@@ -11,6 +11,8 @@ import Verification from "./pages/Verification";
 
 // Fonts
 import "./fonts/FTY_STRATEGYCIDE_NCV.ttf";
+import "/node_modules/flag-icons/css/flag-icons.min.css";
+import "rc-dropdown/assets/index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
