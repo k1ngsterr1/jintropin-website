@@ -20,9 +20,10 @@ const ContactScreen = () => {
               Свяжитесь с представителем в своем городе!
             </h3>
             <p className="section-paragraph">
-              Lorem ipsum dolor sit amet consectetur. Mattis faucibus velit eget
-              viverra purus enim erat volutpat lorem. Et nulla ut sed cursus ac
-              lectus ac. Praesent purus ultrices vitae tellus blandit fermentum.
+              Значимость этих проблем настолько очевидна, что новая модель
+              организационной деятельности обеспечивает широкому кругу
+              (специалистов) участие в формировании дальнейших направлений
+              развития.
             </p>
           </section>
           {/* <img src={arrow} alt="arrow" className="arrow-svg"></img> */}

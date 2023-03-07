@@ -73,7 +73,7 @@
 * body .main-screen .nav-container .nav .navigation .contact-button:hover {
   background-color: #B52B21;
 }
-* body .main-screen .nav-container .nav .navigation .language-button {
+* body .main-screen .nav-container .nav .navigation .languages-container {
   font-style: normal;
   font-weight: 500;
   cursor: pointer;
@@ -84,14 +84,20 @@
   background: transparent;
   display: flex;
 }
-* body .main-screen .nav-container .nav .navigation .language-button:hover {
+* body .main-screen .nav-container .nav .navigation .languages-container:hover {
   color: #008AA2;
 }
-* body .main-screen .nav-container .nav .navigation .language-button .arrow-down {
+* body .main-screen .nav-container .nav .navigation .languages-container .arrow-down {
   margin-left: clamp(4px, 0.4166666667vw, 16px);
 }
-* body .main-screen .nav-container .nav .navigation .language-button .fi-ru {
-  margin-right: clamp(4px, 0.4166666667vw, 16px);
+* body .main-screen .nav-container .nav .navigation .languages-container .fi-ru, * body .main-screen .nav-container .nav .navigation .languages-container .fi-us, * body .main-screen .nav-container .nav .navigation .languages-container .fi-kz {
+  transition: 0.3s all;
+}
+* body .main-screen .nav-container .nav .navigation .languages-container .fi-ru:hover, * body .main-screen .nav-container .nav .navigation .languages-container .fi-us:hover, * body .main-screen .nav-container .nav .navigation .languages-container .fi-kz:hover {
+  border: 2px solid #00346E;
+}
+* body .main-screen .nav-container .nav .navigation .languages-container .fi-ru, * body .main-screen .nav-container .nav .navigation .languages-container .fi-us {
+  margin-right: clamp(6px, 0.625vw, 24px);
 }
 * body .main-screen .nav-container .nav-mob {
   display: none;

@@ -11,8 +11,8 @@ const Card_Imm = () => {
       </div>
       <h3 className="imm-c-heading">Иммунитет</h3>
       <p className="imm-c-p">
-        Lorem ipsum dolor sit amet consectetur. Ac mauris ultrices sem maecenas
-        scelerisque lorem nulla.
+        Значимость этих проблем настолько очевидна, что новая модель
+        организационной
       </p>
     </div>
   );

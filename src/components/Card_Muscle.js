@@ -11,8 +11,8 @@ const Card_Muscle = () => {
       </div>
       <h3 className="muscle-c-heading">Рост Мышц</h3>
       <p className="muscle-c-p">
-        Lorem ipsum dolor sit amet consectetur. Ac mauris ultrices sem maecenas
-        scelerisque lorem nulla.
+        Значимость этих проблем настолько очевидна, что новая модель
+        организационной
       </p>
     </div>
   );

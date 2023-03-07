@@ -11,8 +11,8 @@ const Card_Power = () => {
       </div>
       <h3 className="power-c-heading">Сила</h3>
       <p className="power-c-p">
-        Lorem ipsum dolor sit amet consectetur. Ac mauris ultrices sem maecenas
-        scelerisque lorem nulla.
+        Значимость этих проблем настолько очевидна, что новая модель
+        организационной
       </p>
     </div>
   );

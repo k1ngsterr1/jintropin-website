@@ -93,7 +93,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                             &:hover
                                 background-color: #B52B21
 
-                        .language-button
+                        .languages-container
                             font-style: normal
                             font-weight: 500
                             cursor: pointer
@@ -109,8 +109,13 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                             .arrow-down
                                 margin-left: $eightclamp
 
-                            .fi-ru
-                                margin-right: $eightclamp
+                            .fi-ru, .fi-us, .fi-kz
+                                transition: 0.3s all
+                                &:hover
+                                    border: 2px solid $main_blue
+
+                            .fi-ru, .fi-us
+                                margin-right: clamp(6px,0.625vw,24px)
 
                 .nav-mob
                     display: none

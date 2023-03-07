@@ -24,30 +24,26 @@ import Nav_Links from "./Nav_Links";
 
 const Navigation = () => {
   const [open, setOpen] = useState("false");
-  let languageButtonText = "Русский";
-  let [textLanguage, setTextLanguage] = useState(languageButtonText);
+  // let [textLanguage, setTextLanguage] = useState("Русский");
 
-  function onSelect({ key }) {
-    switch (key) {
-      case "russian-language":
-        setTextLanguage = "Русский";
-        languageButtonText = setTextLanguage;
-        console.log(languageButtonText);
-        break;
+  // function onSelect({ key }) {
+  //   switch (key) {
+  //     case "russian-language":
+  //       setTextLanguage = "Русский";
 
-      case "english-language":
-        setTextLanguage = "English";
-        languageButtonText = setTextLanguage;
-        console.log(languageButtonText);
-        break;
+  //       break;
 
-      case "kazakh-language":
-        setTextLanguage = "Kazakh";
-        languageButtonText = setTextLanguage;
-        console.log(languageButtonText);
-        break;
-    }
-  }
+  //     case "english-language":
+  //       setTextLanguage = "English";
+
+  //       break;
+
+  //     case "kazakh-language":
+  //       setTextLanguage = "Kazakh";
+
+  //       break;
+  //   }
+  // }
 
   const hamburgerMenu = (
     <FaBars className="bars" onClick={() => setOpen(!open)}></FaBars>
@@ -55,20 +51,6 @@ const Navigation = () => {
 
   const closeMenu = (
     <RxCross2 className="cross-icon" onClick={() => setOpen(!open)}></RxCross2>
-  );
-
-  const menuCallback = () => (
-    <Menu onSelect={onSelect}>
-      <MenuItem key="russian-language" className="ru-item">
-        <span class="fi fi-ru fis"></span> Русский
-      </MenuItem>
-      <MenuItem key="english-language" className="eng-item">
-        <span class="fi fi-us fis"></span> English
-      </MenuItem>
-      <MenuItem key="kazakh-language" className="kz-item">
-        <span class="fi fi-kz fis"></span> Қазақша
-      </MenuItem>
-    </Menu>
   );
 
   return (
@@ -84,19 +66,11 @@ const Navigation = () => {
           >
             Проверка на подлинность
           </a>
-          <Dropdown
-            trigger={["click"]}
-            overlay={menuCallback}
-            animation="slide-up"
-          >
-            <button
-              onClick={() => console.log(languageButtonText)}
-              className="language-button"
-            >
-              {languageButtonText}
-              <FaCaretDown className="arrow-down"></FaCaretDown>
-            </button>
-          </Dropdown>
+          <div className="languages-container">
+            <span class="fi fi-ru fi"></span>
+            <span class="fi fi-us fi"></span>
+            <span class="fi fi-kz fi"></span>
+          </div>
           <Link to="contact-screen" className="contact-button" smooth="true">
             Связаться с нами
           </Link>

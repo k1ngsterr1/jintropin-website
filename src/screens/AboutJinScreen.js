@@ -23,10 +23,10 @@ const AboutJinScreen = () => {
           ></img>
           <div className="about-paragraph">
             <p className="about-text">
-              Lorem ipsum dolor sit amet consectetur. Posuere duis dictumst
-              velit facilisis eget adipiscing turpis. Tincidunt tincidunt risus
-              varius lorem pharetra dui. Ultrices placerat commodo elit dictum.
-              Nec nec elementum cras ut.
+              Значимость этих проблем настолько очевидна, что новая модель
+              организационной деятельности обеспечивает широкому кругу
+              (специалистов) участие в формировании дальнейших направлений
+              развития.
             </p>
             <button className="more-info">узнать больше о продукте</button>
           </div>

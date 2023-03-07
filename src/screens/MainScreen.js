@@ -24,13 +24,12 @@ const MainScreen = () => {
       <div className="separator"></div>
       <div className="container">
         <div className="main-content">
-          <h1 className="main-heading">
-            Lorem ipsum dolor sit amet consectetur.
-          </h1>
+          <h1 className="main-heading">Значимость этих проблем настолько</h1>
           <p className="description">
-            Lorem ipsum dolor sit amet consectetur. Id malesuada suspendisse
-            sagittis urna tortor. Placerat velit in habitant sit. Interdum at
-            donec donec dui scelerisque morbi dolor.
+            Значимость этих проблем настолько очевидна, что новая модель
+            организационной деятельности обеспечивает широкому кругу
+            (специалистов) участие в формировании дальнейших направлений
+            развития.
           </p>
           <div className="buttons">
             <button className="main-button">

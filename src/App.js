@@ -3,8 +3,6 @@ import { Routes, Route } from "react-router-dom";
 
 // Screens
 import MainScreen from "./screens/MainScreen";
-import Reviews from "./pages/Reviews";
-import Verification from "./pages/Verification";
 
 // Styles
 import styles from "./styles/main-screen-styles/main_screen.css";

@@ -29,7 +29,7 @@ const Footer_Com = () => {
             Хотите стать представителемв вашем регионе?
           </p>
           <p className="contact-us">
-            Свяжитесь с нами по электронной:{" "}
+            Свяжитесь с нами по электронной почте:{" "}
             <span className="underline">genopharm.ltd@gmail.com</span>
           </p>
         </div>
