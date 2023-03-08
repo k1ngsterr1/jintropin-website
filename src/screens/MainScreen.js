@@ -14,17 +14,22 @@ import { FaTelegramPlane } from "react-icons/fa";
 
 // Fonts
 import "../fonts/FTY_STRATEGYCIDE_NCV.ttf";
-
 import { Link } from "react-scroll";
 
+// Translation
+import { useTranslation, Trans } from "react-i18next";
+import "../locales/russian/translation.json";
+
 const MainScreen = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <main className="main-screen" id="main-screen">
       <Navigation></Navigation>
       <div className="separator"></div>
       <div className="container">
         <div className="main-content">
-          <h1 className="main-heading">Значимость этих проблем настолько</h1>
+          <h1 className="main-heading">{t("main-heading")}</h1>
           <p className="description">
             Значимость этих проблем настолько очевидна, что новая модель
             организационной деятельности обеспечивает широкому кругу

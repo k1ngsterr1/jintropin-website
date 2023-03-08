@@ -9,6 +9,7 @@
   height: auto;
   font-family: "Gothic A1", sans-serif;
   background-color: #FFF6F4;
+  font-display: fallback;
 }
 * body button, * body a {
   cursor: pointer;

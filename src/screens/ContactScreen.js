@@ -6,6 +6,8 @@ import "../styles/contact-styles/contact_styles.css";
 // Assets
 import arrow from "../assets/arrow_right.svg";
 
+import emailjs from "@emailjs/browser";
+
 const ContactScreen = () => {
   return (
     <div className="contacts" id="contact-screen">

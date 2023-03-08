@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation, Trans } from "react-i18next";
 
 // Styles
 import styles from "../styles/navigation-styles/navigation_styles.css";
@@ -23,6 +24,12 @@ import { useState } from "react";
 import Nav_Links from "./Nav_Links";
 
 const Navigation = () => {
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language);
+  };
+
   const [open, setOpen] = useState("false");
   // let [textLanguage, setTextLanguage] = useState("Русский");
 
@@ -67,9 +74,18 @@ const Navigation = () => {
             Проверка на подлинность
           </a>
           <div className="languages-container">
-            <span class="fi fi-ru fi"></span>
-            <span class="fi fi-us fi"></span>
-            <span class="fi fi-kz fi"></span>
+            <span
+              onClick={() => changeLanguage("ru")}
+              className="fi fi-ru fi"
+            ></span>
+            <span
+              onClick={() => changeLanguage("us")}
+              className="fi fi-us fi"
+            ></span>
+            <span
+              onClick={() => changeLanguage("kz")}
+              className="fi fi-kz fi"
+            ></span>
           </div>
           <Link to="contact-screen" className="contact-button" smooth="true">
             Связаться с нами
