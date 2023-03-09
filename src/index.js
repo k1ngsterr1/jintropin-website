@@ -13,8 +13,12 @@ import "./fonts/FTY_STRATEGYCIDE_NCV.ttf";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import "rc-dropdown/assets/index.css";
 
+// Styles
+import "./styles/navigation-styles/navigation_styles.css";
+
 // Languages
 import "./i18n";
+import MoreInfo from "./pages/MoreInfo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,6 +27,7 @@ root.render(
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<App />} />
+          <Route path="/information" element={<MoreInfo />}></Route>
         </Routes>
       </BrowserRouter>
     </Suspense>

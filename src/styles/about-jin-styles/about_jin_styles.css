@@ -123,7 +123,7 @@
     text-align: center;
   }
   .about-jin .about-content .about-paragraph {
-    width: clamp(126.5px, 59.1121495327vw, 506px) !important;
+    width: clamp(180px, 84.1121495327vw, 720px) !important;
     height: auto;
     font-size: clamp(12.5px, 5.8411214953vw, 50px) !important;
     margin-top: clamp(16px, 7.476635514vw, 64px) !important;

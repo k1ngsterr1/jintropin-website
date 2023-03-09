@@ -1,20 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
-* body .main-screen {
-  width: 100%;
-  height: auto;
-  display: flex;
-  margin: auto;
-  flex-direction: column;
-}
-* body .main-screen .nav-container {
+* body .nav-container {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   margin-top: clamp(32px, 3.3333333333vw, 128px);
 }
-* body .main-screen .nav-container .nav {
+* body .nav-container .nav {
   width: 86.4583333333%;
   height: auto;
   margin: auto;
@@ -22,15 +15,15 @@
   justify-content: space-between;
   align-items: center;
 }
-* body .main-screen .nav-container .nav .logo {
+* body .nav-container .nav .logo {
   width: clamp(119px, 12.3958333333vw, 476px);
   height: clamp(20.5px, 2.1354166667vw, 82px);
 }
-* body .main-screen .nav-container .nav .navigation {
+* body .nav-container .nav .navigation {
   display: flex;
   align-items: center;
 }
-* body .main-screen .nav-container .nav .navigation .link-main {
+* body .nav-container .nav .navigation .link-main {
   font-style: normal;
   font-weight: 600;
   font-size: clamp(9px, 0.9375vw, 36px);
@@ -39,23 +32,23 @@
   text-decoration-line: underline;
   color: #008AA2;
 }
-* body .main-screen .nav-container .nav .navigation .link-review, * body .main-screen .nav-container .nav .navigation .link-verification {
+* body .nav-container .nav .navigation .link-review, * body .nav-container .nav .navigation .link-verification {
   font-style: normal;
   font-weight: 500;
   cursor: pointer;
   font-size: clamp(9px, 0.9375vw, 36px);
   color: #00346E;
 }
-* body .main-screen .nav-container .nav .navigation .link-review:hover, * body .main-screen .nav-container .nav .navigation .link-verification:hover {
+* body .nav-container .nav .navigation .link-review:hover, * body .nav-container .nav .navigation .link-verification:hover {
   color: #008AA2;
 }
-* body .main-screen .nav-container .nav .navigation .link-verification {
+* body .nav-container .nav .navigation .link-verification {
   margin-right: clamp(16px, 1.6666666667vw, 64px);
 }
-* body .main-screen .nav-container .nav .navigation .link-main {
+* body .nav-container .nav .navigation .link-main {
   margin-right: clamp(16px, 1.6666666667vw, 64px);
 }
-* body .main-screen .nav-container .nav .navigation .contact-button {
+* body .nav-container .nav .navigation .contact-button {
   width: clamp(135px, 14.0625vw, 540px);
   height: clamp(24.5px, 2.5520833333vw, 98px);
   font-family: "FTY STRATEGYCIDE NCV", sans-serif;
@@ -70,10 +63,10 @@
   border: none;
   transition: 0.3s all;
 }
-* body .main-screen .nav-container .nav .navigation .contact-button:hover {
+* body .nav-container .nav .navigation .contact-button:hover {
   background-color: #B52B21;
 }
-* body .main-screen .nav-container .nav .navigation .languages-container {
+* body .nav-container .nav .navigation .languages-container {
   font-style: normal;
   font-weight: 500;
   cursor: pointer;
@@ -84,41 +77,33 @@
   background: transparent;
   display: flex;
 }
-* body .main-screen .nav-container .nav .navigation .languages-container:hover {
+* body .nav-container .nav .navigation .languages-container:hover {
   color: #008AA2;
 }
-* body .main-screen .nav-container .nav .navigation .languages-container .arrow-down {
+* body .nav-container .nav .navigation .languages-container .arrow-down {
   margin-left: clamp(4px, 0.4166666667vw, 16px);
 }
-* body .main-screen .nav-container .nav .navigation .languages-container .fi-ru, * body .main-screen .nav-container .nav .navigation .languages-container .fi-us, * body .main-screen .nav-container .nav .navigation .languages-container .fi-kz {
+* body .nav-container .nav .navigation .languages-container .fi-ru, * body .nav-container .nav .navigation .languages-container .fi-us, * body .nav-container .nav .navigation .languages-container .fi-kz {
   transition: 0.3s all;
 }
-* body .main-screen .nav-container .nav .navigation .languages-container .fi-ru:hover, * body .main-screen .nav-container .nav .navigation .languages-container .fi-us:hover, * body .main-screen .nav-container .nav .navigation .languages-container .fi-kz:hover {
+* body .nav-container .nav .navigation .languages-container .fi-ru:hover, * body .nav-container .nav .navigation .languages-container .fi-us:hover, * body .nav-container .nav .navigation .languages-container .fi-kz:hover {
   border: 2px solid #00346E;
 }
-* body .main-screen .nav-container .nav .navigation .languages-container .fi-ru, * body .main-screen .nav-container .nav .navigation .languages-container .fi-us {
+* body .nav-container .nav .navigation .languages-container .fi-ru, * body .nav-container .nav .navigation .languages-container .fi-us {
   margin-right: clamp(6px, 0.625vw, 24px);
 }
-* body .main-screen .nav-container .nav-mob {
+* body .nav-container .nav-mob {
   display: none;
 }
 
 @media screen and (max-width: 428px) {
-  body .main-screen {
-    width: 100%;
-    height: auto;
-    display: flex;
-    margin: auto;
-    flex-direction: column;
-  }
-  body .main-screen .nav-container {
+  body .nav-container {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
-    margin-top: clamp(32px, 3.3333333333vw, 128px);
   }
-  body .main-screen .nav-container .nav {
+  body .nav-container .nav {
     width: 86.4583333333%;
     height: auto;
     margin: auto;
@@ -126,31 +111,31 @@
     justify-content: space-between;
     align-items: center;
   }
-  body .main-screen .nav-container .nav-mob {
+  body .nav-container .nav-mob {
     width: 85.5140186916%;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  body .main-screen .nav-container .nav-mob .mobile-logo {
+  body .nav-container .nav-mob .mobile-logo {
     width: clamp(20px, 9.3457943925vw, 80px);
     height: clamp(24.5px, 11.4485981308vw, 98px);
   }
-  body .main-screen .nav-container .nav-mob .for-burger-menu {
+  body .nav-container .nav-mob .for-burger-menu {
     display: flex;
     flex-direction: column;
   }
-  body .main-screen .nav-container .nav-mob .for-burger-menu .bars {
+  body .nav-container .nav-mob .for-burger-menu .bars {
     font-size: clamp(20px, 9.3457943925vw, 80px);
     cursor: pointer;
     color: #D23127;
   }
-  body .main-screen .nav-container .nav-mob .for-burger-menu .cross-icon {
+  body .nav-container .nav-mob .for-burger-menu .cross-icon {
     font-size: clamp(20px, 9.3457943925vw, 80px);
     cursor: pointer;
     color: #D23127;
   }
-  body .main-screen .nav-container .nav-mob .for-burger-menu .nav-links-mobile {
+  body .nav-container .nav-mob .for-burger-menu .nav-links-mobile {
     width: 100% !important;
     height: auto !important;
     background-color: #FFF6F4 !important;
@@ -167,18 +152,18 @@
     text-align: center !important;
     position: absolute !important;
   }
-  body .main-screen .nav-container .nav-mob .for-burger-menu .nav-links-mobile .main-link-mobile, body .main-screen .nav-container .nav-mob .for-burger-menu .nav-links-mobile .verification-mobile-link, body .main-screen .nav-container .nav-mob .for-burger-menu .nav-links-mobile .contact-with-us-mob {
+  body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .main-link-mobile, body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .verification-mobile-link, body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .contact-with-us-mob {
     font-size: clamp(10px, 4.6728971963vw, 40px);
     color: #00346E;
     text-decoration: none;
   }
-  body .main-screen .nav-container .nav-mob .for-burger-menu .nav-links-mobile .main-link-mobile {
+  body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .main-link-mobile {
     margin-top: clamp(16px, 1.6666666667vw, 64px);
   }
-  body .main-screen .nav-container .nav-mob .for-burger-menu .nav-links-mobile .verification-mobile-link {
+  body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .verification-mobile-link {
     margin-top: clamp(16px, 1.6666666667vw, 64px);
   }
-  body .main-screen .nav-container .nav-mob .for-burger-menu .nav-links-mobile .contact-with-us-mob {
+  body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .contact-with-us-mob {
     margin-top: clamp(16px, 1.6666666667vw, 64px);
     margin-bottom: clamp(16px, 1.6666666667vw, 64px);
   }

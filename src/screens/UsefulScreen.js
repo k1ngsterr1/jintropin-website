@@ -19,7 +19,6 @@ const UsefulScreen = () => {
           <Card_Imm />
           <Card_Muscle />
         </section>
-        <button className="shop-button">Магазин</button>
       </div>
     </div>
   );

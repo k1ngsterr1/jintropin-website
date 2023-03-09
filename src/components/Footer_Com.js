@@ -36,7 +36,9 @@ const Footer_Com = () => {
         <nav className="footer-navigation">
           <h4 className="footer-header">НАВИГАЦИЯ</h4>
           <div className="footer-links">
-            <a className="main-link link">Главная</a>
+            <a className="main-link link" href="/">
+              Главная
+            </a>
             <a
               href="http://ppk365.com/jinsaiyaoye/"
               target="_blank"

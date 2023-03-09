@@ -23,102 +23,83 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 
     body
 
-        .main-screen
+        .nav-container
             width: 100%
             height: auto
             display: flex
-            margin: auto
-            flex-direction: column
-
-            .nav-container
-                width: 100%
+            justify-content: center
+            margin-top: $sixtyfourclamp
+            .nav
+                width: 86.45833333333333%
                 height: auto
+                margin: auto
                 display: flex
-                justify-content: center
-                margin-top: $sixtyfourclamp
-
-                .nav
-                    width: 86.45833333333333%
-                    height: auto
-                    margin: auto
+                justify-content: space-between
+                align-items: center
+                .logo
+                    width: clamp(119px,12.395833333333334vw,476px)
+                    height: clamp(20.5px,2.1354166666666665vw,82px)
+                .navigation
                     display: flex
-                    justify-content: space-between
                     align-items: center
-                    .logo
-                        width: clamp(119px,12.395833333333334vw,476px)
-                        height: clamp(20.5px,2.1354166666666665vw,82px)
-
-                    .navigation
+                    .link-main
+                        font-style: normal
+                        font-weight: 600
+                        font-size: clamp(9px,0.9375vw,36px)
+                        cursor: pointer
+                        margin-left: clamp(323px,33.645833333333336vw,1292px)
+                        text-decoration-line: underline
+                        color: $selected_blue
+                    .link-review, .link-verification
+                        font-style: normal
+                        font-weight: 500
+                        cursor: pointer
+                        font-size: clamp(9px,0.9375vw,36px)
+                        color: $main_blue
+                        &:hover
+                            color: $selected_blue
+                    .link-verification
+                        margin-right: $thirtytwoclamp
+                    .link-main
+                        margin-right: $thirtytwoclamp
+                    .contact-button
+                        width: clamp(135px,14.0625vw,540px)
+                        height: clamp(24.5px,2.5520833333333335vw,98px)
+                        font-family: 'FTY STRATEGYCIDE NCV', sans-serif
+                        color: $background
+                        background-color: $red
+                        cursor: pointer
                         display: flex
                         align-items: center
-
-                        .link-main
-                            font-style: normal
-                            font-weight: 600
-                            font-size: clamp(9px,0.9375vw,36px)
-                            cursor: pointer
-                            margin-left: clamp(323px,33.645833333333336vw,1292px)
-                            text-decoration-line: underline
+                        justify-content: center
+                        border-radius: 4px
+                        font-size: clamp(12.5px,1.3020833333333333vw,50px)
+                        border: none
+                        transition: 0.3s all
+                        &:hover
+                            background-color: #B52B21
+                    .languages-container
+                        font-style: normal
+                        font-weight: 500
+                        cursor: pointer
+                        font-size: clamp(9px,0.9375vw,36px)
+                        color: $main_blue
+                        margin: 0
+                        margin-right: $thirtytwoclamp
+                        background: transparent
+                        display: flex
+                        &:hover
                             color: $selected_blue
-
-                        .link-review, .link-verification
-                            font-style: normal
-                            font-weight: 500
-                            cursor: pointer
-                            font-size: clamp(9px,0.9375vw,36px)
-                            color: $main_blue
-                            &:hover
-                                color: $selected_blue
-
-                        .link-verification
-                            margin-right: $thirtytwoclamp
-
-                        .link-main
-                            margin-right: $thirtytwoclamp
-
-                        .contact-button
-                            width: clamp(135px,14.0625vw,540px)
-                            height: clamp(24.5px,2.5520833333333335vw,98px)
-                            font-family: 'FTY STRATEGYCIDE NCV', sans-serif
-                            color: $background
-                            background-color: $red
-                            cursor: pointer
-                            display: flex
-                            align-items: center
-                            justify-content: center
-                            border-radius: 4px
-                            font-size: clamp(12.5px,1.3020833333333333vw,50px)
-                            border: none
+                        .arrow-down
+                            margin-left: $eightclamp
+                        .fi-ru, .fi-us, .fi-kz
                             transition: 0.3s all
                             &:hover
-                                background-color: #B52B21
-
-                        .languages-container
-                            font-style: normal
-                            font-weight: 500
-                            cursor: pointer
-                            font-size: clamp(9px,0.9375vw,36px)
-                            color: $main_blue
-                            margin: 0
-                            margin-right: $thirtytwoclamp
-                            background: transparent
-                            display: flex
-                            &:hover
-                                color: $selected_blue
-
-                            .arrow-down
-                                margin-left: $eightclamp
-
-                            .fi-ru, .fi-us, .fi-kz
-                                transition: 0.3s all
-                                &:hover
-                                    border: 2px solid $main_blue
-
-                            .fi-ru, .fi-us
-                                margin-right: clamp(6px,0.625vw,24px)
-
-                .nav-mob
-                    display: none
+                                border: 2px solid $main_blue
+                        .fi-ru, .fi-us
+                            margin-right: clamp(6px,0.625vw,24px)
+            .nav-mob
+                display: none
 
 @media screen  and (max-width: 428px)
 
@@ -126,80 +107,72 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 
     body
 
-        .main-screen
+        .nav-container
             width: 100%
             height: auto
             display: flex
-            margin: auto
-            flex-direction: column
+            justify-content: center
 
-            .nav-container
-                width: 100%
+            .nav
+                width: 86.45833333333333%
                 height: auto
+                margin: auto
+                display: none
+                justify-content: space-between
+                align-items: center
+
+            .nav-mob
+                width: 85.51401869158879%
                 display: flex
-                justify-content: center
-                margin-top: $sixtyfourclamp
+                justify-content: space-between
+                align-items: center
 
-                .nav
-                    width: 86.45833333333333%
-                    height: auto
-                    margin: auto
-                    display: none
-                    justify-content: space-between
-                    align-items: center
+                .mobile-logo
+                    width: clamp(20px,9.345794392523365vw,80px)
+                    height: clamp(24.5px,11.448598130841122vw,98px)
 
-                .nav-mob
-                    width: 85.51401869158879%
+                .for-burger-menu
                     display: flex
-                    justify-content: space-between
-                    align-items: center
+                    flex-direction: column
 
-                    .mobile-logo
-                        width: clamp(20px,9.345794392523365vw,80px)
-                        height: clamp(24.5px,11.448598130841122vw,98px)
+                    .bars
+                        font-size: clamp(20px,9.345794392523365vw,80px)
+                        cursor: pointer
+                        color: $red
 
-                    .for-burger-menu
-                        display: flex
-                        flex-direction: column
+                    .cross-icon
+                        font-size: clamp(20px,9.345794392523365vw,80px)
+                        cursor: pointer
+                        color: $red
 
-                        .bars
-                            font-size: clamp(20px,9.345794392523365vw,80px)
-                            cursor: pointer
-                            color: $red
+                    .nav-links-mobile
+                        width: 100% !important
+                        height: auto !important
+                        background-color: $background !important
+                        top: clamp(34.5px,16.121495327102803vw,138px)
+                        box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.1) !important
+                        display: flex !important
+                        z-index: 10 !important
+                        flex-direction: column !important
+                        margin-left: auto !important
+                        margin-right: auto !important
+                        left: 0 !important
+                        right: 0 !important
+                        top: 90px !important
+                        text-align: center !important
+                        position: absolute !important
 
-                        .cross-icon
-                            font-size: clamp(20px,9.345794392523365vw,80px)
-                            cursor: pointer
-                            color: $red
+                        .main-link-mobile, .verification-mobile-link, .contact-with-us-mob
+                            font-size: clamp(10px,4.672897196261682vw,40px)
+                            color: $main_blue
+                            text-decoration: none
 
-                        .nav-links-mobile
-                            width: 100% !important
-                            height: auto !important
-                            background-color: $background !important
-                            top: clamp(34.5px,16.121495327102803vw,138px)
-                            box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.1) !important
-                            display: flex !important
-                            z-index: 10 !important
-                            flex-direction: column !important
-                            margin-left: auto !important
-                            margin-right: auto !important
-                            left: 0 !important
-                            right: 0 !important
-                            top: 90px !important
-                            text-align: center !important
-                            position: absolute !important
+                        .main-link-mobile
+                            margin-top: $thirtytwoclamp
 
-                            .main-link-mobile, .verification-mobile-link, .contact-with-us-mob
-                                font-size: clamp(10px,4.672897196261682vw,40px)
-                                color: $main_blue
-                                text-decoration: none
+                        .verification-mobile-link
+                            margin-top: $thirtytwoclamp
 
-                            .main-link-mobile
-                                margin-top: $thirtytwoclamp
-
-                            .verification-mobile-link
-                                margin-top: $thirtytwoclamp
-
-                            .contact-with-us-mob
-                                margin-top: $thirtytwoclamp
-                                margin-bottom: $thirtytwoclamp
+                        .contact-with-us-mob
+                            margin-top: $thirtytwoclamp
+                            margin-bottom: $thirtytwoclamp

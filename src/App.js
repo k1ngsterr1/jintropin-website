@@ -11,6 +11,7 @@ import AboutJinScreen from "./screens/AboutJinScreen";
 import UsefulScreen from "./screens/UsefulScreen";
 import ContactScreen from "./screens/ContactScreen";
 import Footer_Com from "./components/Footer_Com";
+import "./styles/navigation-styles/navigation_styles.css";
 
 // Language
 import i18n from "./i18n";

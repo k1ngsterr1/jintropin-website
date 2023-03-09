@@ -10,6 +10,7 @@ import "../styles/contact-styles/contact_styles.css";
 import arrow from "../assets/arrow_right.svg";
 
 import emailjs from "@emailjs/browser";
+import Card_Power from "../components/Card_Power";
 
 const ContactScreen = () => {
   const form = useRef();
@@ -23,7 +24,6 @@ const ContactScreen = () => {
 
   function handleClick() {
     // setSent("send");
-    console.log("zhopa");
   }
 
   function sendEmail(e) {
