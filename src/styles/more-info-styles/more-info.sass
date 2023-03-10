@@ -110,3 +110,51 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 left: clamp(608.595px,63.3953125vw,2434.38px)
                 top: clamp(112px,11.666666666666666vw,448px)
                 position: absolute
+
+@media screen  and (max-width: 428px)
+
+    .more-info-page
+        width: 100%
+        height: auto
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        margin: auto
+
+        .separator
+            display: none
+
+        .paragraph-container
+            width: auto
+            height: auto
+            display: flex
+            flex-direction: column
+
+            .info-paragraph
+                width: clamp(182px,85.04672897196262vw,728px) !important
+                font-family: 'Gothic A1', sans-serif
+                font-style: normal
+                color: $main_blue
+                font-weight: 500 !important
+                text-align: center
+                font-size: clamp(9px,4.205607476635514vw,36px) !important
+
+        .buttons-container
+            width: auto
+            height: auto
+            display: flex
+            align-items: center
+            justify-content: center
+            flex-direction: column !important
+            margin-top: clamp(32px,14.953271028037383vw,128px) !important
+
+            .go-back-button, .main-button
+                width: clamp(179px,83.64485981308411vw,716px) !important
+                height: clamp(32px,14.953271028037383vw,128px) !important
+                font-size: clamp(14px,6.542056074766355vw,56px) !important
+                border: 4px solid #D23127 !important
+                margin: 0 !important
+                border-radius: 6px !important
+
+            .main-button
+                margin-top: clamp(8px,3.7383177570093458vw,32px) !important
