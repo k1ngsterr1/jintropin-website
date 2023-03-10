@@ -30,7 +30,8 @@ const Navigation = () => {
     i18n.changeLanguage(language);
   };
 
-  const [open, setOpen] = useState("false");
+  const [open, setOpen] = useState(false);
+
   // let [textLanguage, setTextLanguage] = useState("Русский");
 
   // function onSelect({ key }) {

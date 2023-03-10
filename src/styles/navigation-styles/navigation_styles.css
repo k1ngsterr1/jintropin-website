@@ -158,13 +158,25 @@
     text-decoration: none;
   }
   body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .main-link-mobile {
-    margin-top: clamp(16px, 1.6666666667vw, 64px);
+    margin-top: clamp(14.5px, 6.7757009346vw, 58px) !important;
   }
   body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .verification-mobile-link {
-    margin-top: clamp(16px, 1.6666666667vw, 64px);
+    margin-top: clamp(14.5px, 6.7757009346vw, 58px) !important;
   }
   body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .contact-with-us-mob {
-    margin-top: clamp(16px, 1.6666666667vw, 64px);
-    margin-bottom: clamp(16px, 1.6666666667vw, 64px);
+    margin-top: clamp(14.5px, 6.7757009346vw, 58px) !important;
+    margin-bottom: clamp(14.5px, 6.7757009346vw, 58px) !important;
+  }
+  body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .language-buttons {
+    margin-bottom: clamp(14.5px, 6.7757009346vw, 58px) !important;
+  }
+  body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .language-buttons .fi-ru, body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .language-buttons .fi-kz, body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .language-buttons .fi-us {
+    font-size: clamp(12.5px, 5.8411214953vw, 50px);
+  }
+  body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .language-buttons .fi-kz {
+    margin-left: clamp(16px, 1.6666666667vw, 64px);
+  }
+  body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .language-buttons .fi-ru {
+    margin-right: clamp(16px, 1.6666666667vw, 64px);
   }
 }/*# sourceMappingURL=navigation_styles.css.map */

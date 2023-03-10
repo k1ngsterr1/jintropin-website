@@ -18,7 +18,7 @@ import { Link } from "react-scroll";
 
 // Translation
 import { useTranslation, Trans } from "react-i18next";
-import "../locales/russian/translation.json";
+import "../locales/ru/translation.json";
 
 const MainScreen = () => {
   const { t, i18n } = useTranslation();

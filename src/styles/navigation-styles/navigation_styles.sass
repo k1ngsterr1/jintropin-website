@@ -29,6 +29,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
             display: flex
             justify-content: center
             margin-top: $sixtyfourclamp
+
             .nav
                 width: 86.45833333333333%
                 height: auto
@@ -36,12 +37,15 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 display: flex
                 justify-content: space-between
                 align-items: center
+
                 .logo
                     width: clamp(119px,12.395833333333334vw,476px)
                     height: clamp(20.5px,2.1354166666666665vw,82px)
+
                 .navigation
                     display: flex
                     align-items: center
+
                     .link-main
                         font-style: normal
                         font-weight: 600
@@ -50,6 +54,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         margin-left: clamp(323px,33.645833333333336vw,1292px)
                         text-decoration-line: underline
                         color: $selected_blue
+
                     .link-review, .link-verification
                         font-style: normal
                         font-weight: 500
@@ -58,10 +63,13 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         color: $main_blue
                         &:hover
                             color: $selected_blue
+
                     .link-verification
                         margin-right: $thirtytwoclamp
+
                     .link-main
                         margin-right: $thirtytwoclamp
+
                     .contact-button
                         width: clamp(135px,14.0625vw,540px)
                         height: clamp(24.5px,2.5520833333333335vw,98px)
@@ -78,6 +86,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         transition: 0.3s all
                         &:hover
                             background-color: #B52B21
+
                     .languages-container
                         font-style: normal
                         font-weight: 500
@@ -90,12 +99,15 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         display: flex
                         &:hover
                             color: $selected_blue
+
                         .arrow-down
                             margin-left: $eightclamp
+
                         .fi-ru, .fi-us, .fi-kz
                             transition: 0.3s all
                             &:hover
                                 border: 2px solid $main_blue
+
                         .fi-ru, .fi-us
                             margin-right: clamp(6px,0.625vw,24px)
             .nav-mob
@@ -168,11 +180,23 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                             text-decoration: none
 
                         .main-link-mobile
-                            margin-top: $thirtytwoclamp
+                            margin-top: clamp(14.5px,6.775700934579439vw,58px) !important
 
                         .verification-mobile-link
-                            margin-top: $thirtytwoclamp
+                            margin-top: clamp(14.5px,6.775700934579439vw,58px) !important
 
                         .contact-with-us-mob
-                            margin-top: $thirtytwoclamp
-                            margin-bottom: $thirtytwoclamp
+                            margin-top: clamp(14.5px,6.775700934579439vw,58px) !important
+                            margin-bottom: clamp(14.5px,6.775700934579439vw,58px) !important
+
+                        .language-buttons
+                            margin-bottom: clamp(14.5px,6.775700934579439vw,58px) !important
+
+                            .fi-ru, .fi-kz, .fi-us
+                                font-size: clamp(12.5px,5.841121495327103vw,50px)
+
+                            .fi-kz
+                                margin-left: $thirtytwoclamp
+
+                            .fi-ru
+                                margin-right: $thirtytwoclamp
