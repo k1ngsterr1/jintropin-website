@@ -23,11 +23,9 @@ const Nav_Links = () => {
       >
         {t("link-verfication.key")}
       </a>
-      <Link
-        to="contact-screen"
-        smooth={true}
-        className="contact-with-us-mob"
-      ></Link>
+      <Link to="contact-screen" smooth={true} className="contact-with-us-mob">
+        {t("contact-button.key")}
+      </Link>
       <div className="language-buttons">
         {" "}
         <span
