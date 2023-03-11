@@ -1,0 +1,92 @@
+{
+  "main-heading": {
+    "key": "Lorem ipsum dolor sit amet"
+  },
+  "description": {
+    "key": "Lorem ipsum dolor sit amet consectetur. Id malesuada suspendisse sagittis urna tortor. Placerat velit in habitant sit. Interdum at donec donec dui scelerisque morbi dolor."
+  },
+  "main-button": {
+    "key": "Become spokesman"
+  },
+  "about-jintropin": {
+    "key": "More"
+  },
+  "link-main": {
+    "key": "Main"
+  },
+  "link-verification": {
+    "key": "Verification"
+  },
+  "contact-button": {
+    "key": "Contact with us"
+  },
+  "about-heading": {
+    "key": "What is jintropin"
+  },
+  "about-text": {
+    "key": "The drug Jintropin® is a genetically engineered somatotropic hormone. Stimulates skeletal and somatic growth as well as has a pronounced effect on metabolic processes. Stimulates the growth of skeletal bones by acting on the plates of the epiphysis tubular bones, bone metabolism."
+  },
+  "more-info": {
+    "key": "Learn More About Product"
+  },
+  "useful-heading": {
+    "key": "How is it useful?"
+  },
+  "imm-c-heading": {
+    "key": "Immunity"
+  },
+  "imm-c-p": {
+    "key": "Growth hormone is a hormone directly involved in the formation of our cells, bones and muscles. When a person reaches the age of 25, the level of growth hormone begins to decline and recovery processes are slower."
+  },
+  "muscle-c-heading": {
+    "key": "Muscle Growth"
+  },
+  "muscle-c-p": {
+    "key": "Growth hormone is an anabolic hormone (that is, a hormone that stimulates tissue growth) that increases the transport of certain amino acids into cells, accelerates protein synthesis."
+  },
+  "power-c-heading": {
+    "key": "Rejuvenation"
+  },
+  "power-c-p": {
+    "key": "According to research results, somatotropin is able to rejuvenate the body. The first experiment about this property of growth hormone was carried out back in the 80s. It was found that somatropin rejuvenates the body «turning back the clock.»"
+  },
+  "contacts-heading": {
+    "key": "Contact With Us"
+  },
+  "section-heading": {
+    "key": "Contact With Spokesman In Your City!"
+  },
+  "section-paragraph": {
+    "key": "Lorem ipsum dolor sit amet consectetur. Id malesuada suspendisse sagittis urna tortor. Placerat velit in habitant sit. Interdum at donec donec dui scelerisque morbi dolor."
+  },
+  "submit-button": {
+    "key": "SEND FORM"
+  },
+  "contacts-header-mob": {
+    "key": "CONTACTS"
+  },
+  "footer-p": {
+    "key": "Want to become a spokesman?"
+  },
+  "contact-us": {
+    "key": "Contact with us by email:"
+  },
+  "underline": {
+    "key": "sales@jintropine.com"
+  },
+  "footer-header": {
+    "key": "NAVIGATION"
+  },
+  "main-link": {
+    "key": "Main"
+  },
+  "verification-link": {
+    "key": "Verification"
+  },
+  "contacts-header": {
+    "key": "CONTACTS"
+  },
+  "upper-button": {
+    "key": "Go Up"
+  }
+}

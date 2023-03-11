@@ -12,7 +12,11 @@ import arrow from "../assets/arrow_right.svg";
 import emailjs from "@emailjs/browser";
 import Card_Power from "../components/Card_Power";
 
+import { useTranslation } from "react-i18next";
+
 const ContactScreen = () => {
+  const { t, i18n } = useTranslation();
+
   const form = useRef();
 
   // const [send, setSent] = useState("send");
@@ -51,22 +55,14 @@ const ContactScreen = () => {
     <div className="contacts" id="contact-screen">
       <div className="contacts-container">
         <div className="contacts-heading-container">
-          <h2 className="contacts-heading">Связаться с нами</h2>
+          <h2 className="contacts-heading">{t("contacts-heading.key")}</h2>
           <span className="separator"></span>
         </div>
         <main className="contacts-main-content">
           <section className="contacts-content">
-            <h3 className="section-heading">
-              Свяжитесь с представителем в своем городе!
-            </h3>
-            <p className="section-paragraph">
-              Значимость этих проблем настолько очевидна, что новая модель
-              организационной деятельности обеспечивает широкому кругу
-              (специалистов) участие в формировании дальнейших направлений
-              развития.
-            </p>
+            <h3 className="section-heading">{t("section-heading.key")}</h3>
+            <p className="section-paragraph">{t("section-paragraph.key")}</p>
           </section>
-          {/* <img src={arrow} alt="arrow" className="arrow-svg"></img> */}
           <form
             ref={form}
             className="form"
@@ -118,7 +114,7 @@ const ContactScreen = () => {
               // form="contacts_submit"
               className="submit-button"
             >
-              ОТПРАВИТЬ ЗАЯВКУ
+              {t("submit-button.key")}
             </button>
           </form>
         </main>

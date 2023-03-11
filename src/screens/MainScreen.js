@@ -18,7 +18,6 @@ import { Link } from "react-scroll";
 
 // Translation
 import { useTranslation, Trans } from "react-i18next";
-import "../locales/ru/translation.json";
 
 const MainScreen = () => {
   const { t, i18n } = useTranslation();
@@ -29,20 +28,15 @@ const MainScreen = () => {
       <div className="separator"></div>
       <div className="container">
         <div className="main-content">
-          <h1 className="main-heading">{t("main-heading")}</h1>
-          <p className="description">
-            Значимость этих проблем настолько очевидна, что новая модель
-            организационной деятельности обеспечивает широкому кругу
-            (специалистов) участие в формировании дальнейших направлений
-            развития.
-          </p>
+          <h1 className="main-heading">{t("main-heading.key")}</h1>
+          <p className="description">{t("description.key")}</p>
           <div className="buttons">
             <button className="main-button">
               <FaTelegramPlane className="telegram-icon" />
-              Стать Представителем
+              {t("main-button.key")}
             </button>
             <Link to="about-jintropin" smooth="true" className="more-button">
-              Подробнее
+              {t("about-jintropin.key")}
             </Link>
           </div>
         </div>

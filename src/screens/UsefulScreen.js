@@ -6,12 +6,16 @@ import Card_Power from "../components/Card_Power";
 // Styles
 import "../styles/useful-styles/useful_styles.css";
 
+import { useTranslation } from "react-i18next";
+
 const UsefulScreen = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="useful-fin">
       <div className="useful-container">
         <div className="useful-heading-container">
-          <h2 className="useful-heading">Чем он полезен?</h2>
+          <h2 className="useful-heading">{t("useful-heading.key")}</h2>
           <span className="separator"></span>
         </div>
         <section className="cards">
