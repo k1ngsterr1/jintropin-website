@@ -21,7 +21,7 @@ const Nav_Links = () => {
         href="http://ppk365.com/jinsaiyaoye/"
         target="_blank"
       >
-        {t("link-verfication.key")}
+        {t("verification-link.key")}
       </a>
       <Link to="contact-screen" smooth={true} className="contact-with-us-mob">
         {t("contact-button.key")}

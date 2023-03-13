@@ -3,10 +3,6 @@ import { initReactI18next } from "react-i18next";
 import Backend from "i18next-http-backend";
 import I18nextBrowserLanguageDetector from "i18next-browser-languagedetector";
 
-// import translationEN from "../public/locales/en/translation.json";
-// import translationRU from "../public/locales/ru/translation.json";
-// import translationKZ from "../public/locales/kz/translation.json";
-
 const languages = ["us", "kz", "ru"];
 
 i18n

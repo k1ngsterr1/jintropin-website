@@ -155,7 +155,7 @@
   padding-left: clamp(5px, 0.5208333333vw, 20px);
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 448px) {
   .footer {
     width: 100%;
     height: auto;

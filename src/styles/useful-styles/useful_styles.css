@@ -61,7 +61,7 @@
   color: #D23127;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 448px) {
   .useful-fin {
     width: 100%;
     height: auto;

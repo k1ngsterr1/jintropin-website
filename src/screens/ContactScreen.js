@@ -7,7 +7,6 @@ import { useRef } from "react";
 import "../styles/contact-styles/contact_styles.css";
 
 // Assets
-import arrow from "../assets/arrow_right.svg";
 
 import emailjs from "@emailjs/browser";
 import Card_Power from "../components/Card_Power";
@@ -46,7 +45,7 @@ const ContactScreen = () => {
         "bdkcSbsbst0EBRZfJ"
       )
       .then((res) => {
-        console.log("SUCCESS");
+        // console.log("SUCCESS");
       })
       .catch((err) => console.log(err));
   }

@@ -35,8 +35,8 @@
   font-family: "Gothic A1", sans-serif;
   font-style: normal;
   color: #00346E;
-  font-weight: 400;
-  font-size: clamp(13px, 1.3541666667vw, 52px);
+  font-weight: 500;
+  font-size: clamp(10.5px, 1.09375vw, 42px);
 }
 * body .more-info-page .buttons-container {
   width: auto;
@@ -91,7 +91,7 @@
   position: absolute;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 448px) {
   .more-info-page {
     width: 100%;
     height: auto;

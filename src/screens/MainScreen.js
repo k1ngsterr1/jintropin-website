@@ -7,7 +7,7 @@ import Navigation from "../components/Navigation_Com";
 import styles from "../styles/main-screen-styles/main_screen.css";
 
 // Assets
-import photo from "../assets/prototype_photo_svg.svg";
+import photo from "../assets/main-image-photo.svg";
 
 // Icons
 import { FaTelegramPlane } from "react-icons/fa";

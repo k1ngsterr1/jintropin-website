@@ -60,8 +60,23 @@
   margin-top: clamp(19px, 1.9791666667vw, 76px);
 }
 
-@media screen and (max-width: 428px) {
-  .power-c-p, .imm-c-p, .muscle-c-p {
+@media screen and (max-width: 448px) {
+  .muscle-card, .power-card, .imm-card {
+    width: clamp(244px, 25.4166666667vw, 976px);
+    height: clamp(240px, 123.0769230769vw, 960px) !important;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    align-items: center;
+    cursor: pointer;
+    background-color: #EDE9D0;
+    transition: 0.3s all;
+    margin-bottom: clamp(40px, 4.1666666667vw, 160px);
+  }
+  .muscle-card:hover, .power-card:hover, .imm-card:hover {
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.25);
+  }
+  .muscle-card .power-c-p, .muscle-card .imm-c-p, .muscle-card .muscle-c-p, .power-card .power-c-p, .power-card .imm-c-p, .power-card .muscle-c-p, .imm-card .power-c-p, .imm-card .imm-c-p, .imm-card .muscle-c-p {
     width: clamp(165px, 77.1028037383vw, 660px) !important;
     font-family: "Gothic A1", sans-serif;
     font-style: normal;

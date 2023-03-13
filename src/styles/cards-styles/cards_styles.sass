@@ -77,14 +77,28 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 color: #00346E
                 margin-top: clamp(19px,1.9791666666666667vw,76px)
 
-@media screen  and (max-width: 428px)
+@media screen  and (max-width: 448px)
 
-    .power-c-p, .imm-c-p, .muscle-c-p
-        width: clamp(165px,77.10280373831776vw,660px) !important
-        font-family: 'Gothic A1', sans-serif
-        font-style: normal
-        font-weight: 500
-        font-size: clamp(9.25px,4.322429906542056vw,37px) !important
-        text-align: center
-        color: #00346E
-        margin-top: clamp(19px,1.9791666666666667vw,76px)
+    .muscle-card, .power-card, .imm-card
+        width: clamp(244px,25.416666666666668vw,976px)
+        height: clamp(240px,123.07692307692308vw,960px) !important
+        display: flex
+        flex-direction: column
+        border-radius: 6px
+        align-items: center
+        cursor: pointer
+        background-color: $main_cream
+        transition: 0.3s all
+        margin-bottom: clamp(40px,4.166666666666667vw,160px)
+        &:hover
+            box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.25)
+
+        .power-c-p, .imm-c-p, .muscle-c-p
+            width: clamp(165px,77.10280373831776vw,660px) !important
+            font-family: 'Gothic A1', sans-serif
+            font-style: normal
+            font-weight: 500
+            font-size: clamp(9.25px,4.322429906542056vw,37px) !important
+            text-align: center
+            color: #00346E
+            margin-top: clamp(19px,1.9791666666666667vw,76px)

@@ -66,13 +66,13 @@ const Navigation = () => {
       <nav className="nav">
         <img className="logo" src={Logo} alt="logo"></img>
         <div className="navigation">
-          <a className="link-main">Главная</a>
+          <a className="link-main">{t("link-main.key")}</a>
           <a
             href="http://ppk365.com/jinsaiyaoye/"
             target="_blank"
             className="link-verification"
           >
-            Проверка на подлинность
+            {t("link-verification.key")}
           </a>
           <div className="languages-container">
             <span
@@ -89,7 +89,7 @@ const Navigation = () => {
             ></span>
           </div>
           <Link to="contact-screen" className="contact-button" smooth="true">
-            Связаться с нами
+            {t("contact-button.key")}
           </Link>
         </div>
       </nav>

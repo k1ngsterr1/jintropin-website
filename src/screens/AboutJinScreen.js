@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 import "../styles/about-jin-styles/about_jin_styles.css";
 
 // About
-import prototype from "../assets/asset_about_svg.svg";
+import prototype from "../assets/about-jintropin-photo.svg";
 
 const AboutJinScreen = () => {
   const navigate = useNavigate();
