@@ -7,7 +7,8 @@ import Navigation from "../components/Navigation_Com";
 import styles from "../styles/main-screen-styles/main_screen.css";
 
 // Assets
-import photo from "../assets/main-image-photo.svg";
+import photo from "../assets/New_Main_Photo.svg";
+import arrow from "../assets/main_arrow.svg";
 
 // Icons
 import { FaTelegramPlane } from "react-icons/fa";
@@ -35,9 +36,6 @@ const MainScreen = () => {
               <FaTelegramPlane className="telegram-icon" />
               {t("main-button.key")}
             </button>
-            <Link to="about-jintropin" smooth="true" className="more-button">
-              {t("about-jintropin.key")}
-            </Link>
           </div>
         </div>
         <img className="proto-photo" src={photo} alt="mains_screen_photo"></img>

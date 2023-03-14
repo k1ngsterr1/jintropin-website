@@ -5,7 +5,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: #D23127;
+  background-color: #FFF6F4;
 }
 * body .useful-fin .useful-container {
   width: 86.4583333333%;
@@ -27,12 +27,12 @@
   font-style: normal;
   font-weight: 400;
   font-size: clamp(30px, 3.125vw, 120px);
-  color: #EDE9D0;
+  color: #D23127;
 }
 * body .useful-fin .useful-container .useful-heading-container .separator {
   width: clamp(295px, 30.7291666667vw, 1180px);
   height: 1px;
-  background-color: #EDE9D0;
+  background-color: #D23127;
   margin-top: clamp(8px, 0.8333333333vw, 32px);
 }
 * body .useful-fin .useful-container .cards {

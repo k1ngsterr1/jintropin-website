@@ -15,6 +15,7 @@ import "./styles/navigation-styles/navigation_styles.css";
 
 // Language
 import i18n from "./i18n";
+import VerificationScreen from "./screens/VerificationScreen";
 
 const App = () => {
   const [locale, setLocale] = useState(i18n.language);
@@ -23,6 +24,7 @@ const App = () => {
       <MainScreen />
       <AboutJinScreen />
       <UsefulScreen />
+      <VerificationScreen />
       <ContactScreen />
       <Footer_Com />
     </div>

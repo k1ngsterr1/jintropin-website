@@ -91,5 +91,23 @@
   },
   "info-paragraph": {
     "info-p": "The drug Jintropin ® is a genetically engineered somatotropic hormone. It stimulates skeletal and somatic growth, and also has a pronounced effect on metabolic processes. Stimulates the growth of skeletal bones, affecting the plates of the epiphysis of tubular bones, bone metabolism. Promotes normalization of body structure by increasing muscle mass and reducing body fat. In patients with growth hormone deficiency and osteoporosis, replacement therapy leads to normalization of the mineral composition and bone density. Increases the number and size of muscle cells, liver, thymus gland, sex glands, adrenal glands, thyroid gland. It stimulates the transport of amino acids into the cell and protein synthesis, reduces cholesterol levels, affecting the profile of lipids and lipoproteins. Suppresses the release of insulin. Promotes the retention of sodium, potassium and phosphorus. Increases body weight, muscle activity and physical endurance. The most important and unique property of growth hormone is that at certain dosages it causes tissues to regenerate, which under normal conditions are not reproduced. It is proved that the number of muscle fibers in a person in each muscle is genetically laid down. And the increase in muscle volume occurs only by increasing the thickness of the fibers. Yes, it is. But not so long ago, scientists found out that at certain dosages, somatotropin is able to cause cell division of muscle tissue. That is why, after stopping the course of taking Jintropin, the athlete retains a significant part of the strength and volume."
+  },
+  "verification-heading": {
+    "verification-heading-text": "VERIFICATION"
+  },
+  "ver-description-heading": {
+    "key": "How to verify?"
+  },
+  "ver-parapgraph-zero": {
+    "key": "It is easy to verify the authenticity of our drug:"
+  },
+  "ver-parapgraph-one": {
+    "key": "-Remove the foil strip from the protective sticker with a unique number and fibers;"
+  },
+  "ver-parapgraph-two": {
+    "key": "-Enter the 12-digit code located under the strip in a special window on the official website."
+  },
+  "verification-button": {
+    "key": "Verify"
   }
 }

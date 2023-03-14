@@ -1,10 +1,10 @@
-$red: #D23127
+$red: #588EF7
 $light_red: #EEA6A1
-$main_cream: #EDE9D0
+$main_cream: #F4F5F8
 $main_blue: #00346E
 $selected_blue: #008AA2
-$background: #FFF6F4
-$button_hover: #B52B21
+$background: #FFFF
+$button_hover: #2B6FF5
 
 // Margins
 $eightclamp: clamp(4px,0.4166666666666667vw,16px)
@@ -17,8 +17,8 @@ $onetwoeightclamp: clamp(64px,6.666666666666667vw,256px)
 $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap')
-@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg)
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
 
 *
     margin: 0
@@ -27,7 +27,8 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
     body
         width: 100%
         height: auto
-        font-family: 'Gothic A1', sans-serif
+        font-family: 'Raleway', sans-serif
+        font-family: 'Roboto Condensed', sans-serif
         background-color: $background
         font-display: fallback
 
@@ -59,26 +60,28 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 justify-content: space-between
 
                 .proto-photo
-                    width: clamp(336.5px,35.052083333333336vw,1346px)
-                    height: clamp(289px,30.104166666666668vw,1156px)
+                    width: clamp(319.5px,33.28125vw,1278px)
+                    height: clamp(249.795px,26.0203125vw,999.18px)
 
                 .main-heading
                     width: clamp(350px,36.458333333333336vw,1400px)
                     height: clamp(80px,8.333333333333334vw,320px)
-                    font-family: 'FTY STRATEGYCIDE NCV', sans-serif,
-                    font-weight: 400
+                    font-family: 'Roboto Condensed'
+                    font-style: normal
+                    font-weight: 700
                     font-size: clamp(32.5px,3.3854166666666665vw,130px)
-                    color: #00346E
+                    color: #1e1e1e
 
                 .description
-                    width: clamp(391.5px ,40.78125vw, 1566px)
+                    width: clamp(323px,33.645833333333336vw,1292px)
                     height: clamp(54px,5.625vw,216px)
-                    font-family: 'Gothic A1', sans-serif
+                    font-family: 'Raleway'
                     font-style: normal
-                    font-weight: 500
+                    font-weight: 400
+                    font-size: clamp(11.5px,1.1979166666666667vw,46px)
                     font-size: clamp(11.5px,1.1979166666666667vw,46px)
                     margin-top: $thirtytwoclamp
-                    color: #00346E
+                    color: #1e1e1e
 
                 .buttons
                     width: auto
@@ -87,43 +90,25 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                     margin-top: clamp(42.5px,4.427083333333333vw,170px)
 
                     .main-button
-                        width: clamp(179px,18.645833333333332vw,716px)
-                        height: clamp(35px,3.6458333333333335vw,140px)
+                        width: clamp(203.5px,21.197916666666668vw,814px)
+                        height: $sixtyfourclamp
                         background-color: $red
-                        font-family: 'FTY STRATEGYCIDE NCV'
-                        font-style: normal
                         display: flex
                         align-items: center
+                        border-radius: 52px
                         justify-content: center
-                        font-weight: 400
+                        font-weight: 500
                         border: none
                         color: $background
-                        border-radius: 6px
-                        font-size: clamp(14.5px,1.5104166666666667vw,58px)
+                        font-family: 'Roboto Condensed'
+                        font-style: normal
+                        font-size: clamp(13px,1.3541666666666667vw,52px)
+                        margin-top: $thirtytwoclamp
                         &:hover
                             background-color: $button_hover
 
                         .telegram-icon
                             margin-right: clamp(6px,0.625vw,24px)
-
-                    .more-button
-                        width: clamp(179px,18.645833333333332vw,716px)
-                        height: $sixtyfourclamp
-                        font-family: 'FTY STRATEGYCIDE NCV'
-                        font-style: normal
-                        font-weight: 400
-                        border: 3px solid $red
-                        display: flex
-                        align-items: center
-                        justify-content: center
-                        color: $red
-                        background-color: transparent
-                        font-size: clamp(14.5px,1.5104166666666667vw,58px)
-                        margin-left: $thirtytwoclamp
-                        border-radius: 6px
-                        &:hover
-                            background-color: $red
-                            color: $background
 
 @media screen  and (max-width: 448px)
 
@@ -132,7 +117,6 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
         height: 100vh
         display: flex
         margin: auto
-
         flex-direction: column
 
         .separator
@@ -152,10 +136,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 .main-heading
                     width: clamp(149.5px,69.85981308411215vw,598px) !important
                     height: clamp(118px,55.14018691588785vw,472px) !important
-                    font-family: 'FTY STRATEGYCIDE NCV'
-                    font-style: normal
                     margin: auto
-                    font-weight: 400
                     font-size: clamp(27.5px,12.850467289719626vw,110px) !important
                     text-align: center
 
@@ -173,7 +154,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                     flex-direction: column
                     align-items: center
                     justify-content: center
-                    margin-top: clamp(130px,62.80193236714976vw,520px) !important
+                    margin-top: clamp(145px,74.35897435897436vw,580px) !important
 
                     .main-button, .more-button
                         width: 84% !important

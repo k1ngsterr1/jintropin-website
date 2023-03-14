@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,8 +7,9 @@
 * body {
   width: 100%;
   height: auto;
-  font-family: "Gothic A1", sans-serif;
-  background-color: #FFF6F4;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: white;
   font-display: fallback;
 }
 * body button, * body a {
@@ -39,26 +40,28 @@
   justify-content: space-between;
 }
 * body .main-screen .container .proto-photo {
-  width: clamp(336.5px, 35.0520833333vw, 1346px);
-  height: clamp(289px, 30.1041666667vw, 1156px);
+  width: clamp(319.5px, 33.28125vw, 1278px);
+  height: clamp(249.795px, 26.0203125vw, 999.18px);
 }
 * body .main-screen .container .main-heading {
   width: clamp(350px, 36.4583333333vw, 1400px);
   height: clamp(80px, 8.3333333333vw, 320px);
-  font-family: "FTY STRATEGYCIDE NCV", sans-serif;
-  font-weight: 400;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
   font-size: clamp(32.5px, 3.3854166667vw, 130px);
-  color: #00346E;
+  color: #1e1e1e;
 }
 * body .main-screen .container .description {
-  width: clamp(391.5px, 40.78125vw, 1566px);
+  width: clamp(323px, 33.6458333333vw, 1292px);
   height: clamp(54px, 5.625vw, 216px);
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Raleway";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
+  font-size: clamp(11.5px, 1.1979166667vw, 46px);
   font-size: clamp(11.5px, 1.1979166667vw, 46px);
   margin-top: clamp(16px, 1.6666666667vw, 64px);
-  color: #00346E;
+  color: #1e1e1e;
 }
 * body .main-screen .container .buttons {
   width: auto;
@@ -67,45 +70,26 @@
   margin-top: clamp(42.5px, 4.4270833333vw, 170px);
 }
 * body .main-screen .container .buttons .main-button {
-  width: clamp(179px, 18.6458333333vw, 716px);
-  height: clamp(35px, 3.6458333333vw, 140px);
-  background-color: #D23127;
-  font-family: "FTY STRATEGYCIDE NCV";
-  font-style: normal;
+  width: clamp(203.5px, 21.1979166667vw, 814px);
+  height: clamp(32px, 3.3333333333vw, 128px);
+  background-color: #588EF7;
   display: flex;
   align-items: center;
+  border-radius: 52px;
   justify-content: center;
-  font-weight: 400;
+  font-weight: 500;
   border: none;
-  color: #FFF6F4;
-  border-radius: 6px;
-  font-size: clamp(14.5px, 1.5104166667vw, 58px);
+  color: white;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-size: clamp(13px, 1.3541666667vw, 52px);
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
 }
 * body .main-screen .container .buttons .main-button:hover {
-  background-color: #B52B21;
+  background-color: #2B6FF5;
 }
 * body .main-screen .container .buttons .main-button .telegram-icon {
   margin-right: clamp(6px, 0.625vw, 24px);
-}
-* body .main-screen .container .buttons .more-button {
-  width: clamp(179px, 18.6458333333vw, 716px);
-  height: clamp(32px, 3.3333333333vw, 128px);
-  font-family: "FTY STRATEGYCIDE NCV";
-  font-style: normal;
-  font-weight: 400;
-  border: 3px solid #D23127;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #D23127;
-  background-color: transparent;
-  font-size: clamp(14.5px, 1.5104166667vw, 58px);
-  margin-left: clamp(16px, 1.6666666667vw, 64px);
-  border-radius: 6px;
-}
-* body .main-screen .container .buttons .more-button:hover {
-  background-color: #D23127;
-  color: #FFF6F4;
 }
 
 @media screen and (max-width: 448px) {
@@ -131,10 +115,7 @@
   .main-screen .container .main-content .main-heading {
     width: clamp(149.5px, 69.8598130841vw, 598px) !important;
     height: clamp(118px, 55.1401869159vw, 472px) !important;
-    font-family: "FTY STRATEGYCIDE NCV";
-    font-style: normal;
     margin: auto;
-    font-weight: 400;
     font-size: clamp(27.5px, 12.8504672897vw, 110px) !important;
     text-align: center;
   }
@@ -152,7 +133,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: clamp(130px, 62.8019323671vw, 520px) !important;
+    margin-top: clamp(145px, 74.358974359vw, 580px) !important;
   }
   .main-screen .container .main-content .buttons .main-button, .main-screen .container .main-content .buttons .more-button {
     width: 84% !important;

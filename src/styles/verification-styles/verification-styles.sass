@@ -1,0 +1,103 @@
+$red: #D23127
+$light_red: #EEA6A1
+$main_cream: #EDE9D0
+$main_blue: #00346E
+$selected_blue: #008AA2
+$background: #FFF6F4
+$button_hover: #B52B21
+
+// Margins
+$eightclamp: clamp(4px,0.4166666666666667vw,16px)
+$sixteenclamp: clamp(8px,0.8333333333333334vw,32px)
+$twentyclamp: clamp(10px,1.0416666666666667vw,40px)
+
+$thirtytwoclamp: clamp(16px,1.6666666666666667vw,64px)
+$sixtyfourclamp: clamp(32px,3.3333333333333335vw,128px)
+$onetwoeightclamp: clamp(64px,6.666666666666667vw,256px)
+$twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap')
+@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg)
+
+.verification-screen
+    width: 100%
+    height: 100vh
+    display: flex
+    margin: auto
+    background-color: $background
+    flex-direction: column
+
+    .verification-container
+        width: 86.45833333333333%
+        height: auto
+        display: flex
+        margin: auto
+        flex-direction: column
+
+        .verification-heading-container
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+
+            .verification-heading
+                font-size: clamp(30px,3.125vw,120px)
+                font-family: 'FTY STRATEGYCIDE NCV'
+                font-style: normal
+                font-weight: 400
+                color: $red
+
+            .separator
+                width: clamp(295px,30.729166666666668vw,1180px)
+                height: 1px
+                background-color: $red
+                margin-top: $sixteenclamp
+
+        .verification-content
+            display: flex
+            align-items: center
+            justify-content: space-between
+
+            .verification-description
+                display: flex
+                flex-direction: column
+
+                .ver-description-heading
+                    font-family: 'FTY STRATEGYCIDE NCV'
+                    font-style: normal
+                    font-weight: 400
+                    font-size: clamp(22.5px,2.34375vw,90px)
+                    color: $red
+
+                .ver-paragraph-zero, .ver-paragraph-one, .ver-paragraph-two
+                    width: clamp(343px,35.729166666666664vw,1372px)
+                    font-family: 'Gothic A1', sans-serif
+                    font-style: normal
+                    color: $main_blue
+                    font-weight: 500
+                    font-size: clamp(11px,1.1458333333333333vw,44px)
+
+                .ver-paragraph-zero
+                    margin-top: $sixteenclamp
+
+                .ver-paragraph-one, .ver-paragraph-two
+                    margin-top: $thirtytwoclamp
+
+                .verification-button
+                    width: clamp(212.5px,22.135416666666668vw,850px)
+                    height: $sixtyfourclamp
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    background-color: $red
+                    font-family: 'FTY STRATEGYCIDE NCV'
+                    font-style: normal
+                    font-weight: 400
+                    border-radius: 4px
+                    color: $background
+                    font-size: clamp(14.5px,1.5104166666666667vw,58px)
+                    margin-top: $thirtytwoclamp
+                    transition: 0.3s all
+                    &:hover
+                        background-color: $button_hover

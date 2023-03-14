@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
+.verification-screen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin: auto;
+  background-color: #FFF6F4;
+  flex-direction: column;
+}
+.verification-screen .verification-container {
+  width: 86.4583333333%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+.verification-screen .verification-container .verification-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.verification-screen .verification-container .verification-heading-container .verification-heading {
+  font-size: clamp(30px, 3.125vw, 120px);
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  color: #D23127;
+}
+.verification-screen .verification-container .verification-heading-container .separator {
+  width: clamp(295px, 30.7291666667vw, 1180px);
+  height: 1px;
+  background-color: #D23127;
+  margin-top: clamp(8px, 0.8333333333vw, 32px);
+}
+.verification-screen .verification-container .verification-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.verification-screen .verification-container .verification-content .verification-description {
+  display: flex;
+  flex-direction: column;
+}
+.verification-screen .verification-container .verification-content .verification-description .ver-description-heading {
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(22.5px, 2.34375vw, 90px);
+  color: #D23127;
+}
+.verification-screen .verification-container .verification-content .verification-description .ver-paragraph-zero, .verification-screen .verification-container .verification-content .verification-description .ver-paragraph-one, .verification-screen .verification-container .verification-content .verification-description .ver-paragraph-two {
+  width: clamp(343px, 35.7291666667vw, 1372px);
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  color: #00346E;
+  font-weight: 500;
+  font-size: clamp(11px, 1.1458333333vw, 44px);
+}
+.verification-screen .verification-container .verification-content .verification-description .ver-paragraph-zero {
+  margin-top: clamp(8px, 0.8333333333vw, 32px);
+}
+.verification-screen .verification-container .verification-content .verification-description .ver-paragraph-one, .verification-screen .verification-container .verification-content .verification-description .ver-paragraph-two {
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+}
+.verification-screen .verification-container .verification-content .verification-description .verification-button {
+  width: clamp(212.5px, 22.1354166667vw, 850px);
+  height: clamp(32px, 3.3333333333vw, 128px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D23127;
+  font-family: "FTY STRATEGYCIDE NCV";
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 4px;
+  color: #FFF6F4;
+  font-size: clamp(14.5px, 1.5104166667vw, 58px);
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+  transition: 0.3s all;
+}
+.verification-screen .verification-container .verification-content .verification-description .verification-button:hover {
+  background-color: #B52B21;
+}/*# sourceMappingURL=verification-styles.css.map */
