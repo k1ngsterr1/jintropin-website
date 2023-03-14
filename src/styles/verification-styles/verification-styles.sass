@@ -1,10 +1,10 @@
-$red: #D23127
+$red: #588EF7
 $light_red: #EEA6A1
-$main_cream: #EDE9D0
+$main_cream: #F4F5F8
 $main_blue: #00346E
 $selected_blue: #008AA2
-$background: #FFF6F4
-$button_hover: #B52B21
+$background: #FFFF
+$button_hover: #2B6FF5
 
 // Margins
 $eightclamp: clamp(4px,0.4166666666666667vw,16px)
@@ -17,15 +17,15 @@ $onetwoeightclamp: clamp(64px,6.666666666666667vw,256px)
 $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap')
-@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg)
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
 
 .verification-screen
     width: 100%
     height: 100vh
     display: flex
     margin: auto
-    background-color: $background
+    background-color: $main_cream
     flex-direction: column
 
     .verification-container
@@ -40,41 +40,55 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
             flex-direction: column
             align-items: center
             justify-content: center
+            margin-bottom: clamp(50px,5.208333333333333vw,200px)
 
             .verification-heading
-                font-size: clamp(30px,3.125vw,120px)
-                font-family: 'FTY STRATEGYCIDE NCV'
+                font-family: 'Roboto Condensed' !important
                 font-style: normal
-                font-weight: 400
-                color: $red
+                font-weight: 700
+                font-size: clamp(22.5px,2.34375vw,90px)
+                text-transform: uppercase
+                color: $main_blue
 
             .separator
-                width: clamp(295px,30.729166666666668vw,1180px)
+                width: clamp(174.5px,18.177083333333332vw,698px)
                 height: 1px
-                background-color: $red
                 margin-top: $sixteenclamp
+                background-color: $main_blue
 
         .verification-content
+            width: clamp(686.5px,71.51041666666667vw,2746px)
+            height: clamp(257.5px,26.822916666666668vw,1030px)
+            background-color: $red
+            border-radius: 18px
+            margin: auto
             display: flex
             align-items: center
             justify-content: space-between
 
+            .verification-sticker
+                width: clamp(231px,24.0625vw,924px)
+                height: clamp(231px,24.0625vw,924px)
+                margin-right: $thirtytwoclamp
+
             .verification-description
                 display: flex
                 flex-direction: column
+                margin-left: $thirtytwoclamp
 
                 .ver-description-heading
-                    font-family: 'FTY STRATEGYCIDE NCV'
+                    font-family: 'Roboto Condensed'
                     font-style: normal
-                    font-weight: 400
+                    font-weight: 700
                     font-size: clamp(22.5px,2.34375vw,90px)
-                    color: $red
+                    color: #1e1e1e
 
                 .ver-paragraph-zero, .ver-paragraph-one, .ver-paragraph-two
                     width: clamp(343px,35.729166666666664vw,1372px)
-                    font-family: 'Gothic A1', sans-serif
+                    font-family: 'Raleway'
                     font-style: normal
-                    color: $main_blue
+                    font-weight: 500
+                    color: #1e1e1e
                     font-weight: 500
                     font-size: clamp(11px,1.1458333333333333vw,44px)
 
@@ -85,19 +99,21 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                     margin-top: $thirtytwoclamp
 
                 .verification-button
-                    width: clamp(212.5px,22.135416666666668vw,850px)
-                    height: $sixtyfourclamp
+                    width: 377px
+                    height: 55px
                     display: flex
                     justify-content: center
                     align-items: center
-                    background-color: $red
-                    font-family: 'FTY STRATEGYCIDE NCV'
+                    background-color: $background
+                    font-family: 'Roboto Condensed'
                     font-style: normal
-                    font-weight: 400
-                    border-radius: 4px
-                    color: $background
+                    font-weight: 700
+                    font-size: clamp(13.5px,1.40625vw,54px)
+                    border-radius: 60px
+                    color: #1e1e1e
+                    text-decoration: none
                     font-size: clamp(14.5px,1.5104166666666667vw,58px)
                     margin-top: $thirtytwoclamp
                     transition: 0.3s all
                     &:hover
-                        background-color: $button_hover
+                        background-color: #EDEDED

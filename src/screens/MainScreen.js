@@ -26,20 +26,23 @@ const MainScreen = () => {
   return (
     <main className="main-screen" id="main-screen">
       <Navigation></Navigation>
-      <div className="separator"></div>
       <div className="container">
         <div className="main-content">
-          <h1 className="main-heading">{t("main-heading.key")}</h1>
+          <h1 className="main-heading">
+            {t("main-heading.key")}{" "}
+            <span className="hormone">{t("hormone.key")}</span>
+          </h1>
           <p className="description">{t("description.key")}</p>
           <div className="buttons">
             <button className="main-button">
               <FaTelegramPlane className="telegram-icon" />
-              {t("main-button.key")}
+              {t("main-button.key")}{" "}
             </button>
           </div>
         </div>
         <img className="proto-photo" src={photo} alt="mains_screen_photo"></img>
       </div>
+      <img src={arrow} className="arrow-blue"></img>
     </main>
   );
 };

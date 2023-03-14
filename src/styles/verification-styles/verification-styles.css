@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 .verification-screen {
   width: 100%;
   height: 100vh;
   display: flex;
   margin: auto;
-  background-color: #FFF6F4;
+  background-color: #F4F5F8;
   flex-direction: column;
 }
 .verification-screen .verification-container {
@@ -20,41 +20,55 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: clamp(50px, 5.2083333333vw, 200px);
 }
 .verification-screen .verification-container .verification-heading-container .verification-heading {
-  font-size: clamp(30px, 3.125vw, 120px);
-  font-family: "FTY STRATEGYCIDE NCV";
+  font-family: "Roboto Condensed" !important;
   font-style: normal;
-  font-weight: 400;
-  color: #D23127;
+  font-weight: 700;
+  font-size: clamp(22.5px, 2.34375vw, 90px);
+  text-transform: uppercase;
+  color: #00346E;
 }
 .verification-screen .verification-container .verification-heading-container .separator {
-  width: clamp(295px, 30.7291666667vw, 1180px);
+  width: clamp(174.5px, 18.1770833333vw, 698px);
   height: 1px;
-  background-color: #D23127;
   margin-top: clamp(8px, 0.8333333333vw, 32px);
+  background-color: #00346E;
 }
 .verification-screen .verification-container .verification-content {
+  width: clamp(686.5px, 71.5104166667vw, 2746px);
+  height: clamp(257.5px, 26.8229166667vw, 1030px);
+  background-color: #588EF7;
+  border-radius: 18px;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.verification-screen .verification-container .verification-content .verification-sticker {
+  width: clamp(231px, 24.0625vw, 924px);
+  height: clamp(231px, 24.0625vw, 924px);
+  margin-right: clamp(16px, 1.6666666667vw, 64px);
+}
 .verification-screen .verification-container .verification-content .verification-description {
   display: flex;
   flex-direction: column;
+  margin-left: clamp(16px, 1.6666666667vw, 64px);
 }
 .verification-screen .verification-container .verification-content .verification-description .ver-description-heading {
-  font-family: "FTY STRATEGYCIDE NCV";
+  font-family: "Roboto Condensed";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: clamp(22.5px, 2.34375vw, 90px);
-  color: #D23127;
+  color: #1e1e1e;
 }
 .verification-screen .verification-container .verification-content .verification-description .ver-paragraph-zero, .verification-screen .verification-container .verification-content .verification-description .ver-paragraph-one, .verification-screen .verification-container .verification-content .verification-description .ver-paragraph-two {
   width: clamp(343px, 35.7291666667vw, 1372px);
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Raleway";
   font-style: normal;
-  color: #00346E;
+  font-weight: 500;
+  color: #1e1e1e;
   font-weight: 500;
   font-size: clamp(11px, 1.1458333333vw, 44px);
 }
@@ -65,21 +79,23 @@
   margin-top: clamp(16px, 1.6666666667vw, 64px);
 }
 .verification-screen .verification-container .verification-content .verification-description .verification-button {
-  width: clamp(212.5px, 22.1354166667vw, 850px);
-  height: clamp(32px, 3.3333333333vw, 128px);
+  width: 377px;
+  height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #D23127;
-  font-family: "FTY STRATEGYCIDE NCV";
+  background-color: white;
+  font-family: "Roboto Condensed";
   font-style: normal;
-  font-weight: 400;
-  border-radius: 4px;
-  color: #FFF6F4;
+  font-weight: 700;
+  font-size: clamp(13.5px, 1.40625vw, 54px);
+  border-radius: 60px;
+  color: #1e1e1e;
+  text-decoration: none;
   font-size: clamp(14.5px, 1.5104166667vw, 58px);
   margin-top: clamp(16px, 1.6666666667vw, 64px);
   transition: 0.3s all;
 }
 .verification-screen .verification-container .verification-content .verification-description .verification-button:hover {
-  background-color: #B52B21;
+  background-color: #EDEDED;
 }/*# sourceMappingURL=verification-styles.css.map */

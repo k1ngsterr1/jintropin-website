@@ -7,7 +7,8 @@ import { useTranslation } from "react-i18next";
 import "../styles/about-jin-styles/about_jin_styles.css";
 
 // About
-import prototype from "../assets/about-jintropin-photo.svg";
+import prototype from "../assets/about_new_photo.svg";
+import arrow from "../assets/about_arrow.svg";
 
 const AboutJinScreen = () => {
   const navigate = useNavigate();
@@ -39,6 +40,7 @@ const AboutJinScreen = () => {
           </div>
         </div>
       </div>
+      <img src={arrow} className="about-arrow"></img>
     </div>
   );
 };

@@ -1,15 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
-* {
-  margin: 0;
-  padding: 0;
-}
-* body {
-  width: 100%;
-  height: auto;
-  font-family: "Gothic A1", sans-serif;
-  background-color: #FFF6F4;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 * body .contacts {
   width: 100%;
   height: auto;
@@ -23,6 +13,12 @@
   flex-direction: column;
   margin: auto;
 }
+* body .contacts .contacts-container .contact-arrow {
+  width: clamp(194.74px, 20.2854166667vw, 778.96px);
+  height: clamp(139px, 14.4791666667vw, 556px);
+  left: clamp(194px, 20.2083333333vw, 776px);
+  top: 4048.61px;
+}
 * body .contacts .contacts-container .contacts-heading-container {
   width: auto;
   height: auto;
@@ -32,11 +28,11 @@
   margin-top: clamp(32px, 3.3333333333vw, 128px);
 }
 * body .contacts .contacts-container .contacts-heading-container .contacts-heading {
-  font-family: "FTY STRATEGYCIDE NCV";
+  font-family: "Roboto Condensed" !important;
   font-style: normal;
-  font-weight: 400;
-  font-size: clamp(30px, 3.125vw, 120px);
-  margin: auto;
+  font-weight: 700;
+  font-size: clamp(22.5px, 2.34375vw, 90px);
+  text-transform: uppercase;
   color: #00346E;
 }
 * body .contacts .contacts-container .contacts-heading-container .separator {
@@ -59,18 +55,19 @@
   flex-direction: column;
 }
 * body .contacts .contacts-container .contacts-main-content .contacts-content .section-heading {
-  width: clamp(307.5px, 32.03125vw, 1230px);
-  font-family: "FTY STRATEGYCIDE NCV";
+  width: 608px;
+  font-family: "Roboto Condensed" !important;
   font-style: normal;
-  font-weight: 400;
-  font-size: clamp(22.5px, 2.34375vw, 90px);
-  color: #D23127;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #00346E;
+  font-size: clamp(20px, 2.0833333333vw, 80px);
 }
 * body .contacts .contacts-container .contacts-main-content .contacts-content .section-paragraph {
   width: clamp(316.5px, 32.96875vw, 1266px);
-  font-family: "Gothic A1", sans-serif;
+  ont-family: "Raleway";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: clamp(12.5px, 1.3020833333vw, 50px);
   color: #00346E;
   margin-top: clamp(8px, 0.8333333333vw, 32px);
@@ -85,14 +82,14 @@
 * body .contacts .contacts-container .contacts-main-content .form input {
   width: clamp(266.5px, 27.7604166667vw, 1066px);
   height: clamp(24px, 2.5vw, 96px);
-  background-color: rgba(210, 49, 39, 0.1);
-  font-family: "Gothic A1", sans-serif;
+  background-color: #B5CCF8;
+  font-family: "Raleway";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: clamp(10px, 1.0416666667vw, 40px);
-  color: #D23127;
+  color: #1e1e1e;
   cursor: pointer;
-  border: 2px solid #D23127;
+  border: 2px solid #588EF7;
   border-radius: 4px;
   padding-left: 16px;
 }
@@ -105,14 +102,14 @@
   font-style: normal;
   font-weight: 500;
   font-size: clamp(10px, 1.0416666667vw, 40px);
-  color: #D23127;
+  color: #1e1e1e;
 }
 * body .contacts .contacts-container .contacts-main-content .form input::placeholder {
   font-family: "Gothic A1", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: clamp(10px, 1.0416666667vw, 40px);
-  color: #D23127;
+  color: #1e1e1e;
 }
 * body .contacts .contacts-container .contacts-main-content .form .phone-input, * body .contacts .contacts-container .contacts-main-content .form .email-input, * body .contacts .contacts-container .contacts-main-content .form .city-input {
   margin-top: clamp(16px, 1.6666666667vw, 64px);
@@ -120,20 +117,21 @@
 * body .contacts .contacts-container .contacts-main-content .form .submit-button {
   width: clamp(221.5px, 23.0729166667vw, 886px);
   height: clamp(29px, 3.0208333333vw, 116px);
-  font-family: "FTY STRATEGYCIDE NCV";
+  font-family: "Roboto Condensed";
   font-style: normal;
-  font-weight: 400;
-  font-size: clamp(14.75px, 1.5364583333vw, 59px);
+  font-weight: 700;
+  font-size: clamp(17px, 1.5364583333vw, 70px);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 4px;
-  background-color: #D23127;
+  background: #588EF7;
+  border-radius: 66px;
+  background-color: #588EF7;
   margin-top: clamp(32px, 3.3333333333vw, 128px);
-  color: #FFF6F4;
+  color: white;
 }
 * body .contacts .contacts-container .contacts-main-content .form .submit-button:hover {
-  background-color: #B52B21;
+  background-color: #2B6FF5;
 }
 
 @media screen and (max-width: 448px) {
@@ -226,7 +224,7 @@
     font-size: clamp(9px, 4.2056074766vw, 36px) !important;
     color: #D23127;
     cursor: pointer;
-    border: 2px solid #D23127;
+    border: 2px solid #588EF7;
     border-radius: 4px;
     padding-left: 16px;
   }
@@ -262,9 +260,9 @@
     align-items: center;
     justify-content: center;
     border-radius: 4px;
-    background-color: #D23127;
+    background-color: #588EF7;
     margin-top: clamp(32px, 3.3333333333vw, 128px);
-    color: #FFF6F4;
+    color: white;
   }
   .contacts .contacts-container .contacts-main-content .form .submit-button:hover {
     background-color: #B52B21;

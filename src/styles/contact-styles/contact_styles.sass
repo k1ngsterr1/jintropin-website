@@ -1,9 +1,10 @@
-$red: #D23127
+$red: #588EF7
 $light_red: #EEA6A1
-$main_cream: #EDE9D0
+$main_cream: #F4F5F8
 $main_blue: #00346E
 $selected_blue: #008AA2
-$background: #FFF6F4
+$background: #FFFF
+$button_hover: #2B6FF5
 
 // Margins
 $eightclamp: clamp(4px,0.4166666666666667vw,16px)
@@ -16,18 +17,11 @@ $onetwoeightclamp: clamp(64px,6.666666666666667vw,256px)
 $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap')
-@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg)
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
 
 *
-    margin: 0
-    padding: 0
-
     body
-        width: 100%
-        height: auto
-        font-family: 'Gothic A1', sans-serif
-        background-color: $background
 
         .contacts
             width: 100%
@@ -42,6 +36,12 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 flex-direction: column
                 margin: auto
 
+                .contact-arrow
+                    width: clamp(194.74px,20.285416666666666vw,778.96px)
+                    height: clamp(139px,14.479166666666666vw,556px)
+                    left: clamp(194px,20.208333333333332vw,776px)
+                    top: 4048.61px
+
                 .contacts-heading-container
                     width: auto
                     height: auto
@@ -51,11 +51,11 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                     margin-top: $sixtyfourclamp
 
                     .contacts-heading
-                        font-family: 'FTY STRATEGYCIDE NCV'
+                        font-family: 'Roboto Condensed' !important
                         font-style: normal
-                        font-weight: 400
-                        font-size: clamp(30px,3.125vw,120px)
-                        margin: auto
+                        font-weight: 700
+                        font-size: clamp(22.5px,2.34375vw,90px)
+                        text-transform: uppercase
                         color: $main_blue
 
                     .separator
@@ -78,18 +78,19 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         flex-direction: column
 
                         .section-heading
-                            width: clamp(307.5px,32.03125vw,1230px)
-                            font-family: 'FTY STRATEGYCIDE NCV'
+                            width: 608px
+                            font-family: 'Roboto Condensed' !important
                             font-style: normal
-                            font-weight: 400
-                            font-size: clamp(22.5px,2.34375vw,90px)
-                            color: #D23127
+                            font-weight: 700
+                            text-transform: uppercase
+                            color: $main_blue
+                            font-size: clamp(20px,2.0833333333333335vw,80px)
 
                         .section-paragraph
                             width: clamp(316.5px,32.96875vw,1266px)
-                            font-family: 'Gothic A1', sans-serif
+                            ont-family: 'Raleway'
                             font-style: normal
-                            font-weight: 500
+                            font-weight: 400
                             font-size: clamp(12.5px,1.3020833333333333vw,50px)
                             color: #00346E
                             margin-top: $sixteenclamp
@@ -104,12 +105,12 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         input
                             width: clamp(266.5px,27.760416666666668vw,1066px)
                             height: clamp(24px,2.5vw,96px)
-                            background-color: rgba(210, 49, 39, 0.1)
-                            font-family: 'Gothic A1', sans-serif
+                            background-color: #B5CCF8
+                            font-family: 'Raleway'
                             font-style: normal
-                            font-weight: 500
+                            font-weight: 400
                             font-size: clamp(10px,1.0416666666666667vw,40px)
-                            color: #D23127
+                            color: #1e1e1e
                             cursor: pointer
                             border: 2px solid $red
                             border-radius: 4px
@@ -123,7 +124,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                             font-style: normal
                             font-weight: 500
                             font-size: clamp(10px,1.0416666666666667vw,40px)
-                            color: #D23127
+                            color: #1e1e1e
 
                         .phone-input, .email-input, .city-input
                             margin-top: $thirtytwoclamp
@@ -131,19 +132,20 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         .submit-button
                             width: clamp(221.5px,23.072916666666668vw,886px)
                             height: clamp(29px,3.0208333333333335vw,116px)
-                            font-family: 'FTY STRATEGYCIDE NCV'
+                            font-family: 'Roboto Condensed'
                             font-style: normal
-                            font-weight: 400
-                            font-size: clamp(14.75px,1.5364583333333333vw,59px)
+                            font-weight: 700
+                            font-size: clamp(17px,1.5364583333333333vw,70px)
                             display: flex
                             align-items: center
                             justify-content: center
-                            border-radius: 4px
+                            background: #588EF7
+                            border-radius: 66px
                             background-color: $red
                             margin-top: $sixtyfourclamp
                             color: $background
                             &:hover
-                                background-color: #B52B21
+                                background-color: $button_hover
 
 @media screen  and (max-width: 448px)
 

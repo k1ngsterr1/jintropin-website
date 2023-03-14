@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap");
-@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 * body .useful-fin {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: #FFF6F4;
+  background-color: white;
 }
 * body .useful-fin .useful-container {
   width: 86.4583333333%;
@@ -23,17 +23,18 @@
   margin-top: clamp(32px, 3.3333333333vw, 128px);
 }
 * body .useful-fin .useful-container .useful-heading-container .useful-heading {
-  font-family: "FTY STRATEGYCIDE NCV";
+  font-family: "Roboto Condensed";
   font-style: normal;
-  font-weight: 400;
-  font-size: clamp(30px, 3.125vw, 120px);
-  color: #D23127;
+  font-weight: 700;
+  font-size: clamp(22.5px, 2.34375vw, 90px) !important;
+  text-transform: uppercase;
+  color: #00346E;
 }
 * body .useful-fin .useful-container .useful-heading-container .separator {
-  width: clamp(295px, 30.7291666667vw, 1180px);
+  width: clamp(174.5px, 18.1770833333vw, 698px);
   height: 1px;
-  background-color: #D23127;
   margin-top: clamp(8px, 0.8333333333vw, 32px);
+  background-color: #00346E;
 }
 * body .useful-fin .useful-container .cards {
   width: 100%;
@@ -43,23 +44,6 @@
   justify-content: space-between;
   margin-top: clamp(35px, 3.6458333333vw, 140px);
 }
-* body .useful-fin .useful-container .shop-button {
-  width: clamp(194.5px, 20.2604166667vw, 778px);
-  height: clamp(32px, 3.3333333333vw, 128px);
-  background: transparent;
-  border: clamp(1.5px, 0.15625vw, 6px) solid #EDE9D0;
-  font-family: "FTY STRATEGYCIDE NCV";
-  font-style: normal;
-  font-weight: 400;
-  font-size: clamp(14.75px, 1.5364583333vw, 59px);
-  color: #EDE9D0;
-  margin: auto;
-  margin-bottom: clamp(40px, 4.1666666667vw, 160px);
-}
-* body .useful-fin .useful-container .shop-button:hover {
-  background-color: #EDE9D0;
-  color: #D23127;
-}
 
 @media screen and (max-width: 448px) {
   .useful-fin {
@@ -67,7 +51,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    background-color: #D23127;
+    background-color: #588EF7;
   }
   .useful-fin .useful-container {
     width: 86.4583333333%;
@@ -85,11 +69,12 @@
     margin-top: clamp(32px, 14.953271028vw, 128px) !important;
   }
   .useful-fin .useful-container .useful-heading-container .useful-heading {
-    font-family: "FTY STRATEGYCIDE NCV";
-    font-style: normal;
-    font-weight: 400;
-    font-size: clamp(18px, 8.4112149533vw, 72px) !important;
-    color: #EDE9D0;
+    font-family: "Roboto Condensed" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: clamp(22.5px, 2.34375vw, 90px) !important;
+    text-transform: uppercase !important;
+    color: #00346E !important;
   }
   .useful-fin .useful-container .useful-heading-container .separator {
     width: clamp(295px, 30.7291666667vw, 1180px);
@@ -114,7 +99,7 @@
     border-radius: 6px;
     align-items: center;
     cursor: pointer;
-    background-color: #EDE9D0;
+    background-color: #F4F5F8;
     transition: 0.3s all;
     margin-bottom: clamp(40px, 4.1666666667vw, 160px);
   }
@@ -131,7 +116,7 @@
   }
   .useful-fin .useful-container .cards .power-card .power-circle .dumbbell-icon, .useful-fin .useful-container .cards .power-card .power-circle .heart-icon, .useful-fin .useful-container .cards .power-card .power-circle .weight-icon, .useful-fin .useful-container .cards .power-card .muscle-circle .dumbbell-icon, .useful-fin .useful-container .cards .power-card .muscle-circle .heart-icon, .useful-fin .useful-container .cards .power-card .muscle-circle .weight-icon, .useful-fin .useful-container .cards .power-card .imm-circle .dumbbell-icon, .useful-fin .useful-container .cards .power-card .imm-circle .heart-icon, .useful-fin .useful-container .cards .power-card .imm-circle .weight-icon, .useful-fin .useful-container .cards .muscle-card .power-circle .dumbbell-icon, .useful-fin .useful-container .cards .muscle-card .power-circle .heart-icon, .useful-fin .useful-container .cards .muscle-card .power-circle .weight-icon, .useful-fin .useful-container .cards .muscle-card .muscle-circle .dumbbell-icon, .useful-fin .useful-container .cards .muscle-card .muscle-circle .heart-icon, .useful-fin .useful-container .cards .muscle-card .muscle-circle .weight-icon, .useful-fin .useful-container .cards .muscle-card .imm-circle .dumbbell-icon, .useful-fin .useful-container .cards .muscle-card .imm-circle .heart-icon, .useful-fin .useful-container .cards .muscle-card .imm-circle .weight-icon, .useful-fin .useful-container .cards .imm-card .power-circle .dumbbell-icon, .useful-fin .useful-container .cards .imm-card .power-circle .heart-icon, .useful-fin .useful-container .cards .imm-card .power-circle .weight-icon, .useful-fin .useful-container .cards .imm-card .muscle-circle .dumbbell-icon, .useful-fin .useful-container .cards .imm-card .muscle-circle .heart-icon, .useful-fin .useful-container .cards .imm-card .muscle-circle .weight-icon, .useful-fin .useful-container .cards .imm-card .imm-circle .dumbbell-icon, .useful-fin .useful-container .cards .imm-card .imm-circle .heart-icon, .useful-fin .useful-container .cards .imm-card .imm-circle .weight-icon {
     font-size: clamp(25px, 11.6822429907vw, 100px) !important;
-    color: #D23127;
+    color: #588EF7;
   }
   .useful-fin .useful-container .cards .power-card .imm-c-heading, .useful-fin .useful-container .cards .power-card .power-c-heading, .useful-fin .useful-container .cards .power-card .muscle-c-heading, .useful-fin .useful-container .cards .muscle-card .imm-c-heading, .useful-fin .useful-container .cards .muscle-card .power-c-heading, .useful-fin .useful-container .cards .muscle-card .muscle-c-heading, .useful-fin .useful-container .cards .imm-card .imm-c-heading, .useful-fin .useful-container .cards .imm-card .power-c-heading, .useful-fin .useful-container .cards .imm-card .muscle-c-heading {
     font-size: clamp(18.5px, 8.6448598131vw, 74px);
@@ -143,7 +128,7 @@
   .useful-fin .useful-container .shop-button {
     width: clamp(173.5px, 81.0747663551vw, 694px) !important;
     height: clamp(32px, 14.953271028vw, 128px) !important;
-    border: 4px solid #EDE9D0 !important;
+    border: 4px solid #F4F5F8 !important;
     font-size: clamp(14px, 6.5420560748vw, 56px) !important;
   }
 }/*# sourceMappingURL=useful_styles.css.map */

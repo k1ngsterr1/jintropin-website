@@ -6,6 +6,8 @@ import { useRef } from "react";
 // Styles
 import "../styles/contact-styles/contact_styles.css";
 
+import arrow from "../assets/contacts_arrow.svg";
+
 // Assets
 
 import emailjs from "@emailjs/browser";
@@ -117,6 +119,7 @@ const ContactScreen = () => {
             </button>
           </form>
         </main>
+        <img className="contact-arrow" src={arrow}></img>
       </div>
     </div>
   );

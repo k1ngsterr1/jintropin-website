@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 * body button, * body a {
   cursor: pointer;
   transition: 0.3s all;
@@ -10,7 +10,15 @@
   display: flex;
   flex-direction: column;
   margin-top: clamp(32px, 3.3333333333vw, 128px);
-  background-color: #FFF6F4;
+  background-color: white;
+  margin-bottom: clamp(50px, 5.2083333333vw, 200px);
+}
+* body .about-jin .about-arrow {
+  position: absolute;
+  width: clamp(143px, 14.8958333333vw, 572px);
+  height: clamp(108px, 11.25vw, 432px);
+  left: clamp(415px, 43.2291666667vw, 1660px);
+  top: clamp(600.22px, 62.5229166667vw, 2400.88px);
 }
 * body .about-jin .about-jin-container {
   width: 86.4583333333%;
@@ -20,10 +28,10 @@
   margin: auto;
 }
 * body .about-jin .about-jin-container .about-proto {
-  width: clamp(325px, 33.8541666667vw, 1300px);
-  height: clamp(275px, 28.6458333333vw, 1100px);
-  margin-top: clamp(37.5px, 3.90625vw, 150px);
-  margin-bottom: clamp(45px, 4.6875vw, 180px);
+  width: clamp(319.5px, 33.28125vw, 1278px);
+  height: clamp(318.595px, 33.2276041667vw, 1274.38px);
+  left: clamp(16px, 1.6666666667vw, 64px);
+  top: clamp(530.5px, 55.2604166667vw, 2122px);
 }
 * body .about-jin .about-jin-container .about-heading-container {
   margin: auto;
@@ -33,17 +41,18 @@
   flex-direction: column;
 }
 * body .about-jin .about-jin-container .about-heading-container .about-heading {
-  font-family: "FTY STRATEGYCIDE NCV";
+  font-family: "Roboto Condensed" !important;
   font-style: normal;
-  font-weight: 400;
-  font-size: clamp(30px, 3.125vw, 120px);
-  color: #D23127;
+  font-weight: 700;
+  font-size: clamp(22.5px, 2.34375vw, 90px);
+  text-transform: uppercase;
+  color: #00346E;
 }
 * body .about-jin .about-jin-container .about-heading-container .separator {
-  width: clamp(295px, 30.7291666667vw, 1180px);
+  width: clamp(174.5px, 18.1770833333vw, 698px);
   height: 1px;
   margin-top: clamp(8px, 0.8333333333vw, 32px);
-  background-color: #D23127;
+  background-color: #00346E;
 }
 * body .about-jin .about-jin-container .about-content {
   width: auto;
@@ -55,26 +64,29 @@
 }
 * body .about-jin .about-jin-container .about-content .about-paragraph {
   width: clamp(381.5px, 39.7395833333vw, 1526px);
-  font-family: "Gothic A1", sans-serif;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
-  font-size: clamp(14px, 1.4583333333vw, 46px);
-  color: #00346E;
+  font-size: clamp(13px, 1.3541666667vw, 52px);
+  color: #1e1e1e;
 }
 * body .about-jin .about-jin-container .about-content .more-info {
   width: clamp(212.5px, 22.1354166667vw, 850px);
   height: clamp(32px, 3.3333333333vw, 128px);
-  background-color: #D23127;
-  font-family: "FTY STRATEGYCIDE NCV";
+  background-color: #588EF7;
+  font-family: "Roboto Condensed";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
+  font-size: clamp(13.5px, 1.40625vw, 54px);
+  align-items: center;
+  justify-content: center;
   margin-top: clamp(32px, 3.3333333333vw, 128px);
-  color: #FFF6F4;
+  color: white;
   font-size: clamp(14.5px, 1.5104166667vw, 58px);
-  border-radius: 6px;
+  border-radius: 71px;
 }
 * body .about-jin .about-jin-container .about-content .more-info:hover {
-  background-color: #B52B21;
+  background-color: #2B6FF5;
 }
 
 @media screen and (max-width: 448px) {
@@ -84,7 +96,7 @@
     display: flex;
     flex-direction: column;
     margin-top: clamp(32px, 3.3333333333vw, 128px);
-    background-color: #EDE9D0;
+    background-color: #F4F5F8;
   }
   .about-jin .about-jin-container {
     width: 86.4583333333%;

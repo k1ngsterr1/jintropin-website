@@ -4,6 +4,7 @@ import styles from "../styles/verification-styles/verification-styles.css";
 import { useNavigate } from "react-router";
 
 import sticker from "../assets/verification-sticker.svg";
+import white from "../assets/verification-white.svg";
 
 const VerificationScreen = () => {
   const { t, i18n } = useTranslation();
