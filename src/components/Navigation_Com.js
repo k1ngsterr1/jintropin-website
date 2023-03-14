@@ -32,27 +32,6 @@ const Navigation = () => {
 
   const [open, setOpen] = useState(false);
 
-  // let [textLanguage, setTextLanguage] = useState("Русский");
-
-  // function onSelect({ key }) {
-  //   switch (key) {
-  //     case "russian-language":
-  //       setTextLanguage = "Русский";
-
-  //       break;
-
-  //     case "english-language":
-  //       setTextLanguage = "English";
-
-  //       break;
-
-  //     case "kazakh-language":
-  //       setTextLanguage = "Kazakh";
-
-  //       break;
-  //   }
-  // }
-
   const hamburgerMenu = (
     <FaBars className="bars" onClick={() => setOpen(!open)}></FaBars>
   );
