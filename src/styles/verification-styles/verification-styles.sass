@@ -43,7 +43,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
             margin-bottom: clamp(50px,5.208333333333333vw,200px)
 
             .verification-heading
-                font-family: 'Roboto Condensed' !important
+                font-family: 'Roboto Condensed'
                 font-style: normal
                 font-weight: 700
                 font-size: clamp(22.5px,2.34375vw,90px)
@@ -65,6 +65,9 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
             display: flex
             align-items: center
             justify-content: space-between
+
+            .verification-sticker-mob
+                display: none
 
             .verification-sticker
                 width: clamp(231px,24.0625vw,924px)
@@ -117,3 +120,96 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                     transition: 0.3s all
                     &:hover
                         background-color: #EDEDED
+
+@media screen  and (max-width: 448px)
+
+    .verification-screen
+        width: 100%
+        height: 110vh
+        display: flex
+        margin: auto
+        background-color: $main_cream
+        flex-direction: column
+
+        .verification-container
+            width: 86.45833333333333%
+            height: auto
+            display: flex
+            flex-direction: column
+            margin: auto
+
+            .verification-description
+                display: flex
+                flex-direction: column
+                margin-left: 0px !important
+
+            .verification-heading
+                width: clamp(100px,72.81553398058253vw,600px) !important
+                font-family: 'Roboto Condensed' !important
+                font-style: normal !important
+                text-align: center !important
+                font-weight: 700 !important
+                font-size: clamp(18px,8.411214953271028vw,72px) !important
+                text-transform: uppercase !important
+                color: $main_blue !important
+                margin-top: clamp(16px,7.766990291262136vw,64px) !important
+
+            .separator
+                width: clamp(174.5px,18.177083333333332vw,698px)
+                height: 1px
+                margin-top: $sixtyfourclamp!important
+                background-color: $main_blue
+
+        .verification-content
+            width: clamp(175px,84.95145631067962vw,700px) !important
+            height: clamp(355px,172.33009708737865vw,1420px) !important
+            background-color: $red !important
+            border-radius: 18px !important
+            margin: auto !important
+            display: flex !important
+            align-items: center !important
+            flex-direction: column !important
+
+            .verification-sticker-mob
+                width: clamp(131px,63.592233009708735vw,524px) !important
+                height: clamp(131px,63.592233009708735vw,524px) !important
+                display: flex !important
+                margin: auto !important
+                margin-top: clamp(16px,7.766990291262136vw,64px) !important
+
+            .verification-sticker
+                display: none !important
+
+            .ver-description-heading
+                font-family: 'Roboto Condensed' !important
+                font-style: normal !important
+                font-weight: 700 !important
+                font-size: clamp(12.5px,6.067961165048544vw,50px) !important
+                color: #1e1e1e !important
+                margin: auto !important
+                text-align: center !important
+                margin-top: clamp(8px,3.883495145631068vw,32px) !important
+
+            .ver-paragraph-zero, .ver-paragraph-one, .ver-paragraph-two
+                width: clamp(158.5px,76.94174757281553vw,634px) !important
+                font-family: 'Raleway' !important
+                text-align: center !important
+                font-style: normal !important
+                font-weight: 600 !important
+                color: #1e1e1e !important
+                padding: 0 !important
+                margin: 0 !important
+                font-size: clamp(8px,3.883495145631068vw,32px) !important
+
+            .ver-paragraph-zero, .ver-paragraph-one, .ver-paragraph-two
+                margin-top: clamp(16px,7.766990291262136vw,64px) !important
+
+            .verification-button
+                width: clamp(149px,72.33009708737865vw,596px) !important
+                height: clamp(21.735px,10.550970873786408vw,86.94px) !important
+                display: flex !important
+                align-items: center !important
+                justify-content: center !important
+                margin: auto !important
+                margin-top: clamp(16px,7.766990291262136vw,64px) !important
+                font-size: 19px !important

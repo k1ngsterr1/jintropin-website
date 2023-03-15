@@ -22,7 +22,7 @@ const Footer_Com = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-contacts-mob">
-          <h4 className="contacts-header-mob">КОНТАКТЫ</h4>
+          {/* <h4 className="contacts-header-mob">КОНТАКТЫ</h4> */}
           <div className="contacts-container-mob">
             <FaInstagram className="instagram-mob"></FaInstagram>
             <FaTelegramPlane className="telegram-mob"></FaTelegramPlane>
@@ -44,13 +44,13 @@ const Footer_Com = () => {
             <a className="main-link link" href="/">
               {t("main-link.key")}
             </a>
-            <a
-              href="http://ppk365.com/jinsaiyaoye/"
-              target="_blank"
+            <Link
               className="verification-link link"
+              to="verification-screen"
+              smooth={true}
             >
               {t("verification-link.key")}
-            </a>
+            </Link>
           </div>
         </nav>
         <div className="footer-contacts">

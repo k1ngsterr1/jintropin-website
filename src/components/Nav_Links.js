@@ -16,13 +16,13 @@ const Nav_Links = () => {
       <a className="main-link-mobile" href="/">
         {t("link-main.key")}
       </a>
-      <a
+      <Link
         className="verification-mobile-link"
-        href="http://ppk365.com/jinsaiyaoye/"
-        target="_blank"
+        to="verification-screen"
+        smooth={true}
       >
         {t("verification-link.key")}
-      </a>
+      </Link>
       <Link to="contact-screen" smooth={true} className="contact-with-us-mob">
         {t("contact-button.key")}
       </Link>

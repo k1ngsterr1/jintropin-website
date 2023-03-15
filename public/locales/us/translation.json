@@ -11,6 +11,9 @@
   "main-button": {
     "key": "Become spokesman"
   },
+  "back-button": {
+    "key": "Go back"
+  },
   "about-jintropin": {
     "key": "More"
   },

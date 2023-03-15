@@ -46,13 +46,13 @@ const Navigation = () => {
         <img className="logo" src={Logo} alt="logo"></img>
         <div className="navigation">
           <a className="link-main">{t("link-main.key")}</a>
-          <a
-            href="http://ppk365.com/jinsaiyaoye/"
-            target="_blank"
+          <Link
             className="link-verification"
+            to="verification-screen"
+            smooth={true}
           >
             {t("link-verification.key")}
-          </a>
+          </Link>
           <div className="languages-container">
             <span
               onClick={() => changeLanguage("ru")}

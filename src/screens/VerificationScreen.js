@@ -27,6 +27,7 @@ const VerificationScreen = () => {
             <p className="ver-paragraph-zero">{t("ver-paragraph-zero.key")}</p>
             <p className="ver-paragraph-one"> {t("ver-paragraph-one.key")} </p>
             <p className="ver-paragraph-two"> {t("ver-paragraph-two.key")} </p>
+            <img className="verification-sticker-mob" src={sticker}></img>
             <a
               className="verification-button"
               href="http://ppk365.com/jinsaiyaoye/"

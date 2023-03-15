@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 import "../styles/more-info-styles/more-info.css";
 import { useNavigate } from "react-router-dom";
-import image from "../assets/more-info.svg";
+import image from "../assets/Muscle_Man.svg";
 
 // Icons
 import { FaTelegramPlane } from "react-icons/fa";
@@ -22,17 +22,16 @@ const MoreInfo = () => {
   return (
     <div className="more-info-page" id="main-screen">
       <Navigation></Navigation>
-      <div className="separator"></div>
       <div className="more-info-container">
         <div className="paragraph-container">
           <p className="info-paragraph">{t("info-paragraph.info-p")}</p>
           <div className="buttons-container">
             <button className="go-back-button" onClick={() => navigate("/")}>
-              Вернуться обратно
+              {t("back-button.key")}
             </button>
             <button className="main-button">
               <FaTelegramPlane className="telegram-icon" />
-              Стать Представителем
+              {t("main-button.key")}
             </button>
           </div>
         </div>

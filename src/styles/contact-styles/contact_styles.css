@@ -140,6 +140,7 @@
     width: 100%;
     height: auto;
     display: flex;
+    margin-top: clamp(25px, 12.1359223301vw, 100px) !important;
     flex-direction: column;
   }
   .contacts .contacts-container {
@@ -150,6 +151,9 @@
     justify-content: center;
     flex-direction: column;
     margin: auto;
+  }
+  .contacts .contacts-container .contact-arrow {
+    display: none !important;
   }
   .contacts .contacts-container .contacts-heading-container {
     width: auto;
@@ -199,13 +203,13 @@
   }
   .contacts .contacts-container .contacts-main-content .contacts-content .section-paragraph {
     width: clamp(165.5px, 77.3364485981vw, 662px) !important;
-    font-family: "Blinker";
+    font-family: "Raleway";
     font-style: normal;
     font-weight: 400;
     text-align: center;
     font-size: clamp(11.5px, 5.3738317757vw, 46px) !important;
     color: #00346E;
-    margin-top: clamp(8px, 0.8333333333vw, 32px);
+    margin-top: clamp(32px, 3.3333333333vw, 128px) !important;
   }
   .contacts .contacts-container .contacts-main-content .form {
     width: auto;
