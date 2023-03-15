@@ -7,8 +7,8 @@ import logo from "../assets/jintropin-original-logo.svg";
 
 // Icons
 import { FaInstagram, FaSortUp } from "react-icons/fa";
-import { FaTelegram } from "react-icons/fa";
-import { FaEnvelope } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+import { RxEnvelopeClosed } from "react-icons/rx";
 import { Link } from "react-scroll";
 
 const Footer_Com = () => {
@@ -25,8 +25,8 @@ const Footer_Com = () => {
           <h4 className="contacts-header-mob">КОНТАКТЫ</h4>
           <div className="contacts-container-mob">
             <FaInstagram className="instagram-mob"></FaInstagram>
-            <FaTelegram className="telegram-mob"></FaTelegram>
-            <FaEnvelope className="envelope-mob"></FaEnvelope>
+            <FaTelegramPlane className="telegram-mob"></FaTelegramPlane>
+            <RxEnvelopeClosed className="envelope-mob"></RxEnvelopeClosed>
           </div>
         </div>
         <img className="logo-mobile" alt="logo" src={logo}></img>
@@ -56,9 +56,15 @@ const Footer_Com = () => {
         <div className="footer-contacts">
           {/* <h4 className="contacts-header">{t("contacts-header.key")}</h4> */}
           <div className="contacts-container">
-            <FaInstagram className="instagram"></FaInstagram>
-            <FaTelegram className="telegram"></FaTelegram>
-            <FaEnvelope className="envelope"></FaEnvelope>
+            <div className="instagram-circle">
+              <FaInstagram className="instagram"></FaInstagram>
+            </div>
+            <div className="telegram-circle">
+              <FaTelegramPlane className="telegram"></FaTelegramPlane>
+            </div>
+            <div className="envelope-circle">
+              <RxEnvelopeClosed className="envelope"></RxEnvelopeClosed>
+            </div>
           </div>
         </div>
         {/* <Link to="main-screen" smooth="true" className="upper-button">

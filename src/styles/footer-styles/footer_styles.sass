@@ -35,7 +35,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 margin: auto
                 display: flex
                 justify-content: space-between
-                padding-top: $sixtyfourclamp
+                padding-top: $thirtytwoclamp
                 padding-bottom: $sixtyfourclamp
 
                 .footer-contacts-mob
@@ -93,18 +93,20 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         margin-top: clamp(11.5px,1.1979166666666667vw,46px)
 
                     .main-link
-                        font-family: 'Gothic A1', sans-serif
+                        font-family: 'Roboto Condensed'
                         font-style: normal
-                        font-weight: 600 !important
+                        font-weight: 700
+                        text-decoration: none
                         font-size: clamp(9px,0.9375vw,36px)
                         color: $main_cream
                         text-decoration: underline
                         cursor: pointer
 
                     .link
-                        font-family: 'Gothic A1', sans-serif
+                        font-family: 'Roboto Condensed'
                         font-style: normal
-                        font-weight: 500
+                        font-weight: 700
+                        text-decoration: none
                         font-size: clamp(9px,0.9375vw,36px)
                         cursor: pointer
                         color: $background
@@ -138,19 +140,29 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         display: flex
                         margin-top: $sixteenclamp
 
-                        .instagram, .telegram, .envelope
-                            color: $background
-                            font-size: clamp(14.5px,1.5104166666666667vw,58px)
-                            cursor: pointer
-                            transition: 0.3s all
-                            &:hover
-                                color: $main_blue
+                        .instagram-circle
+                            margin-right: $sixteenclamp
 
-                        .telegram
-                            margin-left: clamp(9.5px,0.9895833333333334vw,38px)
+                        .envelope-circle
+                            margin-left: $sixteenclamp
 
-                        .envelope
-                            margin-left: clamp(9.5px,0.9895833333333334vw,38px)
+                        .instagram-circle, .telegram-circle, .envelope-circle
+                            width: clamp(21px,2.1875vw,84px)
+                            height: clamp(21px,2.1875vw,84px)
+                            background: #B5CCF8
+                            border: 1.5px solid #376298
+                            border-radius: 60px
+                            display: flex
+                            align-items: center
+                            justify-content: center
+
+                            .instagram, .telegram, .envelope
+                                color: #376298
+                                font-size: clamp(12px,1.25vw,48px)
+                                cursor: pointer
+                                transition: 0.3s all
+                                &:hover
+                                    color: $main_blue
 
                 .upper-button
                     width: clamp(153px,15.9375vw,612px)
