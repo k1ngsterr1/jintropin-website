@@ -79,8 +79,8 @@
   margin-top: clamp(16px, 1.6666666667vw, 64px);
 }
 .verification-screen .verification-container .verification-content .verification-description .verification-button {
-  width: 377px;
-  height: 55px;
+  width: clamp(188.5px, 19.6354166667vw, 754px);
+  height: clamp(27.5px, 2.8645833333vw, 110px);
   display: flex;
   justify-content: center;
   align-items: center;

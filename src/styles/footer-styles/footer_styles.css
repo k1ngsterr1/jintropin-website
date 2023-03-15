@@ -1,15 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url(//db.onlinewebfonts.com/c/8cc0b009c1f2d4b2e9567cc6e9579891?family=FTYStrategycideCASW01-Rg);
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 * body .footer {
   width: 100%;
   height: auto;
-  background-color: #D23127;
+  background-color: #588EF7;
 }
 * body .footer .footer-content {
   width: 86.4583333333%;
   height: auto;
   margin: auto;
   display: flex;
+  justify-content: space-between;
   padding-top: clamp(32px, 3.3333333333vw, 128px);
   padding-bottom: clamp(32px, 3.3333333333vw, 128px);
 }
@@ -35,7 +36,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: clamp(13px, 1.3541666667vw, 52px);
-  color: #EDE9D0;
+  color: #F4F5F8;
   margin-top: clamp(12.5px, 1.3020833333vw, 50px);
 }
 * body .footer .footer-content .logo-content .contact-us {
@@ -44,7 +45,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: clamp(10px, 1.0416666667vw, 40px);
-  color: #EDE9D0;
+  color: #F4F5F8;
   margin-top: clamp(12.5px, 1.3020833333vw, 50px);
 }
 * body .footer .footer-content .logo-content .underline {
@@ -54,14 +55,13 @@
   width: auto;
   display: flex;
   flex-direction: column;
-  margin-left: clamp(71px, 7.3958333333vw, 284px);
 }
 * body .footer .footer-content .footer-navigation .footer-header {
   font-family: "FTY STRATEGYCIDE NCV";
   font-style: normal;
   font-weight: 400;
   font-size: clamp(16px, 1.6666666667vw, 64px);
-  color: #FFF6F4;
+  color: white;
 }
 * body .footer .footer-content .footer-navigation .footer-links {
   display: flex;
@@ -73,7 +73,7 @@
   font-style: normal;
   font-weight: 600 !important;
   font-size: clamp(9px, 0.9375vw, 36px);
-  color: #EDE9D0;
+  color: #F4F5F8;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -83,7 +83,7 @@
   font-weight: 500;
   font-size: clamp(9px, 0.9375vw, 36px);
   cursor: pointer;
-  color: #FFF6F4;
+  color: white;
   transition: 0.3s all;
 }
 * body .footer .footer-content .footer-navigation .link:hover {
@@ -107,7 +107,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: clamp(16px, 1.6666666667vw, 64px);
-  color: #FFF6F4;
+  color: white;
 }
 * body .footer .footer-content .footer-contacts .contacts-container {
   width: auto;
@@ -116,7 +116,7 @@
   margin-top: clamp(8px, 0.8333333333vw, 32px);
 }
 * body .footer .footer-content .footer-contacts .contacts-container .instagram, * body .footer .footer-content .footer-contacts .contacts-container .telegram, * body .footer .footer-content .footer-contacts .contacts-container .envelope {
-  color: #FFF6F4;
+  color: white;
   font-size: clamp(14.5px, 1.5104166667vw, 58px);
   cursor: pointer;
   transition: 0.3s all;
@@ -141,14 +141,14 @@
   align-items: center;
   justify-content: center;
   border-radius: 3px;
-  color: #D23127;
-  background-color: #EDE9D0;
+  color: #588EF7;
+  background-color: #F4F5F8;
   margin-left: clamp(71px, 7.3958333333vw, 284px);
   transition: 0.3s all;
 }
 * body .footer .footer-content .upper-button:hover {
   background-color: #00346E;
-  color: #FFF6F4;
+  color: white;
 }
 * body .footer .footer-content .upper-button .sort-up-icon {
   padding-top: clamp(5px, 0.5208333333vw, 20px);
@@ -159,7 +159,7 @@
   .footer {
     width: 100%;
     height: auto;
-    background-color: #D23127;
+    background-color: #588EF7;
   }
   .footer .footer-content {
     width: 86.4583333333%;
@@ -194,7 +194,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: clamp(17px, 7.9439252336vw, 68px) !important;
-    color: #FFF6F4;
+    color: white;
   }
   .footer .footer-content .footer-contacts-mob .contacts-container-mob {
     width: auto;
@@ -203,16 +203,16 @@
     margin-top: clamp(8px, 3.738317757vw, 32px);
   }
   .footer .footer-content .footer-contacts-mob .contacts-container-mob .instagram-mob {
-    color: #FFF6F4;
+    color: white;
     font-size: clamp(17px, 7.9439252336vw, 68px) !important;
     margin-right: clamp(16px, 7.476635514vw, 64px) !important;
   }
   .footer .footer-content .footer-contacts-mob .contacts-container-mob .telegram-mob {
-    color: #FFF6F4;
+    color: white;
     font-size: clamp(17px, 7.9439252336vw, 68px) !important;
   }
   .footer .footer-content .footer-contacts-mob .contacts-container-mob .envelope-mob {
-    color: #FFF6F4;
+    color: white;
     font-size: clamp(17px, 7.9439252336vw, 68px) !important;
     margin-left: clamp(16px, 7.476635514vw, 64px) !important;
   }
@@ -243,7 +243,7 @@
     text-align: center !important;
     font-weight: 500;
     font-size: clamp(10px, 4.6728971963vw, 40px) !important;
-    color: #EDE9D0;
+    color: #F4F5F8;
     margin-top: clamp(12.5px, 5.8411214953vw, 50px) !important;
   }
   .footer .footer-content .logo-content .underline {

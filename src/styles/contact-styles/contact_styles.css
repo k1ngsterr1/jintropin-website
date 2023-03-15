@@ -14,10 +14,11 @@
   margin: auto;
 }
 * body .contacts .contacts-container .contact-arrow {
+  position: absolute;
   width: clamp(194.74px, 20.2854166667vw, 778.96px);
   height: clamp(139px, 14.4791666667vw, 556px);
   left: clamp(194px, 20.2083333333vw, 776px);
-  top: 4048.61px;
+  top: clamp(1952.5px, 203.3854166667vw, 7810px);
 }
 * body .contacts .contacts-container .contacts-heading-container {
   width: auto;

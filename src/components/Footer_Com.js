@@ -32,14 +32,14 @@ const Footer_Com = () => {
         <img className="logo-mobile" alt="logo" src={logo}></img>
         <div className="logo-content">
           <img className="logo" alt="logo" src={logo}></img>
-          <p className="footer-p">{t("footer-p.key")}</p>
-          <p className="contact-us">
+          {/* <p className="footer-p">{t("footer-p.key")}</p> */}
+          {/* <p className="contact-us">
             {t("contact-us.key")}{" "}
             <span className="underline">{t("underline.key")}</span>
-          </p>
+          </p> */}
         </div>
         <nav className="footer-navigation">
-          <h4 className="footer-header">{t("footer-header.key")}</h4>
+          {/* <h4 className="footer-header">{t("footer-header.key")}</h4> */}
           <div className="footer-links">
             <a className="main-link link" href="/">
               {t("main-link.key")}
@@ -54,16 +54,16 @@ const Footer_Com = () => {
           </div>
         </nav>
         <div className="footer-contacts">
-          <h4 className="contacts-header">{t("contacts-header.key")}</h4>
+          {/* <h4 className="contacts-header">{t("contacts-header.key")}</h4> */}
           <div className="contacts-container">
             <FaInstagram className="instagram"></FaInstagram>
             <FaTelegram className="telegram"></FaTelegram>
             <FaEnvelope className="envelope"></FaEnvelope>
           </div>
         </div>
-        <Link to="main-screen" smooth="true" className="upper-button">
+        {/* <Link to="main-screen" smooth="true" className="upper-button">
           {t("upper-button.key")} <FaSortUp className="sort-up-icon" />
-        </Link>
+        </Link> */}
       </div>
     </footer>
   );
