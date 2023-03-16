@@ -81,6 +81,7 @@
 * body .main-screen .container .buttons .main-button {
   width: clamp(203.5px, 21.1979166667vw, 814px);
   height: clamp(32px, 3.3333333333vw, 128px);
+  text-decoration: none !important;
   background-color: #588EF7;
   display: flex;
   align-items: center;

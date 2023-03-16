@@ -62,7 +62,16 @@ const ContactScreen = () => {
         <main className="contacts-main-content">
           <section className="contacts-content">
             <h3 className="section-heading">{t("section-heading.key")}</h3>
-            <p className="section-paragraph">{t("section-paragraph.key")}</p>
+            <p className="section-paragraph">
+              {t("section-paragraph.key")} {""}
+              <a
+                className="section-link"
+                href="https://t.me/Jintropine_Bot"
+                target="_blank"
+              >
+                t.me/Jintropine_Bot
+              </a>
+            </p>
           </section>
           <form
             ref={form}

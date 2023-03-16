@@ -34,10 +34,14 @@ const MainScreen = () => {
           </h1>
           <p className="description">{t("description.key")}</p>
           <div className="buttons">
-            <button className="main-button">
+            <a
+              className="main-button"
+              href="https://t.me/Jintropine_Bot"
+              target="_blank"
+            >
               <FaTelegramPlane className="telegram-icon" />
               {t("main-button.key")}{" "}
-            </button>
+            </a>
           </div>
         </div>
         <img className="proto-photo" src={photo} alt="mains_screen_photo"></img>

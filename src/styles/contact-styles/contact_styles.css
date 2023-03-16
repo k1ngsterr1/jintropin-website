@@ -18,7 +18,7 @@
   width: clamp(194.74px, 20.2854166667vw, 778.96px);
   height: clamp(139px, 14.4791666667vw, 556px);
   left: clamp(194px, 20.2083333333vw, 776px);
-  top: clamp(1952.5px, 203.3854166667vw, 7810px);
+  top: clamp(1900px, 197.9166666667vw, 7600px);
 }
 * body .contacts .contacts-container .contacts-heading-container {
   width: auto;
@@ -72,6 +72,10 @@
   font-size: clamp(12.5px, 1.3020833333vw, 50px);
   color: #00346E;
   margin-top: clamp(8px, 0.8333333333vw, 32px);
+}
+* body .contacts .contacts-container .contacts-main-content .contacts-content .section-paragraph .section-link {
+  color: #00346E;
+  font-weight: 600 !important;
 }
 * body .contacts .contacts-container .contacts-main-content .form {
   width: auto;
@@ -208,7 +212,7 @@
     font-weight: 400;
     text-align: center;
     font-size: clamp(11.5px, 5.3738317757vw, 46px) !important;
-    color: #00346E;
+    color: #1e1e1e;
     margin-top: clamp(32px, 3.3333333333vw, 128px) !important;
   }
   .contacts .contacts-container .contacts-main-content .form {

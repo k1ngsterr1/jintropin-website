@@ -57,6 +57,7 @@
 * body .more-info-page .buttons-container .main-button {
   width: clamp(179px, 18.6458333333vw, 716px);
   height: clamp(32px, 3.3333333333vw, 128px);
+  text-decoration: none !important;
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 700;

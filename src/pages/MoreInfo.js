@@ -29,10 +29,14 @@ const MoreInfo = () => {
             <button className="go-back-button" onClick={() => navigate("/")}>
               {t("back-button.key")}
             </button>
-            <button className="main-button">
+            <a
+              className="main-button"
+              href="https://t.me/Jintropine_Bot"
+              target="_blank"
+            >
               <FaTelegramPlane className="telegram-icon" />
-              {t("main-button.key")}
-            </button>
+              {t("main-button.key")}{" "}
+            </a>
           </div>
         </div>
       </div>
