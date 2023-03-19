@@ -56,7 +56,11 @@ const Footer_Com = () => {
         <div className="footer-contacts">
           {/* <h4 className="contacts-header">{t("contacts-header.key")}</h4> */}
           <div className="contacts-container">
-            <a className="instagram-circle">
+            <a
+              href="https://www.instagram.com/jintropine_shop/"
+              target="_blank"
+              className="instagram-circle"
+            >
               <FaInstagram className="instagram"></FaInstagram>
             </a>
             <a
@@ -66,9 +70,9 @@ const Footer_Com = () => {
             >
               <FaTelegramPlane className="telegram"></FaTelegramPlane>
             </a>
-            <a className="envelope-circle">
+            {/* <a className="envelope-circle">
               <RxEnvelopeClosed className="envelope"></RxEnvelopeClosed>
-            </a>
+            </a> */}
           </div>
         </div>
         {/* <Link to="main-screen" smooth="true" className="upper-button">

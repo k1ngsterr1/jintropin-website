@@ -36,7 +36,7 @@ const MainScreen = () => {
           <div className="buttons">
             <a
               className="main-button"
-              href="https://t.me/Jintropine_Bot"
+              href="https://t.me/jintropine"
               target="_blank"
             >
               <FaTelegramPlane className="telegram-icon" />
