@@ -2,6 +2,7 @@ import React from "react";
 
 // Components
 import Navigation from "../components/Navigation_Com";
+import Navigation_Com_Two from "../components/Navigation_Com_Two";
 
 // Styles
 import styles from "../styles/main-screen-styles/main_screen.css";

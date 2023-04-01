@@ -83,7 +83,7 @@ const ContactScreen = () => {
               className="name-input"
               type="text"
               name="name"
-              placeholder="Имя"
+              placeholder="Имя | Name | Аты"
               value={fullName}
               onChange={(event) => setFullName(event.target.value)}
               required={true}
@@ -93,10 +93,10 @@ const ContactScreen = () => {
               type="tel"
               name="phone"
               minLength="10"
-              maxLength="11"
+              maxLength="12"
               onChange={(event) => setPhoneNumber(event.target.value)}
               value={phoneNumber}
-              placeholder="Телефон"
+              placeholder="Телефон | Phone"
               required={true}
             ></input>
             <input
@@ -105,7 +105,7 @@ const ContactScreen = () => {
               name="city"
               value={city}
               onChange={(event) => setCity(event.target.value)}
-              placeholder="Город"
+              placeholder="Город | City | Қала"
               required={true}
             ></input>
             <input

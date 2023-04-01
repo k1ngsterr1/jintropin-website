@@ -98,6 +98,9 @@
     margin-top: clamp(32px, 3.3333333333vw, 128px);
     background-color: #F4F5F8;
   }
+  .about-jin .about-arrow {
+    display: none;
+  }
   .about-jin .about-jin-container {
     width: 86.4583333333%;
     height: auto;
