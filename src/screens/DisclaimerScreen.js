@@ -1,5 +1,9 @@
 import React from "react";
 
+import disclaimer from "../assets/disclaimer_icon.svg";
+
+import styles from "../styles/disclaimer-styles/disclaimer_styles.css";
+
 const DisclaimerScreen = () => {
   return (
     <div className="disclaimer-screen" id="disclaimer-screen">
@@ -18,7 +22,7 @@ const DisclaimerScreen = () => {
           <p className="disclaimer-bold-paragraph">
             Запрещено употреблять лиам не достигшим 21-го года
           </p>
-          <img></img>
+          <img className="disclaimer-icon" src={disclaimer}></img>
         </div>
       </div>
     </div>

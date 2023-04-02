@@ -1,0 +1,213 @@
+$red: #588EF7
+$light_red: #EEA6A1
+$main_cream: #F4F5F8
+$main_blue: #00346E
+$selected_blue: #008AA2
+$background: #FFFF
+$button_hover: #2B6FF5
+
+// Margins
+$eightclamp: clamp(4px,0.4166666666666667vw,16px)
+$sixteenclamp: clamp(8px,0.8333333333333334vw,32px)
+$twentyclamp: clamp(10px,1.0416666666666667vw,40px)
+
+$thirtytwoclamp: clamp(16px,1.6666666666666667vw,64px)
+$sixtyfourclamp: clamp(32px,3.3333333333333335vw,128px)
+$onetwoeightclamp: clamp(64px,6.666666666666667vw,256px)
+$twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
+
+*
+    margin: 0
+    padding: 0
+
+    body
+        width: 100%
+        height: auto
+        font-family: 'Raleway', sans-serif
+        background-color: $background !important
+        font-display: fallback
+        overflow-x: hidden !important
+
+        .composition-screen
+            width: 100%
+            height: auto
+            display: flex
+            margin: auto
+            background-color: #F4F5F8
+            flex-direction: column
+
+            .composition-container
+                width: 86.45833333333333%
+                height: auto
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                margin: auto
+                margin-top: clamp( 50px,5.208333333333333vw,200px)
+                justify-content: space-between
+                margin-top: clamp( 50px,5.208333333333333vw,200px)
+                margin-bottom: clamp( 50px,5.208333333333333vw,200px)
+
+                .heading-container
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+
+                    .composition-heading
+                        font-family: 'Roboto Condensed'
+                        font-style: normal
+                        font-weight: 700
+                        font-size: clamp(22.5px,2.34375vw,90px)
+                        text-transform: uppercase
+                        color: $main_blue
+
+                    .separator
+                        width: clamp(174.5px,18.177083333333332vw,698px)
+                        height: 1px
+                        margin-top: $sixteenclamp
+                        background-color: $main_blue
+
+                .composition-card-container
+                    display: flex
+                    flex-direction: column
+                    width: clamp(653px,68.02083333333333vw,2612px)
+                    margin-top: clamp( 50px,5.208333333333333vw,200px)
+
+                    .column-one, .column-two
+                        width: 100%
+                        display: flex
+                        justify-content: space-between
+
+                        .composition-card-content
+                            display: flex
+                            border: 2px solid red
+                            width: clamp(304px,31.666666666666668vw,1216px)
+                            height: clamp(96.5px,10.052083333333334vw,386px)
+                            flex-direction: column
+                            background: #FFFFFF
+                            border: 2px solid rgba(88, 142, 247, 0.1)
+                            border-radius: 15px
+
+                            .card-heading-container
+                                display: flex
+                                align-items: center
+                                margin-left: clamp(12.5px,1.3020833333333333vw,50px)
+                                margin-top: clamp(10px,1.0416666666666667vw,40px)
+
+                                .card-icon
+                                    width: clamp(2.5px,0.2604166666666667vw,10px)
+                                    height: clamp(17px,1.7708333333333333vw,68px)
+
+                                .card-composition-header
+                                    font-family: 'Roboto Condensed'
+                                    font-style: italic
+                                    font-weight: 400
+                                    font-size: clamp(17px,1.7708333333333333vw,68px)
+                                    color: $main_blue
+                                    margin-left: $sixteenclamp
+
+                            .card-composition-paragraph
+                                margin-top: clamp(10.5px,1.09375vw,42px)
+                                margin-left: clamp(12.5px,1.3020833333333333vw,50px)
+                                font-family: 'Raleway'
+                                font-style: normal
+                                font-weight: 500
+                                font-size: clamp(10.25px,1.0677083333333333vw,41px)
+                                line-height: 138.4%
+                                color: #00346E
+
+                    .column-two
+                        margin-top: clamp(19.5px,2.03125vw,78px)
+
+                    .composition-card-content-l
+                        display: flex
+                        border: 2px solid red
+                        width: 100%
+                        height: clamp(107px,11.145833333333334vw,428px)
+                        flex-direction: column
+                        background: #FFFFFF
+                        border: 2px solid rgba(88, 142, 247, 0.1)
+                        border-radius: 15px
+                        margin-top: clamp(19.5px,2.03125vw,78px)
+
+                        .card-heading-container-l
+                            display: flex
+                            align-items: center
+                            margin-left: clamp(12.5px,1.3020833333333333vw,50px)
+                            margin-top: clamp(10px,1.0416666666666667vw,40px)
+
+                            .card-icon
+                                width: clamp(2.5px,0.2604166666666667vw,10px)
+                                height: clamp(17px,1.7708333333333333vw,68px)
+
+                            .card-composition-header-l
+                                font-family: 'Roboto Condensed'
+                                font-style: italic
+                                font-weight: 400
+                                font-size: clamp(17px,1.7708333333333333vw,68px)
+                                color: $main_blue
+                                margin-left: $sixteenclamp
+
+                        .card-composition-paragraph-l
+                            margin-top: clamp(10.5px,1.09375vw,42px)
+                            margin-left: clamp(12.5px,1.3020833333333333vw,50px)
+                            font-family: 'Raleway'
+                            font-style: normal
+                            font-weight: 500
+                            font-size: clamp(10.25px,1.0677083333333333vw,41px)
+                            line-height: 138.4%
+                            color: #00346E
+
+                        .bold-text
+                            font-family: 'Raleway'
+                            font-style: normal
+                            font-weight: 800
+                            font-size: clamp(10.25px,1.0677083333333333vw,41px)
+                            color: $main_blue
+                            line-height: 138.4%
+                            margin-left: clamp(12.5px,1.3020833333333333vw,50px)
+                            margin-top: clamp(10px,1.0416666666666667vw,40px)
+
+                    .composition-card-content-l-bl
+                        display: flex
+                        border: 2px solid red
+                        width: 100%
+                        height: clamp(107px,11.145833333333334vw,428px)
+                        flex-direction: column
+                        background: #588EF7
+                        border: 2px solid rgba(88, 142, 247, 0.1)
+                        border-radius: 15px
+                        margin-top: clamp(19.5px,2.03125vw,78px)
+
+                        .card-heading-container-l-bl
+                            display: flex
+                            align-items: center
+                            margin-left: clamp(12.5px,1.3020833333333333vw,50px)
+                            margin-top: clamp(10px,1.0416666666666667vw,40px)
+
+                            .card-icon
+                                width: clamp(2.5px,0.2604166666666667vw,10px)
+                                height: clamp(17px,1.7708333333333333vw,68px)
+
+                            .card-composition-header-l-bl
+                                font-family: 'Roboto Condensed'
+                                font-style: italic
+                                font-weight: 400
+                                font-size: clamp(17px,1.7708333333333333vw,68px)
+                                color: white
+                                margin-left: $sixteenclamp
+
+                        .card-composition-paragraph-l-bl
+                            margin-top: clamp(10.5px,1.09375vw,42px)
+                            margin-left: clamp(12.5px,1.3020833333333333vw,50px)
+                            font-family: 'Raleway'
+                            font-style: normal
+                            font-weight: 500
+                            font-size: clamp(10.25px,1.0677083333333333vw,41px)
+                            line-height: 138.4%
+                            color: white

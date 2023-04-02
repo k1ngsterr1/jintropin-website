@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  width: 100%;
+  height: auto;
+  font-family: "Raleway", sans-serif;
+  background-color: white !important;
+  font-display: fallback;
+  overflow-x: hidden !important;
+}
+* body .indication-screen {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  background-color: white;
+  flex-direction: column;
+}
+* body .indication-screen .indication-container {
+  width: 86.4583333333%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: clamp(50px, 5.2083333333vw, 200px);
+  justify-content: space-between;
+}
+* body .indication-screen .indication-container .indication-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* body .indication-screen .indication-container .indication-heading-container .indication-heading {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(22.5px, 2.34375vw, 90px);
+  text-transform: uppercase;
+  color: #00346E;
+}
+* body .indication-screen .indication-container .indication-heading-container .separator {
+  width: clamp(174.5px, 18.1770833333vw, 698px);
+  height: 1px;
+  margin-top: clamp(8px, 0.8333333333vw, 32px);
+  background-color: #00346E;
+}
+* body .indication-screen .indication-container .button-indication {
+  display: flex;
+  align-items: center;
+  margin-top: clamp(50px, 5.2083333333vw, 200px);
+}
+* body .indication-screen .indication-container .button-indication .protiv-indication-not {
+  width: clamp(153px, 15.9375vw, 612px);
+  height: clamp(24.5px, 2.5520833333vw, 98px);
+  border: 3px solid #588EF7;
+  border-radius: 58px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(12px, 1.25vw, 48px);
+  background-color: transparent;
+  color: #588EF7;
+}
+* body .indication-screen .indication-container .button-indication .protiv-indication-not:hover {
+  background-color: #2B6FF5;
+  color: white;
+  border: none;
+}
+* body .indication-screen .indication-container .button-indication .indication-button-choosen {
+  width: clamp(153px, 15.9375vw, 612px);
+  height: clamp(24.5px, 2.5520833333vw, 98px);
+  border-radius: 58px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(12px, 1.25vw, 48px);
+  color: white;
+  background-color: #588EF7;
+}
+* body .indication-screen .indication-container .button-indication .indication-button-choosen:hover {
+  background-color: #2B6FF5;
+}
+* body .indication-screen .indication-container .button-indication .indication-button-not {
+  width: clamp(153px, 15.9375vw, 612px);
+  height: clamp(24.5px, 2.5520833333vw, 98px);
+  border: 3px solid #588EF7;
+  border-radius: 58px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(12px, 1.25vw, 48px);
+  color: #588EF7;
+}
+* body .indication-screen .indication-container .button-indication .indication-button-not:hover {
+  background-color: #2B6FF5;
+  color: white;
+  border: none;
+}
+* body .indication-screen .indication-container .button-indication .protiv-indication-choosen {
+  width: clamp(153px, 15.9375vw, 612px);
+  height: clamp(24.5px, 2.5520833333vw, 98px);
+  border-radius: 58px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(12px, 1.25vw, 48px);
+  color: white;
+  background-color: #588EF7;
+}
+* body .indication-screen .indication-container .button-indication .protiv-indication-choosen:hover {
+  background-color: #2B6FF5;
+}
+* body .indication-screen .indication-container .cards-indication {
+  display: flex;
+  align-items: center;
+}
+* body .indication-screen .indication-container .cards-indication .card-content {
+  width: clamp(263px, 27.3958333333vw, 1052px);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #F4F5F8;
+  border-radius: 15px;
+  margin-top: clamp(50px, 5.2083333333vw, 200px);
+}
+* body .indication-screen .indication-container .cards-indication .card-content .card-heading-container {
+  display: flex;
+  align-items: center;
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+  margin-left: clamp(16px, 1.6666666667vw, 64px);
+}
+* body .indication-screen .indication-container .cards-indication .card-content .card-heading-container .card-header {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(14px, 1.4583333333vw, 56px);
+  color: #588EF7;
+  margin-left: clamp(4px, 0.4166666667vw, 16px);
+}
+* body .indication-screen .indication-container .cards-indication .card-content .card-heading-container .icon-check {
+  color: #588EF7;
+  font-size: clamp(14px, 1.4583333333vw, 56px);
+}
+* body .indication-screen .indication-container .cards-indication .card-content .card-paragraph {
+  width: clamp(222.5px, 23.1770833333vw, 890px);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(10.5px, 1.09375vw, 42px);
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+  margin-left: clamp(16px, 1.6666666667vw, 64px);
+  margin-bottom: clamp(16px, 1.6666666667vw, 64px);
+}
+* body .indication-screen .indication-container .medical-indication {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: clamp(27.5px, 2.8645833333vw, 110px);
+}
+* body .indication-screen .indication-container .medical-indication .medical-ind-text {
+  width: clamp(257px, 26.7708333333vw, 1028px);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(13.5px, 1.40625vw, 54px);
+  text-align: center;
+  color: #1E1E1E;
+}
+* body .indication-screen .indication-container .medical-indication .medical-ind-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(14px, 1.4583333333vw, 56px);
+  text-align: center;
+  text-decoration-line: underline;
+  color: #00346E;
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+  margin-bottom: clamp(50px, 5.2083333333vw, 200px);
+}/*# sourceMappingURL=indications_styles.css.map */

@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+* body {
+  width: 100%;
+  height: auto;
+  font-family: "Raleway", sans-serif;
+  background-color: white !important;
+  font-display: fallback;
+  overflow-x: hidden !important;
+}
+* body .composition-screen {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  background-color: #F4F5F8;
+  flex-direction: column;
+}
+* body .composition-screen .composition-container {
+  width: 86.4583333333%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: clamp(50px, 5.2083333333vw, 200px);
+  justify-content: space-between;
+  margin-top: clamp(50px, 5.2083333333vw, 200px);
+  margin-bottom: clamp(50px, 5.2083333333vw, 200px);
+}
+* body .composition-screen .composition-container .heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* body .composition-screen .composition-container .heading-container .composition-heading {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(22.5px, 2.34375vw, 90px);
+  text-transform: uppercase;
+  color: #00346E;
+}
+* body .composition-screen .composition-container .heading-container .separator {
+  width: clamp(174.5px, 18.1770833333vw, 698px);
+  height: 1px;
+  margin-top: clamp(8px, 0.8333333333vw, 32px);
+  background-color: #00346E;
+}
+* body .composition-screen .composition-container .composition-card-container {
+  display: flex;
+  flex-direction: column;
+  width: clamp(653px, 68.0208333333vw, 2612px);
+  margin-top: clamp(50px, 5.2083333333vw, 200px);
+}
+* body .composition-screen .composition-container .composition-card-container .column-one, * body .composition-screen .composition-container .composition-card-container .column-two {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+* body .composition-screen .composition-container .composition-card-container .column-one .composition-card-content, * body .composition-screen .composition-container .composition-card-container .column-two .composition-card-content {
+  display: flex;
+  border: 2px solid red;
+  width: clamp(304px, 31.6666666667vw, 1216px);
+  height: clamp(96.5px, 10.0520833333vw, 386px);
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 2px solid rgba(88, 142, 247, 0.1);
+  border-radius: 15px;
+}
+* body .composition-screen .composition-container .composition-card-container .column-one .composition-card-content .card-heading-container, * body .composition-screen .composition-container .composition-card-container .column-two .composition-card-content .card-heading-container {
+  display: flex;
+  align-items: center;
+  margin-left: clamp(12.5px, 1.3020833333vw, 50px);
+  margin-top: clamp(10px, 1.0416666667vw, 40px);
+}
+* body .composition-screen .composition-container .composition-card-container .column-one .composition-card-content .card-heading-container .card-icon, * body .composition-screen .composition-container .composition-card-container .column-two .composition-card-content .card-heading-container .card-icon {
+  width: clamp(2.5px, 0.2604166667vw, 10px);
+  height: clamp(17px, 1.7708333333vw, 68px);
+}
+* body .composition-screen .composition-container .composition-card-container .column-one .composition-card-content .card-heading-container .card-composition-header, * body .composition-screen .composition-container .composition-card-container .column-two .composition-card-content .card-heading-container .card-composition-header {
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(17px, 1.7708333333vw, 68px);
+  color: #00346E;
+  margin-left: clamp(8px, 0.8333333333vw, 32px);
+}
+* body .composition-screen .composition-container .composition-card-container .column-one .composition-card-content .card-composition-paragraph, * body .composition-screen .composition-container .composition-card-container .column-two .composition-card-content .card-composition-paragraph {
+  margin-top: clamp(10.5px, 1.09375vw, 42px);
+  margin-left: clamp(12.5px, 1.3020833333vw, 50px);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(10.25px, 1.0677083333vw, 41px);
+  line-height: 138.4%;
+  color: #00346E;
+}
+* body .composition-screen .composition-container .composition-card-container .column-two {
+  margin-top: clamp(19.5px, 2.03125vw, 78px);
+}
+* body .composition-screen .composition-container .composition-card-container .composition-card-content-l {
+  display: flex;
+  border: 2px solid red;
+  width: 100%;
+  height: clamp(107px, 11.1458333333vw, 428px);
+  flex-direction: column;
+  background: #FFFFFF;
+  border: 2px solid rgba(88, 142, 247, 0.1);
+  border-radius: 15px;
+  margin-top: clamp(19.5px, 2.03125vw, 78px);
+}
+* body .composition-screen .composition-container .composition-card-container .composition-card-content-l .card-heading-container-l {
+  display: flex;
+  align-items: center;
+  margin-left: clamp(12.5px, 1.3020833333vw, 50px);
+  margin-top: clamp(10px, 1.0416666667vw, 40px);
+}
+* body .composition-screen .composition-container .composition-card-container .composition-card-content-l .card-heading-container-l .card-icon {
+  width: clamp(2.5px, 0.2604166667vw, 10px);
+  height: clamp(17px, 1.7708333333vw, 68px);
+}
+* body .composition-screen .composition-container .composition-card-container .composition-card-content-l .card-heading-container-l .card-composition-header-l {
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(17px, 1.7708333333vw, 68px);
+  color: #00346E;
+  margin-left: clamp(8px, 0.8333333333vw, 32px);
+}
+* body .composition-screen .composition-container .composition-card-container .composition-card-content-l .card-composition-paragraph-l {
+  margin-top: clamp(10.5px, 1.09375vw, 42px);
+  margin-left: clamp(12.5px, 1.3020833333vw, 50px);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(10.25px, 1.0677083333vw, 41px);
+  line-height: 138.4%;
+  color: #00346E;
+}
+* body .composition-screen .composition-container .composition-card-container .composition-card-content-l .bold-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: clamp(10.25px, 1.0677083333vw, 41px);
+  color: #00346E;
+  line-height: 138.4%;
+  margin-left: clamp(12.5px, 1.3020833333vw, 50px);
+  margin-top: clamp(10px, 1.0416666667vw, 40px);
+}
+* body .composition-screen .composition-container .composition-card-container .composition-card-content-l-bl {
+  display: flex;
+  border: 2px solid red;
+  width: 100%;
+  height: clamp(107px, 11.1458333333vw, 428px);
+  flex-direction: column;
+  background: #588EF7;
+  border: 2px solid rgba(88, 142, 247, 0.1);
+  border-radius: 15px;
+  margin-top: clamp(19.5px, 2.03125vw, 78px);
+}
+* body .composition-screen .composition-container .composition-card-container .composition-card-content-l-bl .card-heading-container-l-bl {
+  display: flex;
+  align-items: center;
+  margin-left: clamp(12.5px, 1.3020833333vw, 50px);
+  margin-top: clamp(10px, 1.0416666667vw, 40px);
+}
+* body .composition-screen .composition-container .composition-card-container .composition-card-content-l-bl .card-heading-container-l-bl .card-icon {
+  width: clamp(2.5px, 0.2604166667vw, 10px);
+  height: clamp(17px, 1.7708333333vw, 68px);
+}
+* body .composition-screen .composition-container .composition-card-container .composition-card-content-l-bl .card-heading-container-l-bl .card-composition-header-l-bl {
+  font-family: "Roboto Condensed";
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(17px, 1.7708333333vw, 68px);
+  color: white;
+  margin-left: clamp(8px, 0.8333333333vw, 32px);
+}
+* body .composition-screen .composition-container .composition-card-container .composition-card-content-l-bl .card-composition-paragraph-l-bl {
+  margin-top: clamp(10.5px, 1.09375vw, 42px);
+  margin-left: clamp(12.5px, 1.3020833333vw, 50px);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(10.25px, 1.0677083333vw, 41px);
+  line-height: 138.4%;
+  color: white;
+}/*# sourceMappingURL=composition_styles.css.map */

@@ -16,6 +16,11 @@ import "./styles/navigation-styles/navigation_styles.css";
 // Language
 import i18n from "./i18n";
 import VerificationScreen from "./screens/VerificationScreen";
+import DisclaimerScreen from "./screens/DisclaimerScreen";
+import IndicationsScreen from "./screens/IndicationsScreen";
+import CompositionScreen from "./screens/CompositionScreen";
+import InStockScreen from "./screens/InstockScreen";
+import InstockScreen from "./screens/InstockScreen";
 
 const App = () => {
   const [locale, setLocale] = useState(i18n.language);
@@ -24,6 +29,10 @@ const App = () => {
       <MainScreen />
       <AboutJinScreen />
       <UsefulScreen />
+      <DisclaimerScreen />
+      <IndicationsScreen />
+      <CompositionScreen></CompositionScreen>
+      <InstockScreen></InstockScreen>
       <VerificationScreen />
       <ContactScreen />
       <Footer_Com />
