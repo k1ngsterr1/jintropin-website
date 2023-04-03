@@ -2,6 +2,7 @@
   "main-heading": {
     "key": "Джинтропин - Лучший"
   },
+
   "hormone": {
     "key": "Гормон Роста"
   },
@@ -25,6 +26,21 @@
   },
   "contact-button": {
     "key": "Связаться с нами"
+  },
+  "realisation-conditions": {
+    "key": "Условия реализации"
+  },
+  "about-drug": {
+    "key": "О препарате"
+  },
+  "document": {
+    "key": "Документы"
+  },
+  "available": {
+    "key": "Препарат в наличии"
+  },
+  "indications": {
+    "key": "Показания и противопоказания"
   },
   "about-heading": {
     "key": "Что такое джинтропин?"

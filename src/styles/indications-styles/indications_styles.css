@@ -51,8 +51,11 @@
   background-color: #00346E;
 }
 * body .indication-screen .indication-container .button-indication {
+  width: clamp(322px, 33.5416666667vw, 1288px);
+  margin: auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-top: clamp(50px, 5.2083333333vw, 200px);
 }
 * body .indication-screen .indication-container .button-indication .protiv-indication-not {
@@ -117,7 +120,9 @@
   background-color: #2B6FF5;
 }
 * body .indication-screen .indication-container .cards-indication {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 * body .indication-screen .indication-container .cards-indication .card-content {

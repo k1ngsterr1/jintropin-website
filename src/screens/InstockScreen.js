@@ -2,6 +2,8 @@ import React from "react";
 
 import styles from "../styles/instock-styles/instock_styles.css";
 import jintropine_card from "../assets/jintropine_card.svg";
+import explosion from "../assets/Explosion_2.svg";
+import instock from "../assets/instock_arrow.svg";
 
 const InstockScreen = () => {
   return (
@@ -38,8 +40,8 @@ const InstockScreen = () => {
           </p>
         </div>
       </div>
-      <img className="deco-picture"></img>
-      <img className="arrow"></img>
+      <img className="deco-picture" src={explosion}></img>
+      <img className="arrow" src={instock}></img>
     </div>
   );
 };

@@ -15,7 +15,6 @@ import arrow from "../assets/main_arrow.svg";
 import { FaTelegramPlane } from "react-icons/fa";
 
 // Fonts
-import "../fonts/FTY_STRATEGYCIDE_NCV.ttf";
 import { Link } from "react-scroll";
 
 // Translation

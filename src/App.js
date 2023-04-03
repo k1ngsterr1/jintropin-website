@@ -19,8 +19,10 @@ import VerificationScreen from "./screens/VerificationScreen";
 import DisclaimerScreen from "./screens/DisclaimerScreen";
 import IndicationsScreen from "./screens/IndicationsScreen";
 import CompositionScreen from "./screens/CompositionScreen";
-import InStockScreen from "./screens/InstockScreen";
 import InstockScreen from "./screens/InstockScreen";
+import VideoScreen from "./screens/VideoScreen";
+import RealisationScreen from "./screens/RealisationScreen";
+import DocumentsScreen from "./screens/DocumentsScreen";
 
 const App = () => {
   const [locale, setLocale] = useState(i18n.language);
@@ -31,10 +33,13 @@ const App = () => {
       <UsefulScreen />
       <DisclaimerScreen />
       <IndicationsScreen />
-      <CompositionScreen></CompositionScreen>
-      <InstockScreen></InstockScreen>
+      <CompositionScreen />
+      <InstockScreen />
+      <VideoScreen />
+      <RealisationScreen />
       <VerificationScreen />
       <ContactScreen />
+      <DocumentsScreen />
       <Footer_Com />
     </div>
   );

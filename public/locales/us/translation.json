@@ -26,6 +26,21 @@
   "contact-button": {
     "key": "Contact with us"
   },
+  "realisation-conditions": {
+    "key": "Implementation conditions"
+  },
+  "about-drug": {
+    "key": "About the drug"
+  },
+  "document": {
+    "key": "Documents"
+  },
+  "available": {
+    "key": "Drug in stock"
+  },
+  "indications": {
+    "key": "Indications and contraindications"
+  },
   "about-heading": {
     "key": "What is jintropine"
   },

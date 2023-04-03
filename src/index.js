@@ -9,7 +9,6 @@ import { Routes, Route } from "react-router-dom";
 import MainScreen from "./screens/MainScreen";
 
 // Fonts
-import "./fonts/FTY_STRATEGYCIDE_NCV.ttf";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
 import "rc-dropdown/assets/index.css";
 

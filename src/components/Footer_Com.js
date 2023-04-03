@@ -41,15 +41,31 @@ const Footer_Com = () => {
         <nav className="footer-navigation">
           {/* <h4 className="footer-header">{t("footer-header.key")}</h4> */}
           <div className="footer-links">
-            <a className="main-link link" href="/">
+            <Link to="main-screen" smooth={true} className="main-link link">
               {t("main-link.key")}
-            </a>
+            </Link>
+            <Link to="about-jin" smooth={true} className="main-link link">
+              О препарате
+            </Link>
+            <Link
+              to="indication-screen"
+              smooth={true}
+              className="main-link link"
+            >
+              Показания и противопоказания
+            </Link>
+            <Link to="in-stock-screen" smooth={true} className="main-link link">
+              Препарат в наличии
+            </Link>
             <Link
               className="verification-link link"
               to="verification-screen"
               smooth={true}
             >
               {t("verification-link.key")}
+            </Link>
+            <Link to="document-screen" smooth={true} className="main-link link">
+              Документы
             </Link>
           </div>
         </nav>

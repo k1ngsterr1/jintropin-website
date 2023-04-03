@@ -1,14 +1,17 @@
 import React from "react";
 
+import styles from "../styles/video-styles/video_styles.css";
+
 const VideoScreen = () => {
   return (
     <div className="video-screen" id="video-screen">
       <div className="video-screen-container">
         <div className="video-screen-heading-container">
           <h3 className="v-screen-heading">Ознакомительное видео</h3>
+          <span className="separator"></span>
         </div>
         <div className="video-content">
-          <video></video>
+          <video width={792} height={523}></video>
           <div className="video-description">
             <h6 className="v-description-h">
               Lorem ipsum dolor sit amet consectetur.
@@ -16,6 +19,7 @@ const VideoScreen = () => {
             <p className="v-description-p">
               Lorem ipsum dolor sit amet consectetur. Dolor elementum mi
               consectetur hendrerit ut dui nisl. Etiam eros ipsum eu sit nibh
+              habitasse elit.
             </p>
           </div>
         </div>

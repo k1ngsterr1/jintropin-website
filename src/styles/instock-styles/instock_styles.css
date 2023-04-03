@@ -20,6 +20,21 @@
   background-color: white;
   flex-direction: column;
 }
+* body .in-stock-screen .deco-picture {
+  position: absolute;
+  width: 683.28px;
+  height: 680.74px;
+  left: 0.73px;
+  top: clamp(2998px, 312.2916666667vw, 11992px);
+  z-index: 0;
+}
+* body .in-stock-screen .arrow {
+  position: absolute;
+  width: 284.64px;
+  height: 247.94px;
+  left: 968.48px;
+  top: clamp(3116.5px, 324.6354166667vw, 12466px);
+}
 * body .in-stock-screen .in-stock-container {
   width: 86.4583333333%;
   height: auto;
@@ -51,29 +66,35 @@
   background-color: #00346E;
 }
 * body .in-stock-screen .in-stock-container .in-stock-content {
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-top: clamp(50px, 5.2083333333vw, 200px);
+  margin-bottom: clamp(50px, 5.2083333333vw, 200px);
 }
 * body .in-stock-screen .in-stock-container .in-stock-content .jintropine-card {
   width: clamp(210px, 21.875vw, 840px);
-  height: clamp(364px, 37.9166666667vw, 1456px);
+  height: clamp(352.5px, 36.71875vw, 1410px);
   background: #F4F5F8;
   border: 4px solid #C5D8FC;
   border-radius: 15px;
   display: flex;
+  z-index: 10;
   flex-direction: column;
 }
 * body .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .jintropine-image {
   width: clamp(195.39px, 20.353125vw, 781.56px);
   height: clamp(143.295px, 14.9265625vw, 573.18px);
   display: flex;
+  margin-left: clamp(7.5px, 0.78125vw, 30px);
   margin-top: clamp(7.5px, 0.78125vw, 30px);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 * body .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .card-content-jin {
   margin-left: clamp(7.5px, 0.78125vw, 30px);
   display: flex;
   flex-direction: column;
+  margin-bottom: clamp(25px, 2.6041666667vw, 100px);
 }
 * body .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .card-content-jin .growth-hormone {
   font-family: "Raleway";
@@ -116,7 +137,7 @@
   font-size: clamp(16.5px, 1.71875vw, 66px);
   color: #00346E;
   margin: auto;
-  margin-top: clamp(8px, 0.8333333333vw, 32px);
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
 }
 * body .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .card-content-jin .stock-button {
   width: clamp(170.74px, 17.7854166667vw, 682.96px);
@@ -133,4 +154,13 @@
 }
 * body .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .card-content-jin .stock-button:hover {
   background-color: #2B6FF5;
+}
+* body .in-stock-screen .in-stock-container .in-stock-content .jintropine-paragraph {
+  width: clamp(420px, 43.75vw, 1680px);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(13px, 1.3541666667vw, 52px);
+  text-align: right;
+  color: #1E1E1E;
 }/*# sourceMappingURL=instock_styles.css.map */

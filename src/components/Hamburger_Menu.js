@@ -85,7 +85,7 @@ const Hamburger_Menu = () => {
       bottom: "0",
       top: "0",
       width: "100vw",
-      height: "456.4vh",
+      height: "1337.4vh",
       position: "absolute",
       background: "rgba(0, 0, 0, 0.3)",
     },
@@ -93,13 +93,27 @@ const Hamburger_Menu = () => {
 
   return (
     <Menu right width={378} styles={styles} outerContainerId="nav-container">
-      <Link className="main-link">Главная</Link>
-      <Link className="main-link">О препарате</Link>
-      <Link className="main-link">Показания и противопоказания</Link>
-      <Link className="main-link">Препарат в наличии</Link>
-      <Link className="main-link">Проверка на подлинность</Link>
-      <Link className="main-link">Документы</Link>
-      <Link className="main-link">Условия реализации</Link>
+      <Link to="main-screen" smooth={true} className="main-link">
+        {t("link-main.key")}
+      </Link>
+      <Link to="about-jintropin" smooth={true} className="main-link">
+        {t("about-drug.key")}
+      </Link>
+      <Link to="indication-screen" smooth={true} className="main-link">
+        {t("indications.key")}
+      </Link>
+      <Link to="in-stock-screen" smooth={true} className="main-link">
+        {t("available.key")}
+      </Link>
+      <Link to="verification-screen" smooth={true} className="main-link">
+        {t("link-verification.key")}
+      </Link>
+      <Link to="document-screen" smooth={true} className="main-link">
+        {t("document.key")}
+      </Link>
+      <Link to="realisation-screen" smooth={true} className="main-link">
+        {t("realisation-conditions.key")}
+      </Link>
       <div className="languages-container">
         <span
           onClick={() => changeLanguage("ru")}
@@ -130,6 +144,8 @@ const Hamburger_Menu = () => {
       </div>
       <Link
         className="main-link"
+        to="contact-screen"
+        smooth={true}
         style={{
           "font-family": "Raleway",
           "font-style": "normal",
@@ -147,7 +163,7 @@ const Hamburger_Menu = () => {
           margin: "auto",
         }}
       >
-        Cвязаться с нами
+        {t("contact-button.key")}
       </Link>
     </Menu>
   );
