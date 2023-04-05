@@ -212,5 +212,35 @@
   },
   "recommendations-description": {
     "key": "Experts recommend taking a basic course of stimulation with Jintropin once a year for 3-6 months. The average dosage of the drug is 5 units. in a day. For a month, you need 3 packs of Jintropin 10 IU (3.33 mg) No. 5."
+  },
+  "in-stock-heading": {
+    "key": "The drug is available"
+  },
+  "growth-hormone-heading": {
+    "key": "Growth hormone"
+  },
+  "growth-hormone-10mg": {
+    "key": "Jintropin 10 IU 3.33mg"
+  },
+  "jintropine-paragraph": {
+    "key": "We offer to purchase the original drug - Jintropin with a dosage of 10 ME (3.33 mg) No. 5. The bottles are enclosed in a package made of thick moisture-resistant cardboard, on the front side of which there is a unique number for checking the product on the manufacturer's website. Each vial contains a powder that is diluted with a special solution. It is not recommended to shake the bottle before use, as this violates the structural integrity of the contents of the substance. It takes time for the powder to dissolve on its own."
+  },
+  "show-drug": {
+    "key": "View product"
+  },
+  "in-stock-text": {
+    "key": "In stock"
+  },
+  "jintropine-card-description": {
+    "key": "Each package of the drug contains 5 bottles of somatotropin 10 IU (3.33 mg), 5 ampoules with a solvent and 5 syringes. All injections are given subcutaneously. Subcutaneous injection skills required."
+  },
+  "helpful-video": {
+    "key": "Introductory video"
+  },
+  "helpful-video-box-heading": {
+    "key": "Have any questions?? "
+  },
+  "v-description-p": {
+    "key": "Then watch this video and find out why Jintropin is considered the world's most popular growth hormone used by famous athletes and show business stars!"
   }
 }

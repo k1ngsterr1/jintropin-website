@@ -2,25 +2,27 @@ import React from "react";
 
 import styles from "../styles/video-styles/video_styles.css";
 
+import { useTranslation, Trans } from "react-i18next";
+
 const VideoScreen = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="video-screen" id="video-screen">
       <div className="video-screen-container">
         <div className="video-screen-heading-container">
-          <h3 className="v-screen-heading">Ознакомительное видео</h3>
+          <h3 className="v-screen-heading">{t("helpful-video.key")}</h3>
           <span className="separator"></span>
         </div>
         <div className="video-content">
-          <video width={792} height={523}></video>
+          <video width="792" height="523">
+            <source src="https://youtu.be/wp8LbVkBx1s"></source>
+          </video>
           <div className="video-description">
             <h6 className="v-description-h">
-              Lorem ipsum dolor sit amet consectetur.
+              {t("helpful-video-box-heading.key")}
             </h6>
-            <p className="v-description-p">
-              Lorem ipsum dolor sit amet consectetur. Dolor elementum mi
-              consectetur hendrerit ut dui nisl. Etiam eros ipsum eu sit nibh
-              habitasse elit.
-            </p>
+            <p className="v-description-p">{t("v-description-p.key")}</p>
           </div>
         </div>
       </div>

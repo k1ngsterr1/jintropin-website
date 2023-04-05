@@ -78,7 +78,7 @@ const CompositionScreen = () => {
           </div>
           <div className="row-one">
             <Composition_Card_Long
-              heading={t("storage-conditions-heading.key")}
+              heading={t("storage-conditions.key")}
               description={t("storage-conditions-text.key")}
               bold={t("storage-bold-text.key")}
             ></Composition_Card_Long>
