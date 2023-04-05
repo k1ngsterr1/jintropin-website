@@ -15,9 +15,11 @@ const VideoScreen = () => {
           <span className="separator"></span>
         </div>
         <div className="video-content">
-          <video width="792" height="523">
-            <source src="https://youtu.be/wp8LbVkBx1s"></source>
-          </video>
+          <iframe
+            width="792"
+            height="523"
+            src="https://www.youtube.com/embed/wp8LbVkBx1s"
+          ></iframe>
           <div className="video-description">
             <h6 className="v-description-h">
               {t("helpful-video-box-heading.key")}
