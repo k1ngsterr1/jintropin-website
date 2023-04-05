@@ -127,7 +127,7 @@
 }
 * body .indication-screen .indication-container .cards-indication .card-content {
   width: clamp(263px, 27.3958333333vw, 1052px);
-  height: auto;
+  height: clamp(141.805px, 14.7713541667vw, 567.22px);
   display: flex;
   flex-direction: column;
   border: 3px solid #F4F5F8;
@@ -187,4 +187,51 @@
   color: #00346E;
   margin-top: clamp(16px, 1.6666666667vw, 64px);
   margin-bottom: clamp(50px, 5.2083333333vw, 200px);
+}
+
+@media screen and (max-width: 448px) {
+  .indication-screen {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: clamp(32px, 3.3333333333vw, 128px);
+    background-color: #F4F5F8;
+    margin-bottom: clamp(50px, 5.2083333333vw, 200px);
+  }
+  .indication-screen .indication-container {
+    width: 86.4583333333%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .indication-screen .indication-container .indication-heading-container {
+    width: 100%;
+    margin-top: clamp(32px, 3.3333333333vw, 128px);
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  .indication-screen .indication-container .indication-heading-container .indication-heading {
+    text-align: center;
+    font-family: "Roboto Condensed";
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(22.5px, 2.34375vw, 90px) !important;
+    text-transform: uppercase;
+    color: #00346E;
+  }
+  .indication-screen .indication-container .button-indication {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .indication-screen .indication-container .button-indication .protiv-indication-not, .indication-screen .indication-container .button-indication .indication-button-choosen {
+    width: clamp(135px, 65.2173913043vw, 540px) !important;
+    height: clamp(23.5px, 11.3526570048vw, 94px) !important;
+    font-size: clamp(10.5px, 5.0724637681vw, 42px) !important;
+  }
 }/*# sourceMappingURL=indications_styles.css.map */

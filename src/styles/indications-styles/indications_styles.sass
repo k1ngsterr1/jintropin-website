@@ -143,7 +143,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 
                     .card-content
                         width: clamp(263px,27.395833333333332vw,1052px)
-                        height: auto
+                        height: clamp(141.805px,14.771354166666667vw,567.22px)
                         display: flex
                         flex-direction: column
                         border: 3px solid #F4F5F8
@@ -203,3 +203,49 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         color: $main_blue
                         margin-top: $thirtytwoclamp
                         margin-bottom: clamp(50px,5.208333333333333vw,200px)
+
+@media screen  and (max-width: 448px)
+
+    .indication-screen
+        width: 100%
+        height: auto
+        display: flex
+        flex-direction: column
+        margin-top: $sixtyfourclamp
+        background-color: $main_cream
+        margin-bottom: clamp(50px,5.208333333333333vw,200px)
+
+        .indication-container
+            width: 86.45833333333333%
+            height: auto
+            display: flex
+            flex-direction: column
+            margin: auto
+
+            .indication-heading-container
+                width: 100%
+                margin-top: $sixtyfourclamp
+                display: flex !important
+                align-items: center !important
+                flex-direction: column !important
+
+                .indication-heading
+                    text-align: center
+                    font-family: 'Roboto Condensed'
+                    display: flex !important
+                    align-items: center !important
+                    justify-content: center !important
+                    font-style: normal
+                    font-weight: 700
+                    font-size: clamp(22.5px,2.34375vw,90px) !important
+                    text-transform: uppercase
+                    color: $main_blue
+
+            .button-indication
+                display: flex !important
+                flex-direction: column !important
+
+                .protiv-indication-not, .indication-button-choosen
+                    width: clamp(135px,65.21739130434783vw,540px) !important
+                    height: clamp(23.5px,11.352657004830919vw,94px) !important
+                    font-size: clamp(10.5px,5.072463768115942vw,42px) !important

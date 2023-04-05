@@ -49,6 +49,9 @@
   color: #00346E;
   margin-top: clamp(19px, 1.9791666667vw, 76px);
 }
+* body .muscle-card .imm-c-p, * body .power-card .imm-c-p, * body .imm-card .imm-c-p {
+  width: clamp(200px, 20.8333333333vw, 800px);
+}
 
 @media screen and (max-width: 448px) {
   .muscle-card, .power-card, .imm-card {

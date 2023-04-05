@@ -4,7 +4,11 @@ import disclaimer from "../assets/disclaimer_icon.svg";
 
 import styles from "../styles/disclaimer-styles/disclaimer_styles.css";
 
+import { useTranslation, Trans } from "react-i18next";
+
 const DisclaimerScreen = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="disclaimer-screen" id="disclaimer-screen">
       <div className="disclaimer-container">
@@ -13,14 +17,9 @@ const DisclaimerScreen = () => {
           <span className="separator"></span>
         </div>
         <div className="disclaimer-content">
-          <p className="disclaimer-paragraph">
-            Lorem ipsum dolor sit amet consectetur. Leo fringilla malesuada
-            magna et aliquam facilisis nascetur elementum bibendum. Vestibulum
-            id ridiculus laoreet volutpat. Pulvinar varius adipiscing venenatis
-            sem. Rutrum vestibulum aliquam ac velit et netus.
-          </p>
+          <p className="disclaimer-paragraph">{t("disclaimer-text.key")}</p>
           <p className="disclaimer-bold-paragraph">
-            Запрещено употреблять лиам не достигшим 21-го года
+            {t("disclaimer-text-bold.key")}
           </p>
           <img className="disclaimer-icon" src={disclaimer}></img>
         </div>

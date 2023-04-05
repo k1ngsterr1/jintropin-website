@@ -6,7 +6,7 @@
     "key": "Growth Hormone"
   },
   "description": {
-    "key": "Jintropine is supplied to more than 20 countries and is popular with athletes. All packages have anti-counterfeiting protection: the original number by which you can check the product for authenticity on the manufacturer's website. Buying jintropin - you pay for a real high-quality operating product."
+    "key": "Jintropin is successfully used by athletes all over the world. The hormone accelerates muscle growth, increases strength, endurance, strengthens the immune system. It is not recognized by existing doping tests. The packaging is protected from counterfeiting by the original number - you can easily check the authenticity of the product on the manufacturer's website. Buy a quality drug only from official representatives!."
   },
   "main-button": {
     "key": "Become spokesman"
@@ -45,7 +45,7 @@
     "key": "What is jintropine"
   },
   "about-text": {
-    "key": "The drug Jintropine® is a genetically engineered somatotropic hormone. Stimulates skeletal and somatic growth as well as has a pronounced effect on metabolic processes. Stimulates the growth of skeletal bones by acting on the plates of the epiphysis tubular bones, bone metabolism."
+    "key": "The drug Jintropin is a somatotropic hormone synthesized by genetic engineering. It stimulates the growth and development of the skeleton, muscles, accelerates metabolism."
   },
   "more-info": {
     "key": "Learn More About Product"
@@ -57,19 +57,19 @@
     "key": "Immunity"
   },
   "imm-c-p": {
-    "key": "Growth hormone is a hormone directly involved in the formation of our cells, bones and muscles. When a person reaches the age of 25, the level of growth hormone begins to decline and recovery processes are slower."
+    "key": "Growth hormone is involved in the process of cellular metabolism. After the age of 25, in all people, the production of natural growth hormone slows down, which is often accompanied by weakened immunity and loss of muscle mass. Jintropin provides reliable immune protection of the body."
   },
   "muscle-c-heading": {
     "key": "Muscle Growth"
   },
   "muscle-c-p": {
-    "key": "Growth hormone is an anabolic hormone (that is, a hormone that stimulates tissue growth) that increases the transport of certain amino acids into cells, accelerates protein synthesis."
+    "key": "Jintropin stimulates the growth of tissues and muscle fibers, improves intracellular transport of essential amino acids and accelerates protein synthesis. The power of Jin is not a joke, but a natural effect from the use of the drug!"
   },
   "power-c-heading": {
     "key": "Rejuvenation"
   },
   "power-c-p": {
-    "key": "According to research results, somatotropin is able to rejuvenate the body. The first experiment about this property of growth hormone was carried out back in the 80s. It was found that somatropin rejuvenates the body «turning back the clock.»"
+    "key": "Somatotropic hormone has a rejuvenating effect on the entire human body. As proved by a scientific experiment conducted in the 80s, Jintropin is able to «turn back the clock.»"
   },
   "contacts-heading": {
     "key": "Contact With Us"
@@ -130,5 +130,87 @@
   },
   "verification-button": {
     "key": "Verify"
+  },
+  "disclaimer-text": {
+    "key": "Use Jintropin only after consulting a specialist! Before use, please carefully study the instructions for the drug and familiarize yourself with all the indications, contraindications and side effects."
+  },
+  "disclaimer-text-bold": {
+    "key": "The drug is prohibited for use by persons under the age of 21!"
+  },
+  "disclaimer-heading": {
+    "key": "Disclaimer"
+  },
+  "indication-button": {
+    "key": "Indications"
+  },
+  "protiv-indication-button": {
+    "key": "Contraindications"
+  },
+  "instruction-text": {
+    "key": "Medical contraindications can be found in the instructions:"
+  },
+  "instruction": {
+    "key": "Instruction"
+  },
+  "first-card-heading": {
+    "key": "Increase in muscle mass"
+  },
+  "first-card-paragraph": {
+    "key": "When an athlete is faced with the task of rapidly gaining muscle mass, or losing weight by reducing the layer of subcutaneous fat."
+  },
+  "second-card-heading": {
+    "key": "Strengthening bones and joints"
+  },
+  "second-card-paragraph": {
+    "key": "Due to enhanced intracellular metabolism, Jintropin strengthens tubular, flat and mixed bones of the skeleton, articular surfaces of bones and articular bags, ligaments and tendons."
+  },
+  "third-card-heading": {
+    "key": "Recovery of the body"
+  },
+  "third-card-paragraph": {
+    "key": "Preparing and participating in competitions, any athlete endures heavy loads and experiences stress, which triggers catabolism processes."
+  },
+  "composition-heading": {
+    "key": "The composition of the drug"
+  },
+
+  "active-substance": {
+    "key": "Active substance:"
+  },
+  "active-substance-text": {
+    "key": "Somatropin 3.33 mg (10 IU)"
+  },
+  "helpful-substances": {
+    "key": "Excipients:"
+  },
+  "helpful-substances-text": {
+    "key": "Glycine, sucrose, methionine, sodium hydrogen phosphate, polysorbate-80, sodium dihydrogen phosphate monohydrate."
+  },
+  "card-description-heading": {
+    "key": "Description:"
+  },
+  "card-description-text": {
+    "key": "Lyophilizate: mass or powder of white or white color with a yellowish tinge."
+  },
+  "drug-properties": {
+    "key": "Characteristics of the drug:"
+  },
+  "drug-properties-text": {
+    "key": "Jintropin® is a recombinantly synthesized somatropin that is identical to human growth hormone."
+  },
+  "storage-conditions": {
+    "key": "Storage conditions:"
+  },
+  "storage-conditions-text": {
+    "key": "To store in the place protected from light at a temperature from 2 °C to 8 °C. Do not freeze. Store the prepared solution at a temperature of 2 °C to 8 °C for 2 weeks. Keep out of the reach of children."
+  },
+  "storage-bold-text": {
+    "key": "Storage undiluted up to 6 months"
+  },
+  "recommendations-heading": {
+    "key": "Recommended course:"
+  },
+  "recommendations-description": {
+    "key": "Experts recommend taking a basic course of stimulation with Jintropin once a year for 3-6 months. The average dosage of the drug is 5 units. in a day. For a month, you need 3 packs of Jintropin 10 IU (3.33 mg) No. 5."
   }
 }

@@ -4,7 +4,11 @@ import styles from "../styles/composition-styles/composition_styles.css";
 import line_icon from "../assets/line_icon.svg";
 import line_icon_white from "../assets/line_icon_white.svg";
 
+import { useTranslation, Trans } from "react-i18next";
+
 const CompositionScreen = () => {
+  const { t, i18n } = useTranslation();
+
   function Composition_Card(props) {
     return (
       <div className="composition-card-content">
@@ -46,41 +50,43 @@ const CompositionScreen = () => {
     <div className="composition-screen" id="composition-screen">
       <div className="composition-container">
         <div className="heading-container">
-          <h3 className="composition-heading">Состав Препарат</h3>
+          <h3 className="composition-heading">
+            {t("composition-heading.key")}
+          </h3>
           <span className="separator"></span>
         </div>
         <div className="composition-card-container">
           <div className="column-one">
             <Composition_Card
-              heading="Действующее вещество"
-              description="Соматропин 3,33 мг (10 МЕ);"
+              heading={t("active-substance.key")}
+              description={t("active-substance-text.key")}
             />
             <Composition_Card
-              heading="Вспомогательные вещества:"
-              description="Глицин, сахароза, метионин, натрия гидрофосфат, полисорбат-80, натрия дигидрофосфат моногидрат."
+              heading={t("helpful-substances.key")}
+              description={t("helpful-substances-text.key")}
             />
           </div>
           <div className="column-two">
             <Composition_Card
-              heading="Описание:"
-              description="Лиофилизат: масса или порошок белого или белого с желтоватым оттенком цвета."
+              heading={t("card-description-heading.key")}
+              description={t("card-description-text.key")}
             />
             <Composition_Card
-              heading="Характеристика препарата:"
-              description="Джинтропин® - это синтезированный с помощью рекомбинантных технологий соматропин, идентичный человеческому гормону роста."
+              heading={t("drug-properties.key")}
+              description={t("drug-properties-text.key")}
             />
           </div>
           <div className="row-one">
             <Composition_Card_Long
-              heading="Условия хранения:"
-              description="Хранить в защищенном от света месте при температуре от 2 °С до 8 °С. Не замораживать. Приготовленный раствор хранить при температуре от 2 °С до 8 °С в течение 2 недель. Хранить в недоступном для детей месте."
-              bold="Хранение в неразведенном виде до 6-ти месяцев"
+              heading={t("storage-conditions-heading.key")}
+              description={t("storage-conditions-text.key")}
+              bold={t("storage-bold-text.key")}
             ></Composition_Card_Long>
           </div>
           <div className="row-two">
             <Composition_Card_Long_Blue
-              heading="Рекомендованный курс:"
-              description="Lorem ipsum dolor sit amet consectetur. Rhoncus sagittis cras proin tincidunt. Malesuada in sagittis feugiat fermentum magna viverra sed nunc. Cursus sapien metus enim quis turpis."
+              heading={t("recommendations-heading.key")}
+              description={t("recommendations-description.key")}
             ></Composition_Card_Long_Blue>
           </div>
         </div>
