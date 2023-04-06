@@ -42,9 +42,9 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 
             .deco-picture
                 position: absolute
-                width: 683.28px
-                height: 680.74px
-                left: 0.73px
+                width: clamp(341.62px,35.58541666666667vw,1366.48px)
+                height: clamp(340.37px,35.45520833333333vw,1361.48px)
+                left: clamp(0.365px,0.03802083333333333vw,1.46px)
                 top: clamp(2998px,312.2916666666667vw, 11992px)
                 z-index: 0
 
@@ -183,3 +183,96 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         font-size: clamp(13px,1.3541666666666667vw,52px)
                         text-align: right
                         color: #1E1E1E
+
+@media screen  and (max-width: 448px)
+
+    .in-stock-screen
+        width: 100%
+        height: auto
+        display: flex
+        margin: auto
+        background-color: #F4F5F8
+        flex-direction: column
+
+        .in-stock-container
+            width: 86.45833333333333%
+            height: auto
+            display: flex !important
+            flex-direction: column !important
+            justify-content: center !important
+            align-items: center !important
+            margin: auto
+            margin-top: clamp( 50px,5.208333333333333vw,200px)
+            justify-content: space-between
+            margin-top: clamp( 50px,5.208333333333333vw,200px)
+            margin-bottom: clamp( 50px,5.208333333333333vw,200px)
+
+            .in-stock-heading-container
+                width: 100%
+                margin-top: $sixtyfourclamp
+                display: flex !important
+                align-items: center !important
+                flex-direction: column !important
+
+                .in-stock-heading
+                    font-family: 'Roboto Condensed' !important
+                    font-style: normal !important
+                    font-weight: 700 !important
+                    font-size: clamp(18px,8.411214953271028vw,72px) !important
+                    text-transform: uppercase !important
+                    color: $main_blue !important
+                    text-align: center !important
+
+            .in-stock-content
+                display: flex !important
+                flex-direction: column !important
+                align-items: center !important
+
+                .jintropine-card
+                    width: clamp(170px,87.17948717948718vw,680px) !important
+                    height: clamp(280px,143.5897435897436vw,1120px) !important
+                    display: flex !important
+                    align-items: center !important
+                    text-align: center !important
+
+                    .jintropine-image
+                        width: clamp(160px,82.05128205128206vw,620px) !important
+                        height: clamp(125px,64.1025641025641vw,500px) !important
+                        margin: auto
+                        margin-right: 0 !important
+                        margin-left: 0 !important
+                        margin-top: 0 !important
+                        margin-top: clamp(4px,2.051282051282051vw,16px) !important
+                        margin-bottom: 0 !important
+
+                    .card-content-jin
+                        margin-top: 0px !important
+
+                        .growth-hormone
+                            font-size: clamp(6px,3.076923076923077vw,24px) !important
+
+                        .card-heading
+                            font-size: clamp(11px,5.641025641025641vw,44px) !important
+
+                        .p-description
+                            font-size: clamp(7px,3.58974358974359vw,28px) !important
+
+                        .in-stock
+                            font-size: clamp(8px,4.102564102564102vw,32px) !important
+                            margin-top: clamp(8px,4.102564102564102vw,32px) !important
+
+                        .price
+                            font-size: clamp(13px,6.666666666666667vw,52px) !important
+
+                        .stock-button
+                            width: 80% !important
+                            height: clamp(20px,10.256410256410257vw,80px) !important
+                            margin-top: clamp(8px,4.102564102564102vw,32px) !important
+                            font-size: clamp(8.5px,4.358974358974359vw,34px) !important
+
+                .jintropine-paragraph
+                    width: clamp(170px,87.17948717948718vw,680px) !important
+                    text-align: center !important
+                    margin-top: clamp(16px,8.205128205128204vw,64px) !important
+                    font-size: clamp(8.25px,4.230769230769231vw,33px) !important
+                    line-height: 138% !important

@@ -22,9 +22,9 @@
 }
 * body .in-stock-screen .deco-picture {
   position: absolute;
-  width: 683.28px;
-  height: 680.74px;
-  left: 0.73px;
+  width: clamp(341.62px, 35.5854166667vw, 1366.48px);
+  height: clamp(340.37px, 35.4552083333vw, 1361.48px);
+  left: clamp(0.365px, 0.0380208333vw, 1.46px);
   top: clamp(2998px, 312.2916666667vw, 11992px);
   z-index: 0;
 }
@@ -164,4 +164,98 @@
   font-size: clamp(13px, 1.3541666667vw, 52px);
   text-align: right;
   color: #1E1E1E;
+}
+
+@media screen and (max-width: 448px) {
+  .in-stock-screen {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    background-color: #F4F5F8;
+    flex-direction: column;
+  }
+  .in-stock-screen .in-stock-container {
+    width: 86.4583333333%;
+    height: auto;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: auto;
+    margin-top: clamp(50px, 5.2083333333vw, 200px);
+    justify-content: space-between;
+    margin-top: clamp(50px, 5.2083333333vw, 200px);
+    margin-bottom: clamp(50px, 5.2083333333vw, 200px);
+  }
+  .in-stock-screen .in-stock-container .in-stock-heading-container {
+    width: 100%;
+    margin-top: clamp(32px, 3.3333333333vw, 128px);
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column !important;
+  }
+  .in-stock-screen .in-stock-container .in-stock-heading-container .in-stock-heading {
+    font-family: "Roboto Condensed" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: clamp(18px, 8.4112149533vw, 72px) !important;
+    text-transform: uppercase !important;
+    color: #00346E !important;
+    text-align: center !important;
+  }
+  .in-stock-screen .in-stock-container .in-stock-content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .in-stock-screen .in-stock-container .in-stock-content .jintropine-card {
+    width: clamp(170px, 87.1794871795vw, 680px) !important;
+    height: clamp(280px, 143.5897435897vw, 1120px) !important;
+    display: flex !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .jintropine-image {
+    width: clamp(160px, 82.0512820513vw, 620px) !important;
+    height: clamp(125px, 64.1025641026vw, 500px) !important;
+    margin: auto;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    margin-top: clamp(4px, 2.0512820513vw, 16px) !important;
+    margin-bottom: 0 !important;
+  }
+  .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .card-content-jin {
+    margin-top: 0px !important;
+  }
+  .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .card-content-jin .growth-hormone {
+    font-size: clamp(6px, 3.0769230769vw, 24px) !important;
+  }
+  .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .card-content-jin .card-heading {
+    font-size: clamp(11px, 5.641025641vw, 44px) !important;
+  }
+  .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .card-content-jin .p-description {
+    font-size: clamp(7px, 3.5897435897vw, 28px) !important;
+  }
+  .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .card-content-jin .in-stock {
+    font-size: clamp(8px, 4.1025641026vw, 32px) !important;
+    margin-top: clamp(8px, 4.1025641026vw, 32px) !important;
+  }
+  .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .card-content-jin .price {
+    font-size: clamp(13px, 6.6666666667vw, 52px) !important;
+  }
+  .in-stock-screen .in-stock-container .in-stock-content .jintropine-card .card-content-jin .stock-button {
+    width: 80% !important;
+    height: clamp(20px, 10.2564102564vw, 80px) !important;
+    margin-top: clamp(8px, 4.1025641026vw, 32px) !important;
+    font-size: clamp(8.5px, 4.358974359vw, 34px) !important;
+  }
+  .in-stock-screen .in-stock-container .in-stock-content .jintropine-paragraph {
+    width: clamp(170px, 87.1794871795vw, 680px) !important;
+    text-align: center !important;
+    margin-top: clamp(16px, 8.2051282051vw, 64px) !important;
+    font-size: clamp(8.25px, 4.2307692308vw, 33px) !important;
+    line-height: 138% !important;
+  }
 }/*# sourceMappingURL=instock_styles.css.map */
