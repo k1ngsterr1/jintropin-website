@@ -34,6 +34,7 @@
   height: clamp(123.985px, 12.9135416667vw, 495.94px);
   left: clamp(484.24px, 50.4416666667vw, 1936.96px);
   top: clamp(3166.5px, 329.84375vw, 12666px);
+  display: none !important;
 }
 * body .in-stock-screen .in-stock-container {
   width: 86.4583333333%;
@@ -174,6 +175,9 @@
     margin: auto;
     background-color: #F4F5F8;
     flex-direction: column;
+  }
+  .in-stock-screen .deco-picture {
+    display: none !important;
   }
   .in-stock-screen .in-stock-container {
     width: 86.4583333333%;

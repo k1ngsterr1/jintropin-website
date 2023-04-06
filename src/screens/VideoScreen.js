@@ -16,8 +16,7 @@ const VideoScreen = () => {
         </div>
         <div className="video-content">
           <iframe
-            width="792"
-            height="523"
+            className="youtube-video"
             src="https://www.youtube.com/embed/wp8LbVkBx1s"
           ></iframe>
           <div className="video-description">

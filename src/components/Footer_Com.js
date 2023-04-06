@@ -26,7 +26,7 @@ const Footer_Com = () => {
           <div className="contacts-container-mob">
             <FaInstagram className="instagram-mob"></FaInstagram>
             <FaTelegramPlane className="telegram-mob"></FaTelegramPlane>
-            <RxEnvelopeClosed className="envelope-mob"></RxEnvelopeClosed>
+            {/* <RxEnvelopeClosed className="envelope-mob"></RxEnvelopeClosed> */}
           </div>
         </div>
         <img className="logo-mobile" alt="logo" src={logo}></img>

@@ -73,14 +73,21 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 .video-content
                     width: 100%
                     display: flex
+                    justify-content: center
                     margin-top: clamp( 50px,5.208333333333333vw,200px)
                     margin-bottom: clamp( 50px,5.208333333333333vw,200px)
+
+                    .youtube-video
+                        width: clamp(396px,41.25vw,1584px)
+                        height: clamp(261.5px,27.239583333333332vw,1046px)
+                        border-radius: 10px
 
                     .video-description
                         width: clamp(216px,22.5vw,864px)
                         height: clamp(261.5px,27.239583333333332vw,1046px)
                         background: #588EF7
                         border-radius: 13px
+                        margin-left: $thirtytwoclamp
 
                         .v-description-h
                             width: clamp(158px,16.458333333333332vw,632px)
@@ -101,3 +108,69 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                             margin-left: $thirtytwoclamp
                             margin-top: $sixteenclamp
                             color: #1e1e1e
+
+@media screen  and (max-width: 448px)
+
+    .video-screen
+        width: 100%
+        height: auto
+        display: flex
+        margin: auto
+        background-color: #F4F5F8
+        flex-direction: column
+
+        .video-screen-container
+            width: 86.45833333333333%
+            height: auto
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            margin: auto
+            margin-top: clamp( 50px,5.208333333333333vw,200px)
+            justify-content: space-between
+
+            .video-screen-heading-container
+                width: 100%
+                margin-top: $sixtyfourclamp
+                display: flex !important
+                align-items: center !important
+                flex-direction: column !important
+
+                .v-screen-heading
+                    font-family: 'Roboto Condensed' !important
+                    font-style: normal !important
+                    font-weight: 700 !important
+                    font-size: clamp(18px,8.411214953271028vw,72px) !important
+                    text-transform: uppercase !important
+                    color: $main_blue !important
+                    text-align: center !important
+
+            .video-content
+                display: flex !important
+                flex-direction: column !important
+                align-items: center !important
+
+                .video-description
+                    width: 105% !important
+                    margin: auto !important
+                    margin-left: 0px !important
+                    margin-right: 0px !important
+                    text-align: center !important
+                    margin-top: clamp(16px,8.205128205128204vw,64px) !important
+
+                    .v-description-h
+                        width: auto !important
+                        font-size: clamp(11px,5.641025641025641vw,44px) !important
+                        margin-left: 0 !important
+
+                    .v-description-p
+                        width: clamp(150px,76.92307692307692vw,600px) !important
+                        font-size: clamp(9px,4.615384615384615vw,36px) !important
+                        margin-left: 0 !important
+                        margin-right: 0 !important
+                        margin: auto !important
+                        margin-top: clamp(8px,0.8333333333333334vw,32px) !important
+
+                .youtube-video
+                    width: clamp(175px,89.74358974358974vw,700px) !important

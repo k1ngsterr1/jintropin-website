@@ -154,6 +154,7 @@
     height: clamp(31.5px, 14.7196261682vw, 126px) !important;
     font-size: clamp(12px, 5.6074766355vw, 48px);
     margin: auto;
+    margin-top: clamp(45px, 23.0769230769vw, 180px) !important;
   }
   .main-screen .container .main-content .buttons .main-button {
     height: clamp(34px, 15.8878504673vw, 136px) !important;

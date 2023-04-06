@@ -87,3 +87,63 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         .document-photo
                             width: clamp(229px,23.854166666666668vw,916px)
                             height: clamp(399px,41.5625vw,1596px)
+
+@media screen  and (max-width: 448px)
+
+    *
+        margin: 0
+        padding: 0
+
+    body
+        width: 100%
+        height: auto
+        font-family: 'Raleway', sans-serif
+        background-color: $background !important
+        font-display: fallback
+        overflow-x: hidden !important
+
+        .document-screen
+            width: 100%
+            height: auto
+            display: flex
+            margin: auto
+            background-color: #F4F5F8
+            flex-direction: column
+
+            .document-container
+                width: 86.45833333333333%
+                height: auto
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                margin: auto
+                margin-top: clamp( 50px,5.208333333333333vw,200px)
+
+                .document-screen-content
+                    width: 100%
+                    display: flex
+
+                    .document-heading-container
+                        display: flex !important
+                        flex-direction: column !important
+
+                        .document-heading
+                            font-family: 'Roboto Condensed' !important
+                            font-style: normal !important
+                            font-weight: 700 !important
+                            font-size: clamp(18px,8.411214953271028vw,72px) !important
+                            text-transform: uppercase !important
+                            color: $main_blue !important
+                            text-align: center !important
+
+                    .documents
+                        width: auto
+                        display: flex !important
+                        flex-direction: column !important
+                        align-items: center !important
+
+                        .document-photo
+                            width: 100%
+                            height: 100%
+                            margin-top: clamp(16px,8.205128205128204vw,64px) !important
