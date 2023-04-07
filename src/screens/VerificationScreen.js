@@ -14,9 +14,7 @@ const VerificationScreen = () => {
     <div className="verification-screen" id="verification-screen">
       <div className="verification-container">
         <div className="verification-heading-container">
-          <h3 className="verification-heading">
-            {t("verification-heading.key")}
-          </h3>
+          <h3 className="verification-heading">{t("link-verification.key")}</h3>
           <span className="separator"></span>
         </div>
         <div className="verification-content">

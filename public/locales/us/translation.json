@@ -1,12 +1,15 @@
 {
   "main-heading": {
-    "key": "Jintropine - The Best"
+    "key": " Jintropine - The Best"
   },
   "hormone": {
     "key": "Growth Hormone"
   },
   "description": {
     "key": "Jintropin is successfully used by athletes all over the world. The hormone accelerates muscle growth, increases strength, endurance, strengthens the immune system. It is not recognized by existing doping tests. The packaging is protected from counterfeiting by the original number - you can easily check the authenticity of the product on the manufacturer's website. Buy a quality drug only from official representatives!."
+  },
+  "muscle-growth": {
+    "key": "Muscle growth"
   },
   "main-button": {
     "key": "Become spokesman"

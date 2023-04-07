@@ -39,7 +39,7 @@ const App = () => {
       <RealisationScreen />
       <VerificationScreen />
       <ContactScreen />
-      <DocumentsScreen />
+      {/* <DocumentsScreen /> */}
       <Footer_Com />
     </div>
   );

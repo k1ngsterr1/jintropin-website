@@ -15,9 +15,15 @@ import "rc-dropdown/assets/index.css";
 // Styles
 import "./styles/navigation-styles/navigation_styles.css";
 
+// React GA
+import ReactGA from "react-ga";
+
 // Languages
 import "./i18n";
 import MoreInfo from "./pages/MoreInfo";
+
+const TRACKING_ID = "UA-262477863-1";
+ReactGA.initialize(TRACKING_ID);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

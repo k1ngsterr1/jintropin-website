@@ -11,7 +11,7 @@ const Card_Muscle = () => {
       <div className="muscle-circle">
         <FaWeightHanging className="weight-icon"></FaWeightHanging>
       </div>
-      <h3 className="muscle-c-heading">Рост Мышц</h3>
+      <h3 className="muscle-c-heading">{t("muscle-growth.key")}</h3>
       <p className="muscle-c-p">{t("muscle-c-p.key")}</p>
     </div>
   );

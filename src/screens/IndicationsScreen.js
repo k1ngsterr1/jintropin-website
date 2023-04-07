@@ -1,5 +1,7 @@
 import React from "react";
 
+import { useState } from "react";
+
 import styles from "../styles/indications-styles/indications_styles.css";
 
 import { FiCheckCircle } from "react-icons/fi";
@@ -7,6 +9,9 @@ import { FiCheckCircle } from "react-icons/fi";
 import { useTranslation, Trans } from "react-i18next";
 
 const IndicationsScreen = () => {
+  const [indicationOn, setIndicatiOn] = useState(true);
+  const [protivIndicationOn, setProtivIndicationOn] = useState(false);
+
   const { t, i18n } = useTranslation();
 
   function Card(props) {
@@ -29,17 +34,27 @@ const IndicationsScreen = () => {
           <span className="separator"></span>
         </div>
         <div className="button-indication">
-          <button className="protiv-indication-not">
+          <button
+            className="protiv-indication-not"
+            onClick={() => setIndicatiOn(!indicationOn)}
+          >
             {t("protiv-indication-button.key")}
           </button>
-          <button className="indication-button-choosen">
+          <button
+            className="indication-button-choosen"
+            onClick={() => setIndicatiOn(true)}
+          >
             {t("indication-button.key")}
           </button>
         </div>
         <div className="cards-indication">
           <Card
             view={"icon"}
-            heading={t("first-card-heading.key")}
+            heading={
+              indicationOn
+                ? t("first-card-heading.key")
+                : t("z-first-card-heading.key")
+            }
             description={t("first-card-paragraph.key")}
           ></Card>
           <Card
@@ -55,7 +70,12 @@ const IndicationsScreen = () => {
         </div>
         <div className="medical-indication">
           <p className="medical-ind-text">{t("instruction-text.key")}</p>
-          <a className="medical-ind-link">{t("instruction.key")}</a>
+          <a
+            className="medical-ind-link"
+            href="https://instruction.tiiny.site/"
+          >
+            {t("instruction.key")}
+          </a>
         </div>
       </div>
     </div>
