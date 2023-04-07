@@ -85,7 +85,7 @@ const Hamburger_Menu = () => {
       bottom: "0",
       top: "0",
       width: "100vw",
-      height: "1337.4vh",
+      height: "1228.3vh",
       position: "absolute",
       background: "rgba(0, 0, 0, 0.3)",
     },

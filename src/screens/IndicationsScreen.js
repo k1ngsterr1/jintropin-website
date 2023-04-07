@@ -35,13 +35,21 @@ const IndicationsScreen = () => {
         </div>
         <div className="button-indication">
           <button
-            className="protiv-indication-not"
+            className={
+              indicationOn
+                ? "protiv-indication-not"
+                : "protiv-indication-choosen"
+            }
             onClick={() => setIndicatiOn(!indicationOn)}
           >
             {t("protiv-indication-button.key")}
           </button>
           <button
-            className="indication-button-choosen"
+            className={
+              indicationOn
+                ? "indication-button-choosen"
+                : "indication-button-not"
+            }
             onClick={() => setIndicatiOn(true)}
           >
             {t("indication-button.key")}
@@ -53,25 +61,47 @@ const IndicationsScreen = () => {
             heading={
               indicationOn
                 ? t("first-card-heading.key")
-                : t("z-first-card-heading.key")
+                : t("p-first-card-heading.key")
             }
-            description={t("first-card-paragraph.key")}
+            description={
+              indicationOn
+                ? t("first-card-paragraph.key")
+                : t("p-first-card-paragraph.key")
+            }
           ></Card>
           <Card
             view={"icon"}
-            heading={t("second-card-heading.key")}
-            description={t("second-card-paragraph.key")}
+            heading={
+              indicationOn
+                ? t("second-card-heading.key")
+                : t("p-second-card-heading.key")
+            }
+            description={
+              indicationOn
+                ? t("second-card-paragraph.key")
+                : t("p-second-card-paragraph.key")
+            }
           ></Card>
           <Card
             view={"icon"}
-            heading={t("third-card-heading.key")}
-            description={t("third-card-paragraph.key")}
+            heading={
+              indicationOn
+                ? t("third-card-heading.key")
+                : t("p-third-card-heading.key")
+            }
+            description={
+              indicationOn
+                ? t("third-card-paragraph.key")
+                : t("p-third-card-paragraph.key")
+            }
           ></Card>
         </div>
         <div className="medical-indication">
           <p className="medical-ind-text">{t("instruction-text.key")}</p>
           <a
             className="medical-ind-link"
+            blank_
+            target="_blank"
             href="https://instruction.tiiny.site/"
           >
             {t("instruction.key")}

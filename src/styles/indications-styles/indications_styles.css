@@ -66,8 +66,8 @@
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 500;
+  background: transparent;
   font-size: clamp(12px, 1.25vw, 48px);
-  background-color: transparent;
   color: #588EF7;
 }
 * body .indication-screen .indication-container .button-indication .protiv-indication-not:hover {
@@ -97,6 +97,7 @@
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 500;
+  background: transparent;
   font-size: clamp(12px, 1.25vw, 48px);
   color: #588EF7;
 }
