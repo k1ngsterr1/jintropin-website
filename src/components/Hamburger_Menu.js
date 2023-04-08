@@ -35,17 +35,17 @@ const Hamburger_Menu = () => {
       background: "#1f1f1f",
     },
     bmCrossButton: {
-      height: "36px",
-      width: "36px",
-      left: "315px",
-      right: "24px",
-      top: "31px",
+      height: "clamp(18px,1.875vw,72px)",
+      width: "clamp(18px,1.875vw,72px)",
+      left: "clamp(150px,15.625vw,600px)",
+      right: "clamp(32px,3.3333333333333335vw,128px)",
+      top: "clamp(10px,1.0416666666666667vw,40px)",
       bottom: "0",
     },
     bmCross: {
       background: "#588EF7",
       width: "3px",
-      height: "27px",
+      height: "clamp(13.5px,1.40625vw,54px)",
     },
     bmMenuWrap: {
       position: "fixed",
@@ -85,14 +85,19 @@ const Hamburger_Menu = () => {
       bottom: "0",
       top: "0",
       width: "100vw",
-      height: "1228.3vh",
+      height: "clamp(5666.3px,590.2395833333334vw,22665.2px)",
       position: "absolute",
       background: "rgba(0, 0, 0, 0.3)",
     },
   };
 
   return (
-    <Menu right width={378} styles={styles} outerContainerId="nav-container">
+    <Menu
+      right
+      width={"clamp(189px,19.6875vw,756px)"}
+      styles={styles}
+      outerContainerId="nav-container"
+    >
       <Link to="main-screen" smooth={true} className="main-link">
         {t("link-main.key")}
       </Link>

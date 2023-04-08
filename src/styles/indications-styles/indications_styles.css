@@ -227,12 +227,12 @@
     display: flex !important;
     flex-direction: column !important;
   }
-  .indication-screen .indication-container .button-indication .protiv-indication-not, .indication-screen .indication-container .button-indication .indication-button-choosen {
+  .indication-screen .indication-container .button-indication .protiv-indication-not, .indication-screen .indication-container .button-indication .indication-button-choosen, .indication-screen .indication-container .button-indication .protiv-indication-choosen, .indication-screen .indication-container .button-indication .indication-button-not {
     width: clamp(135px, 65.2173913043vw, 540px) !important;
     height: clamp(23.5px, 11.3526570048vw, 94px) !important;
     font-size: clamp(10.5px, 5.0724637681vw, 42px) !important;
   }
-  .indication-screen .indication-container .button-indication .indication-button-choosen {
+  .indication-screen .indication-container .button-indication .indication-button-choosen, .indication-screen .indication-container .button-indication .indication-button-not {
     margin-top: clamp(16px, 8.2051282051vw, 64px) !important;
   }
   .indication-screen .indication-container .cards-indication {

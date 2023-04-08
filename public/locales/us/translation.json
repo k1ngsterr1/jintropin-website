@@ -161,17 +161,35 @@
   "first-card-paragraph": {
     "key": "When an athlete is faced with the task of rapidly gaining muscle mass, or losing weight by reducing the layer of subcutaneous fat."
   },
+  "p-first-card-heading": {
+    "key": "Intolerance"
+  },
+  "p-first-card-paragraph": {
+    "key": "Individual intolerance to growth hormone, the occurrence of allergic reactions to the components of the drug;"
+  },
   "second-card-heading": {
     "key": "Strengthening bones and joints"
   },
   "second-card-paragraph": {
     "key": "Due to enhanced intracellular metabolism, Jintropin strengthens tubular, flat and mixed bones of the skeleton, articular surfaces of bones and articular bags, ligaments and tendons."
   },
+  "p-second-card-heading": {
+    "key": "Diseases and pregnancy"
+  },
+  "p-second-card-paragraph": {
+    "key": "Tumor diseases in the active phase; Pregnancy and lactation"
+  },
   "third-card-heading": {
     "key": "Recovery of the body"
   },
   "third-card-paragraph": {
     "key": "Preparing and participating in competitions, any athlete endures heavy loads and experiences stress, which triggers catabolism processes."
+  },
+  "p-third-card-heading": {
+    "key": "Postoperative period"
+  },
+  "p-third-card-paragraph": {
+    "key": "The drug should be used very carefully in patients with diabetes mellitus, intracranial hypertension, hypothyroidism."
   },
   "composition-heading": {
     "key": "The composition of the drug"
