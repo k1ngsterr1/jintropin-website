@@ -45,17 +45,17 @@ const Footer_Com = () => {
               {t("main-link.key")}
             </Link>
             <Link to="about-jin" smooth={true} className="main-link link">
-              О препарате
+              {t("about-drug.key")}
             </Link>
             <Link
               to="indication-screen"
               smooth={true}
               className="main-link link"
             >
-              Показания и противопоказания
+              {t("indications.key")}
             </Link>
             <Link to="in-stock-screen" smooth={true} className="main-link link">
-              Препарат в наличии
+              {t("available.key")}
             </Link>
             <Link
               className="verification-link link"
@@ -65,7 +65,7 @@ const Footer_Com = () => {
               {t("verification-link.key")}
             </Link>
             <Link to="document-screen" smooth={true} className="main-link link">
-              Документы
+              {t("document.key")}
             </Link>
           </div>
         </nav>
