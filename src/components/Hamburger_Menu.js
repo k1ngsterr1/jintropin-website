@@ -58,6 +58,7 @@ const Hamburger_Menu = () => {
       fontSize: "1.15em",
       overflowX: "hidden",
       overflowY: "hidden",
+      boxShadow: "0px 0px 37px 15px rgba(0, 0, 0, 0.25)",
     },
     bmMorphShape: {
       fill: "#373a47",
@@ -79,16 +80,16 @@ const Hamburger_Menu = () => {
       display: "inline-block",
       marginTop: "clamp(12px,1.25vw,48px)",
     },
-    bmOverlay: {
-      left: "0",
-      right: "0",
-      bottom: "0",
-      top: "0",
-      width: "100vw",
-      height: "clamp(5666.3px,590.2395833333334vw,22665.2px)",
-      position: "absolute",
-      background: "rgba(0, 0, 0, 0.3)",
-    },
+    // bmOverlay: {
+    //   left: "0",
+    //   right: "0",
+    //   bottom: "0",
+    //   top: "0",
+    //   width: "100vw",
+    //   height: "clamp(5666.3px,590.2395833333334vw,22665.2px)",
+    //   position: "absolute",
+    //   background: "rgba(0, 0, 0, 0.3)",
+    // },
   };
 
   return (
