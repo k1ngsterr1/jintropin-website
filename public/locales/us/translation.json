@@ -281,5 +281,17 @@
   },
   "realisation-three-text": {
     "key": "We have paid delivery in the cities of Kazakhstan and around the world. Across Almaty - same day delivery; Across Kazakhstan - within 1-3 days; Across Russia - within 3-7 days; Delivery time to other countries from 7 to 14 days."
+  },
+  "almaty": {
+    "key": "In Almaty - same day delivery;"
+  },
+  "kazakhstan": {
+    "key": "In Kazakhstan - within 1-3 days"
+  },
+  "russia": {
+    "key": "In Russia - within 3-7 days"
+  },
+  "world": {
+    "key": "Delivery time to other countries from 7 to 14 days."
   }
 }

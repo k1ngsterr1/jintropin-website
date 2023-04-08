@@ -52,6 +52,19 @@ const RealisationScreen = () => {
               </h6>
               <p className="realisation-paragraph-3">
                 {t("realisation-three-text.key")}
+                <br />
+                <br />
+                {t("almaty.key")}
+                <br />
+                <br />
+                {t("kazakhstan.key")}
+                <br />
+                <br />
+                {t("russia.key")}
+                <br />
+                <br />
+                {t("world.key")}
+                <br />
               </p>
             </div>
           </div>
