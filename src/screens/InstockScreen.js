@@ -30,7 +30,13 @@ const InstockScreen = () => {
               </p>
               <p className="in-stock">{t("in-stock-text.key")}</p>
               <p className="price">65.000₸</p>
-              <button className="stock-button">{t("show-drug.key")}</button>
+              <a
+                className="stock-button"
+                href="https://t.me/Jintropine_Bot"
+                target="_blank"
+              >
+                {t("show-drug.key")}
+              </a>
             </div>
           </div>
           <p className="jintropine-paragraph">

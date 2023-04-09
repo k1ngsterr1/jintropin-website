@@ -23,6 +23,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 *
 
     body
+        overflow-x: hidden !important
 
         .nav-container
             width: 100%
@@ -108,6 +109,9 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
             .nav-mob
                 display: none
 
+                .for-burger-menu
+                    display: none
+
 @media screen  and (max-width: 448px)
 
     *
@@ -124,7 +128,8 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 width: 86.45833333333333%
                 height: auto
                 margin: auto
-                display: none
+                border: 2px solid red !important
+                display: none !important
                 justify-content: space-between
                 align-items: center
 
@@ -169,10 +174,16 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         text-align: center !important
                         position: absolute !important
 
-                        .main-link-mobile, .verification-mobile-link, .contact-with-us-mob
+                        .main-link-mobile, .verification-mobile-link, .contact-with-us-mob, .indication-mob, .available-mob, .document-mob, .realisation-conditions-mob
                             font-size: clamp(10px,4.672897196261682vw,40px)
                             color: $main_blue
                             text-decoration: none
+
+                        .indication-mob
+                            margin-top: clamp(14.5px,6.775700934579439vw,58px) !important
+
+                        .available-mob, .document-mob, .realisation-conditions-mob
+                            margin-top: clamp(14.5px,6.775700934579439vw,58px) !important
 
                         .main-link-mobile
                             margin-top: clamp(14.5px,6.775700934579439vw,58px) !important

@@ -23,6 +23,22 @@ const Nav_Links = () => {
       >
         {t("verification-link.key")}
       </Link>
+      <Link to="contact-screen" smooth={true} className="indication-mob">
+        {t("indications.key")}
+      </Link>
+      <Link to="contact-screen" smooth={true} className="available-mob">
+        {t("available.key")}
+      </Link>
+      <Link to="contact-screen" smooth={true} className="document-mob">
+        {t("document.key")}
+      </Link>
+      <Link
+        to="contact-screen"
+        smooth={true}
+        className="realisation-conditions-mob"
+      >
+        {t("realisation-conditions.key")}
+      </Link>
       <Link to="contact-screen" smooth={true} className="contact-with-us-mob">
         {t("contact-button.key")}
       </Link>

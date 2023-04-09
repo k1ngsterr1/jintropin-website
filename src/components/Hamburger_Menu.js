@@ -41,6 +41,7 @@ const Hamburger_Menu = () => {
       right: "clamp(32px,3.3333333333333335vw,128px)",
       top: "clamp(10px,1.0416666666666667vw,40px)",
       bottom: "0",
+      overflowX: "hidden",
     },
     bmCross: {
       background: "#588EF7",
@@ -75,6 +76,7 @@ const Hamburger_Menu = () => {
       fontSize: "clamp(9.25px,0.9635416666666666vw,37px)",
       textAlign: "left",
       color: "#00346E",
+      overflowX: "hidden",
     },
     bmItem: {
       display: "inline-block",
@@ -95,6 +97,7 @@ const Hamburger_Menu = () => {
   return (
     <Menu
       right
+      className="hamburger-menu-mob"
       width={"clamp(189px,19.6875vw,756px)"}
       styles={styles}
       outerContainerId="nav-container"

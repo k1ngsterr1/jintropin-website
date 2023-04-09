@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
 }
-* body {
+* html, * body {
   width: 100%;
   height: 100%;
   font-family: "Raleway", sans-serif;
@@ -12,33 +12,33 @@
   font-display: fallback;
   overflow-x: hidden !important;
 }
-* body button, * body a {
+* html button, * html a, * body button, * body a {
   cursor: pointer;
   transition: 0.3s all;
   border: none;
 }
-* body .main-screen {
+* html .main-screen, * body .main-screen {
   width: 100%;
   height: auto;
   display: flex;
   margin: auto;
   flex-direction: column;
 }
-* body .main-screen .arrow-blue {
+* html .main-screen .arrow-blue, * body .main-screen .arrow-blue {
   position: absolute;
   width: clamp(97.5px, 10.15625vw, 390px);
   height: clamp(120.5px, 12.5520833333vw, 482px);
   left: clamp(418.115px, 43.5536458333vw, 1672.46px);
   top: clamp(243.5px, 25.3645833333vw, 974px);
 }
-* body .main-screen .separator {
+* html .main-screen .separator, * body .main-screen .separator {
   width: 86.4583333333%;
   height: 1px;
   background-color: #00346E;
   margin: auto;
   margin-top: clamp(16px, 1.6666666667vw, 64px);
 }
-* body .main-screen .container {
+* html .main-screen .container, * body .main-screen .container {
   width: 86.4583333333%;
   height: auto;
   display: flex;
@@ -46,11 +46,11 @@
   margin-top: clamp(50px, 5.2083333333vw, 200px);
   justify-content: space-between;
 }
-* body .main-screen .container .proto-photo {
+* html .main-screen .container .proto-photo, * body .main-screen .container .proto-photo {
   width: clamp(319.5px, 33.28125vw, 1278px);
   height: clamp(249.795px, 26.0203125vw, 999.18px);
 }
-* body .main-screen .container .main-heading {
+* html .main-screen .container .main-heading, * body .main-screen .container .main-heading {
   width: clamp(350px, 36.4583333333vw, 1400px);
   height: clamp(80px, 8.3333333333vw, 320px);
   font-family: "Roboto Condensed";
@@ -59,10 +59,10 @@
   font-size: clamp(32.5px, 3.3854166667vw, 130px);
   color: #1e1e1e;
 }
-* body .main-screen .container .main-heading .hormone {
+* html .main-screen .container .main-heading .hormone, * body .main-screen .container .main-heading .hormone {
   color: #588EF7;
 }
-* body .main-screen .container .description {
+* html .main-screen .container .description, * body .main-screen .container .description {
   width: clamp(323px, 33.6458333333vw, 1292px);
   height: clamp(54px, 5.625vw, 216px);
   font-family: "Raleway";
@@ -73,13 +73,13 @@
   margin-top: clamp(16px, 1.6666666667vw, 64px);
   color: #1e1e1e;
 }
-* body .main-screen .container .buttons {
+* html .main-screen .container .buttons, * body .main-screen .container .buttons {
   width: auto;
   height: auto;
   display: flex;
   margin-top: clamp(42.5px, 4.4270833333vw, 170px);
 }
-* body .main-screen .container .buttons .main-button {
+* html .main-screen .container .buttons .main-button, * body .main-screen .container .buttons .main-button {
   width: clamp(203.5px, 21.1979166667vw, 814px);
   height: clamp(32px, 3.3333333333vw, 128px);
   text-decoration: none !important;
@@ -96,10 +96,10 @@
   font-size: clamp(13px, 1.3541666667vw, 52px);
   margin-top: clamp(32px, 3.3333333333vw, 128px);
 }
-* body .main-screen .container .buttons .main-button:hover {
+* html .main-screen .container .buttons .main-button:hover, * body .main-screen .container .buttons .main-button:hover {
   background-color: #2B6FF5;
 }
-* body .main-screen .container .buttons .main-button .telegram-icon {
+* html .main-screen .container .buttons .main-button .telegram-icon, * body .main-screen .container .buttons .main-button .telegram-icon {
   margin-right: clamp(6px, 0.625vw, 24px);
 }
 

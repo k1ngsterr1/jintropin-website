@@ -232,12 +232,14 @@
     text-align: center !important;
   }
   .composition-screen .composition-container .composition-card-container {
+    width: auto !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
   }
   .composition-screen .composition-container .composition-card-container .column-one {
+    width: auto !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
