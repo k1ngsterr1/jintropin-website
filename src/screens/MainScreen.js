@@ -8,7 +8,7 @@ import Navigation_Com_Two from "../components/Navigation_Com_Two";
 import styles from "../styles/main-screen-styles/main_screen.css";
 
 // Assets
-import photo from "../assets/New_Main_Photo.svg";
+import photo from "../assets/main-man.png";
 import arrow from "../assets/main_arrow.svg";
 
 // Icons

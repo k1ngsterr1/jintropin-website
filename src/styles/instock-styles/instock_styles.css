@@ -4,14 +4,6 @@
   margin: 0;
   padding: 0;
 }
-* body {
-  width: 100%;
-  height: auto;
-  font-family: "Raleway", sans-serif;
-  background-color: white !important;
-  font-display: fallback;
-  overflow-x: hidden !important;
-}
 * body .in-stock-screen {
   width: 100%;
   height: auto;

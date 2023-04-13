@@ -28,7 +28,6 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
         width: 100%
         height: auto
         font-family: 'Raleway', sans-serif
-        background-color: $background !important
         font-display: fallback
         overflow-x: hidden !important
 
@@ -83,6 +82,10 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                     .realisation-row-1, .realisation-row-2, .realisation-row-3
                         width: 100%
                         display: flex
+                        flex-direction: column
+                        align-items: center
+                        justify-content: center
+                        text-align: center
                         justify-content: space-between
 
                         .realisation-img-1, .realisation-img-2, .realisation-img-3
@@ -103,8 +106,9 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                             display: flex
                             flex-direction: column
 
-                        .realisation-text-1, .realisation-heading-1, .realisation-text-3, .realisation-heading-3
-                            text-align: right
+                        .realisation-text-1, .realisation-heading-1, .realisation-text-3, .realisation-heading-3, .realisation-text-2, .realisation-heading-2
+                            margin-top: clamp(16px,1.6666666666666667vw,64px)
+                            text-align: center
 
                         .realisation-paragraph-1, .realisation-paragraph-2, .realisation-paragraph-3
                             width: clamp(246.5px,25.677083333333332vw,986px)

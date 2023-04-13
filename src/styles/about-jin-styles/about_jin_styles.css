@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 * body button, * body a {
@@ -9,16 +10,15 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  margin-top: clamp(32px, 3.3333333333vw, 128px);
-  background-color: #F4F5F8;
-  margin-bottom: clamp(50px, 5.2083333333vw, 200px);
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
+  background-color: white;
 }
 * body .about-jin .about-arrow {
   position: absolute;
   width: clamp(143px, 14.8958333333vw, 572px);
   height: clamp(108px, 11.25vw, 432px);
-  left: clamp(415px, 43.2291666667vw, 1660px);
-  top: clamp(600.22px, 62.5229166667vw, 2400.88px);
+  left: 1030px;
+  top: clamp(700px, 72.9166666667vw, 2800px);
 }
 * body .about-jin .about-jin-container {
   width: 86.4583333333%;
@@ -28,10 +28,10 @@
   margin: auto;
 }
 * body .about-jin .about-jin-container .about-proto {
-  width: clamp(319.5px, 33.28125vw, 1278px);
-  height: clamp(318.595px, 33.2276041667vw, 1274.38px);
-  left: clamp(16px, 1.6666666667vw, 64px);
-  top: clamp(530.5px, 55.2604166667vw, 2122px);
+  width: clamp(217px, 22.6041666667vw, 868px);
+  height: clamp(377px, 39.2708333333vw, 1508px);
+  position: sticky;
+  margin-left: clamp(-100px, -10.4166666667vw, -400px);
 }
 * body .about-jin .about-jin-container .about-heading-container {
   margin: auto;
@@ -41,10 +41,10 @@
   flex-direction: column;
 }
 * body .about-jin .about-jin-container .about-heading-container .about-heading {
-  font-family: "Roboto Condensed";
+  font-family: "Unbounded";
   font-style: normal;
   font-weight: 700;
-  font-size: clamp(22.5px, 2.34375vw, 90px);
+  font-size: clamp(19px, 1.9791666667vw, 76px);
   text-transform: uppercase;
   color: #00346E;
 }

@@ -5,7 +5,7 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #022B6B;
 }
 * body .useful-fin .useful-container {
   width: 86.4583333333%;
@@ -23,12 +23,12 @@
   margin-top: clamp(32px, 3.3333333333vw, 128px);
 }
 * body .useful-fin .useful-container .useful-heading-container .useful-heading {
-  font-family: "Roboto Condensed";
+  font-family: "Unbounded";
   font-style: normal;
   font-weight: 700;
-  font-size: clamp(22.5px, 2.34375vw, 90px);
+  font-size: clamp(19px, 1.9791666667vw, 76px);
   text-transform: uppercase;
-  color: #00346E;
+  color: #FCEE03;
 }
 * body .useful-fin .useful-container .useful-heading-container .separator {
   width: clamp(174.5px, 18.1770833333vw, 698px);

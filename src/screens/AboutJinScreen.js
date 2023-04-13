@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next";
 import "../styles/about-jin-styles/about_jin_styles.css";
 
 // About
-import prototype from "../assets/about_new_photo.svg";
+import prototype from "../assets/girl-about.png";
 import arrow from "../assets/about_arrow.svg";
 
 const AboutJinScreen = () => {

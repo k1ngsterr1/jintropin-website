@@ -34,6 +34,15 @@ const RealisationScreen = () => {
           </div>
           <div className="realisation-row-2">
             <img className="realisation-img-2-mob" src={cart}></img>
+            {/* <div className="realisation-text-2">
+              <h6 className="realisation-heading-2">
+                {t("realisation-two.key")}
+              </h6>
+              <p className="realisation-paragraph-2">
+                {t("realisation-two-text.key")}
+              </p>
+            </div> */}
+            <img className="realisation-img-2" src={cart}></img>
             <div className="realisation-text-2">
               <h6 className="realisation-heading-2">
                 {t("realisation-two.key")}
@@ -42,7 +51,6 @@ const RealisationScreen = () => {
                 {t("realisation-two-text.key")}
               </p>
             </div>
-            <img className="realisation-img-2" src={cart}></img>
           </div>
           <div className="realisation-row-3">
             <img className="realisation-img-3" src={world}></img>

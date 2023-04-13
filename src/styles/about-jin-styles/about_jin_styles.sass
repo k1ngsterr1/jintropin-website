@@ -17,6 +17,7 @@ $onetwoeightclamp: clamp(64px,6.666666666666667vw,256px)
 $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 
 // Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap')
 
@@ -33,16 +34,16 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
             height: auto
             display: flex
             flex-direction: column
-            margin-top: $sixtyfourclamp
-            background-color: $main_cream
-            margin-bottom: clamp(50px,5.208333333333333vw,200px)
+            margin-top: $thirtytwoclamp
+            background-color: $background
+            // margin-bottom: clamp(50px,5.208333333333333vw,200px)
 
             .about-arrow
                 position: absolute
                 width: clamp(143px,14.895833333333334vw,572px)
                 height: clamp(108px,11.25vw,432px)
-                left: clamp(415px,43.229166666666664vw,1660px)
-                top: clamp(600.22px,62.52291666666667vw,2400.88px)
+                left: 1030px
+                top: clamp(700px,72.91666666666667vw,2800px)
 
             .about-jin-container
                 width: 86.45833333333333%
@@ -52,10 +53,10 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 margin: auto
 
                 .about-proto
-                    width: clamp(319.5px,33.28125vw,1278px)
-                    height: clamp(318.595px,33.227604166666666vw,1274.38px)
-                    left: clamp(16px,1.6666666666666667vw,64px)
-                    top: clamp(530.5px,55.260416666666664vw,2122px)
+                    width: clamp(217px,22.604166666666668vw,868px)
+                    height: clamp(377px,39.270833333333336vw,1508px)
+                    position: sticky
+                    margin-left: clamp(-100px,-10.416666666666666vw, -400px)
 
                 .about-heading-container
                     margin: auto
@@ -65,10 +66,10 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                     flex-direction: column
 
                     .about-heading
-                        font-family: 'Roboto Condensed'
+                        font-family: 'Unbounded'
                         font-style: normal
                         font-weight: 700
-                        font-size: clamp(22.5px,2.34375vw,90px)
+                        font-size: clamp(19px, 1.9791666666666667vw,76px)
                         text-transform: uppercase
                         color: $main_blue
 

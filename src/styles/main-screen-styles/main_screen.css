@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 * {
@@ -7,8 +8,7 @@
 * html, * body {
   width: 100%;
   height: 100%;
-  font-family: "Raleway", sans-serif;
-  background-color: white !important;
+  font-family: "Unbounded", sans-serif;
   font-display: fallback;
   overflow-x: hidden !important;
 }
@@ -20,23 +20,17 @@
 * html .main-screen, * body .main-screen {
   width: 100%;
   height: auto;
+  background: #022B6B;
   display: flex;
   margin: auto;
   flex-direction: column;
 }
 * html .main-screen .arrow-blue, * body .main-screen .arrow-blue {
   position: absolute;
-  width: clamp(97.5px, 10.15625vw, 390px);
-  height: clamp(120.5px, 12.5520833333vw, 482px);
+  width: clamp(147.5px, 15.3645833333vw, 590px);
+  height: clamp(150px, 15.625vw, 600px);
   left: clamp(418.115px, 43.5536458333vw, 1672.46px);
   top: clamp(243.5px, 25.3645833333vw, 974px);
-}
-* html .main-screen .separator, * body .main-screen .separator {
-  width: 86.4583333333%;
-  height: 1px;
-  background-color: #00346E;
-  margin: auto;
-  margin-top: clamp(16px, 1.6666666667vw, 64px);
 }
 * html .main-screen .container, * body .main-screen .container {
   width: 86.4583333333%;
@@ -47,37 +41,39 @@
   justify-content: space-between;
 }
 * html .main-screen .container .proto-photo, * body .main-screen .container .proto-photo {
-  width: clamp(319.5px, 33.28125vw, 1278px);
-  height: clamp(249.795px, 26.0203125vw, 999.18px);
+  width: clamp(533.5px, 55.5729166667vw, 2134px);
+  height: clamp(385px, 40.1041666667vw, 1540px);
+  position: sticky;
+  left: clamp(550px, 57.2916666667vw, 2200px);
+  margin-top: -90px;
 }
 * html .main-screen .container .main-heading, * body .main-screen .container .main-heading {
-  width: clamp(350px, 36.4583333333vw, 1400px);
+  width: clamp(500px, 52.0833333333vw, 2000px);
   height: clamp(80px, 8.3333333333vw, 320px);
-  font-family: "Roboto Condensed";
+  font-family: "Unbounded";
   font-style: normal;
   font-weight: 700;
   font-size: clamp(32.5px, 3.3854166667vw, 130px);
-  color: #1e1e1e;
+  color: white;
 }
 * html .main-screen .container .main-heading .hormone, * body .main-screen .container .main-heading .hormone {
-  color: #588EF7;
+  color: #FCEE03;
 }
 * html .main-screen .container .description, * body .main-screen .container .description {
   width: clamp(323px, 33.6458333333vw, 1292px);
-  height: clamp(54px, 5.625vw, 216px);
-  font-family: "Raleway";
+  height: auto;
+  font-family: "Unbounded";
   font-style: normal;
-  font-weight: 400;
-  font-size: clamp(11.5px, 1.1979166667vw, 46px);
-  font-size: clamp(11.5px, 1.1979166667vw, 46px);
-  margin-top: clamp(16px, 1.6666666667vw, 64px);
-  color: #1e1e1e;
+  font-weight: 300;
+  line-height: 152%;
+  font-size: clamp(9.5px, 0.9895833333vw, 38px);
+  margin-top: clamp(22px, 2.2916666667vw, 88px);
+  color: white;
 }
 * html .main-screen .container .buttons, * body .main-screen .container .buttons {
   width: auto;
   height: auto;
   display: flex;
-  margin-top: clamp(42.5px, 4.4270833333vw, 170px);
 }
 * html .main-screen .container .buttons .main-button, * body .main-screen .container .buttons .main-button {
   width: clamp(203.5px, 21.1979166667vw, 814px);
@@ -94,7 +90,7 @@
   font-family: "Roboto Condensed";
   font-style: normal;
   font-size: clamp(13px, 1.3541666667vw, 52px);
-  margin-top: clamp(32px, 3.3333333333vw, 128px);
+  margin-top: clamp(22px, 2.2916666667vw, 88px);
 }
 * html .main-screen .container .buttons .main-button:hover, * body .main-screen .container .buttons .main-button:hover {
   background-color: #2B6FF5;
