@@ -16,7 +16,7 @@
   height: auto;
   display: flex;
   margin: auto;
-  background-color: white;
+  background-color: #022B6B;
   flex-direction: column;
 }
 * body .realisation-screen .realisation-container {
@@ -36,18 +36,18 @@
   align-items: center;
 }
 * body .realisation-screen .realisation-container .realisation-heading-container .realisation-heading {
-  font-family: "Roboto Condensed";
+  font-family: "Unbounded";
   font-style: normal;
   font-weight: 700;
-  font-size: clamp(22.5px, 2.34375vw, 90px);
+  font-size: clamp(19px, 1.9791666667vw, 76px);
   text-transform: uppercase;
-  color: #00346E;
+  color: #FFF200;
 }
 * body .realisation-screen .realisation-container .realisation-heading-container .separator {
   width: clamp(174.5px, 18.1770833333vw, 698px);
   height: 1px;
   margin-top: clamp(8px, 0.8333333333vw, 32px);
-  background-color: #00346E;
+  background-color: #FFF200;
 }
 * body .realisation-screen .realisation-container .realisation-content {
   width: 100%;
@@ -76,11 +76,11 @@
   display: none !important;
 }
 * body .realisation-screen .realisation-container .realisation-content .realisation-row-1 .realisation-heading-1, * body .realisation-screen .realisation-container .realisation-content .realisation-row-1 .realisation-heading-2, * body .realisation-screen .realisation-container .realisation-content .realisation-row-1 .realisation-heading-3, * body .realisation-screen .realisation-container .realisation-content .realisation-row-2 .realisation-heading-1, * body .realisation-screen .realisation-container .realisation-content .realisation-row-2 .realisation-heading-2, * body .realisation-screen .realisation-container .realisation-content .realisation-row-2 .realisation-heading-3, * body .realisation-screen .realisation-container .realisation-content .realisation-row-3 .realisation-heading-1, * body .realisation-screen .realisation-container .realisation-content .realisation-row-3 .realisation-heading-2, * body .realisation-screen .realisation-container .realisation-content .realisation-row-3 .realisation-heading-3 {
-  font-family: "Roboto Condensed";
+  font-family: "Unbounded";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: clamp(18.5px, 1.9270833333vw, 74px);
-  color: #588EF7;
+  color: #FFF200;
 }
 * body .realisation-screen .realisation-container .realisation-content .realisation-row-1 .realisation-text-1, * body .realisation-screen .realisation-container .realisation-content .realisation-row-1 .realisation-text-2, * body .realisation-screen .realisation-container .realisation-content .realisation-row-1 .realisation-text-3, * body .realisation-screen .realisation-container .realisation-content .realisation-row-2 .realisation-text-1, * body .realisation-screen .realisation-container .realisation-content .realisation-row-2 .realisation-text-2, * body .realisation-screen .realisation-container .realisation-content .realisation-row-2 .realisation-text-3, * body .realisation-screen .realisation-container .realisation-content .realisation-row-3 .realisation-text-1, * body .realisation-screen .realisation-container .realisation-content .realisation-row-3 .realisation-text-2, * body .realisation-screen .realisation-container .realisation-content .realisation-row-3 .realisation-text-3 {
   display: flex;
@@ -92,9 +92,11 @@
 }
 * body .realisation-screen .realisation-container .realisation-content .realisation-row-1 .realisation-paragraph-1, * body .realisation-screen .realisation-container .realisation-content .realisation-row-1 .realisation-paragraph-2, * body .realisation-screen .realisation-container .realisation-content .realisation-row-1 .realisation-paragraph-3, * body .realisation-screen .realisation-container .realisation-content .realisation-row-2 .realisation-paragraph-1, * body .realisation-screen .realisation-container .realisation-content .realisation-row-2 .realisation-paragraph-2, * body .realisation-screen .realisation-container .realisation-content .realisation-row-2 .realisation-paragraph-3, * body .realisation-screen .realisation-container .realisation-content .realisation-row-3 .realisation-paragraph-1, * body .realisation-screen .realisation-container .realisation-content .realisation-row-3 .realisation-paragraph-2, * body .realisation-screen .realisation-container .realisation-content .realisation-row-3 .realisation-paragraph-3 {
   width: clamp(246.5px, 25.6770833333vw, 986px);
-  font-family: "Raleway";
+  font-family: "Unbounded";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
+  color: white;
+  margin: auto;
   font-size: clamp(12px, 1.25vw, 48px);
   margin-top: clamp(8px, 0.8333333333vw, 32px);
 }

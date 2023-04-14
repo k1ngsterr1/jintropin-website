@@ -17,7 +17,7 @@
   position: absolute;
   width: clamp(143px, 14.8958333333vw, 572px);
   height: clamp(108px, 11.25vw, 432px);
-  left: 1030px;
+  left: clamp(375px, 39.0625vw, 1500px);
   top: clamp(700px, 72.9166666667vw, 2800px);
 }
 * body .about-jin .about-jin-container {
@@ -31,7 +31,7 @@
   width: clamp(217px, 22.6041666667vw, 868px);
   height: clamp(377px, 39.2708333333vw, 1508px);
   position: sticky;
-  margin-left: clamp(-100px, -10.4166666667vw, -400px);
+  margin-left: clamp(-50px, -5.2083333333vw, -200px);
 }
 * body .about-jin .about-jin-container .about-heading-container {
   margin: auto;
@@ -64,29 +64,29 @@
 }
 * body .about-jin .about-jin-container .about-content .about-paragraph {
   width: clamp(381.5px, 39.7395833333vw, 1526px);
-  font-family: "Raleway";
+  font-family: "Unbounded";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
+  line-height: 151%;
   font-size: clamp(13px, 1.3541666667vw, 52px);
   color: #1e1e1e;
 }
 * body .about-jin .about-jin-container .about-content .more-info {
   width: clamp(212.5px, 22.1354166667vw, 850px);
   height: clamp(32px, 3.3333333333vw, 128px);
-  background-color: #588EF7;
-  font-family: "Roboto Condensed";
+  background-color: #022B6B;
+  font-family: "Unbounded";
   font-style: normal;
-  font-weight: 700;
-  font-size: clamp(13.5px, 1.40625vw, 54px);
+  font-weight: 600;
+  font-size: clamp(11px, 1.1458333333vw, 44px);
   align-items: center;
   justify-content: center;
   margin-top: clamp(32px, 3.3333333333vw, 128px);
-  color: white;
-  font-size: clamp(14.5px, 1.5104166667vw, 58px);
+  color: #FFF200;
   border-radius: 71px;
 }
 * body .about-jin .about-jin-container .about-content .more-info:hover {
-  background-color: #2B6FF5;
+  background-color: #02245A;
 }
 
 @media screen and (max-width: 448px) {

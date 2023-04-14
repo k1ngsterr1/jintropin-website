@@ -39,7 +39,6 @@ const MainScreen = () => {
               href="https://t.me/jintropine"
               target="_blank"
             >
-              <FaTelegramPlane className="telegram-icon" />
               {t("main-button.key")}{" "}
             </a>
           </div>

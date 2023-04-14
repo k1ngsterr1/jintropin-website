@@ -4,6 +4,7 @@
   width: 100%;
   height: auto;
   display: flex;
+  background: #022B6B;
   flex-direction: column;
 }
 * body .contacts .contacts-container {
@@ -29,17 +30,17 @@
   margin-top: clamp(32px, 3.3333333333vw, 128px);
 }
 * body .contacts .contacts-container .contacts-heading-container .contacts-heading {
-  font-family: "Roboto Condensed" !important;
+  font-family: "Unbounded";
   font-style: normal;
   font-weight: 700;
-  font-size: clamp(22.5px, 2.34375vw, 90px);
+  font-size: clamp(19px, 1.9791666667vw, 76px);
   text-transform: uppercase;
-  color: #00346E;
+  color: #FCEE03;
 }
 * body .contacts .contacts-container .contacts-heading-container .separator {
   width: clamp(295px, 30.7291666667vw, 1180px);
   height: 1px;
-  background-color: #00346E;
+  background-color: #FCEE03;
   margin-top: clamp(8px, 0.8333333333vw, 32px);
 }
 * body .contacts .contacts-container .contacts-main-content {
@@ -56,25 +57,25 @@
   flex-direction: column;
 }
 * body .contacts .contacts-container .contacts-main-content .contacts-content .section-heading {
-  width: 608px;
-  font-family: "Roboto Condensed" !important;
+  width: clamp(202px, 42.0833333333vw, 1616px);
+  font-family: "Unbounded";
   font-style: normal;
   font-weight: 700;
-  text-transform: uppercase;
-  color: #00346E;
+  font-size: clamp(8.75px, 1.8229166667vw, 70px);
+  color: #FCEE03;
   font-size: clamp(20px, 2.0833333333vw, 80px);
 }
 * body .contacts .contacts-container .contacts-main-content .contacts-content .section-paragraph {
   width: clamp(316.5px, 32.96875vw, 1266px);
-  ont-family: "Raleway";
+  font-family: "Unbounded";
   font-style: normal;
   font-weight: 400;
   font-size: clamp(12.5px, 1.3020833333vw, 50px);
-  color: #00346E;
-  margin-top: clamp(8px, 0.8333333333vw, 32px);
+  color: white;
+  margin-top: clamp(16px, 1.6666666667vw, 64px);
 }
 * body .contacts .contacts-container .contacts-main-content .contacts-content .section-paragraph .section-link {
-  color: #00346E;
+  color: #FCEE03;
   font-weight: 600 !important;
 }
 * body .contacts .contacts-container .contacts-main-content .form {
@@ -87,7 +88,7 @@
 * body .contacts .contacts-container .contacts-main-content .form input {
   width: clamp(266.5px, 27.7604166667vw, 1066px);
   height: clamp(24px, 2.5vw, 96px);
-  background-color: #B5CCF8;
+  background-color: #FFFFFF;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 400;
@@ -129,14 +130,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #588EF7;
   border-radius: 66px;
-  background-color: #588EF7;
+  background-color: #FFF200;
   margin-top: clamp(32px, 3.3333333333vw, 128px);
-  color: white;
+  color: #022B6B;
 }
 * body .contacts .contacts-container .contacts-main-content .form .submit-button:hover {
-  background-color: #2B6FF5;
+  background-color: #EADF02;
 }
 
 @media screen and (max-width: 448px) {

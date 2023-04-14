@@ -44,7 +44,7 @@ const InstockScreen = () => {
           </p>
         </div>
       </div>
-      <img className="deco-picture" src={explosion}></img>
+      {/* <img className="deco-picture" src={explosion}></img> */}
       <img className="arrow" src={instock}></img>
     </div>
   );

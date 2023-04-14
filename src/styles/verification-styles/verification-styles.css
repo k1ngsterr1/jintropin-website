@@ -5,7 +5,7 @@
   height: auto;
   display: flex;
   margin: auto;
-  background-color: #F4F5F8;
+  background-color: #0B357A;
   flex-direction: column;
 }
 .verification-screen .verification-container {
@@ -27,20 +27,23 @@
   font-family: "Roboto Condensed";
   font-style: normal;
   font-weight: 700;
-  font-size: clamp(22.5px, 2.34375vw, 90px);
   text-transform: uppercase;
-  color: #00346E;
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(19px, 1.9791666667vw, 76px);
+  color: #FFF200;
 }
 .verification-screen .verification-container .verification-heading-container .separator {
   width: clamp(174.5px, 18.1770833333vw, 698px);
   height: 1px;
   margin-top: clamp(8px, 0.8333333333vw, 32px);
-  background-color: #00346E;
+  background-color: #FFF200;
 }
 .verification-screen .verification-container .verification-content {
   width: clamp(686.5px, 71.5104166667vw, 2746px);
   height: clamp(257.5px, 26.8229166667vw, 1030px);
-  background-color: #588EF7;
+  background-color: #FFF200;
   border-radius: 18px;
   margin: auto;
   display: flex;
@@ -62,20 +65,19 @@
   margin-left: clamp(16px, 1.6666666667vw, 64px);
 }
 .verification-screen .verification-container .verification-content .verification-description .ver-description-heading {
-  font-family: "Roboto Condensed";
+  font-family: "Unbounded";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: clamp(22.5px, 2.34375vw, 90px);
-  color: #1e1e1e;
+  color: #022B6B;
 }
 .verification-screen .verification-container .verification-content .verification-description .ver-paragraph-zero, .verification-screen .verification-container .verification-content .verification-description .ver-paragraph-one, .verification-screen .verification-container .verification-content .verification-description .ver-paragraph-two {
   width: clamp(343px, 35.7291666667vw, 1372px);
-  font-family: "Raleway";
+  font-family: "Unbounded";
   font-style: normal;
   font-weight: 500;
-  color: #1e1e1e;
-  font-weight: 500;
-  font-size: clamp(11px, 1.1458333333vw, 44px);
+  color: #022B6B;
+  font-size: clamp(10.5px, 1.09375vw, 42px);
 }
 .verification-screen .verification-container .verification-content .verification-description .ver-paragraph-zero {
   margin-top: clamp(8px, 0.8333333333vw, 32px);
@@ -89,20 +91,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  font-family: "Roboto Condensed";
+  background-color: #022B6B;
+  font-family: "Unbounded";
   font-style: normal;
-  font-weight: 700;
-  font-size: clamp(13.5px, 1.40625vw, 54px);
+  font-weight: 600;
+  font-size: clamp(11px, 1.1458333333vw, 44px);
   border-radius: 60px;
-  color: #1e1e1e;
+  color: #FFF200;
   text-decoration: none;
   font-size: clamp(14.5px, 1.5104166667vw, 58px);
   margin-top: clamp(16px, 1.6666666667vw, 64px);
   transition: 0.3s all;
 }
 .verification-screen .verification-container .verification-content .verification-description .verification-button:hover {
-  background-color: #EDEDED;
+  background-color: #02245A;
 }
 
 @media screen and (max-width: 448px) {

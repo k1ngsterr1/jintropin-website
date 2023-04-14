@@ -78,22 +78,22 @@
 * html .main-screen .container .buttons .main-button, * body .main-screen .container .buttons .main-button {
   width: clamp(203.5px, 21.1979166667vw, 814px);
   height: clamp(32px, 3.3333333333vw, 128px);
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(11px, 1.1458333333vw, 44px);
   text-decoration: none !important;
-  background-color: #588EF7;
+  background-color: #FCEE03;
   display: flex;
   align-items: center;
   border-radius: 52px;
   justify-content: center;
-  font-weight: 500;
   border: none;
-  color: white;
-  font-family: "Roboto Condensed";
-  font-style: normal;
-  font-size: clamp(13px, 1.3541666667vw, 52px);
+  color: #022B6B;
   margin-top: clamp(22px, 2.2916666667vw, 88px);
 }
 * html .main-screen .container .buttons .main-button:hover, * body .main-screen .container .buttons .main-button:hover {
-  background-color: #2B6FF5;
+  background-color: #EADF02;
 }
 * html .main-screen .container .buttons .main-button .telegram-icon, * body .main-screen .container .buttons .main-button .telegram-icon {
   margin-right: clamp(6px, 0.625vw, 24px);

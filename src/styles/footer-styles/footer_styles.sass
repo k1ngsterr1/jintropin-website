@@ -27,7 +27,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
         .footer
             width: 100%
             height: auto
-            background-color: $red
+            background-color: #0B357A
 
             .footer-content
                 width: 86.45833333333333%
@@ -56,8 +56,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 
                     .footer-p
                         width: clamp(169px,17.604166666666668vw,676px)
-                        font-family: 'FTY STRATEGYCIDE NCV'
-                        font-style: normal
+
                         font-weight: 400
                         font-size: clamp(13px,1.3541666666666667vw,52px)
                         color: $main_cream
@@ -76,13 +75,11 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         text-decoration: underline
 
                 .footer-navigation
-                    width: auto
+                    width: 100%
+                    margin-left: clamp(65px,6.770833333333333vw,260px)
                     display: flex
-                    flex-direction: column
 
                     .footer-header
-                        font-family: 'FTY STRATEGYCIDE NCV'
-                        font-style: normal
                         font-weight: 400
                         font-size: $thirtytwoclamp
                         color: $background
@@ -95,7 +92,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         margin-top: clamp(11.5px,1.1979166666666667vw,46px)
 
                     .main-link
-                        font-family: 'Roboto Condensed'
+                        font-family: 'Unbounded'
                         font-style: normal
                         font-weight: 700
                         text-decoration: none
@@ -105,16 +102,14 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         cursor: pointer
 
                     .link
-                        font-family: 'Roboto Condensed'
+                        font-family: 'Unbounded'
                         font-style: normal
                         font-weight: 700
                         text-decoration: none
-                        font-size: clamp(9px,0.9375vw,36px)
+                        font-size: clamp(6.5px,0.6770833333333334vw,26px)
                         cursor: pointer
                         color: $background
                         transition: 0.3s all
-                        &:hover
-                            color: $main_blue
 
                 .footer-contacts
                     width: auto
@@ -145,20 +140,20 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                         .instagram-circle, .telegram-circle, .envelope-circle
                             width: clamp(21px,2.1875vw,84px)
                             height: clamp(21px,2.1875vw,84px)
-                            background: #B5CCF8
-                            border: 1.5px solid #376298
+                            background: transparent
+                            border: 2px solid #FCEE03
                             border-radius: 60px
                             display: flex
                             align-items: center
                             justify-content: center
 
                             .instagram, .telegram, .envelope
-                                color: #376298
+                                color: white
                                 font-size: clamp(12px,1.25vw,48px)
                                 cursor: pointer
                                 transition: 0.3s all
                                 &:hover
-                                    color: $main_blue
+                                    color: #FCEE03
 
                 .upper-button
                     width: clamp(153px,15.9375vw,612px)
@@ -182,8 +177,6 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                     .sort-up-icon
                         padding-top: clamp(5px,0.5208333333333334vw,20px)
                         padding-left: clamp(5px,0.5208333333333334vw,20px)
-
-
 
 @media screen  and (max-width: 448px)
 

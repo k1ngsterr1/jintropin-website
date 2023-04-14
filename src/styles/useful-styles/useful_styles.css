@@ -28,21 +28,69 @@
   font-weight: 700;
   font-size: clamp(19px, 1.9791666667vw, 76px);
   text-transform: uppercase;
+  color: white;
+}
+* body .useful-fin .useful-container .useful-heading-container .best-hormone {
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(13px, 1.3541666667vw, 52px);
   color: #FCEE03;
 }
-* body .useful-fin .useful-container .useful-heading-container .separator {
+* body .useful-fin .useful-container .useful-heading-container .best-hormone-white {
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(13px, 1.3541666667vw, 52px);
+  color: white;
+  margin-top: clamp(32px, 3.3333333333vw, 128px);
+}
+* body .useful-fin .useful-container .qualified-product {
+  width: clamp(350px, 36.4583333333vw, 1400px);
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(13px, 1.3541666667vw, 52px);
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-top: clamp(64px, 6.6666666667vw, 256px);
+  margin-bottom: clamp(32px, 3.3333333333vw, 128px);
+}
+* body .useful-fin .useful-container .qualified-product .separator {
   width: clamp(174.5px, 18.1770833333vw, 698px);
   height: 1px;
   margin-top: clamp(8px, 0.8333333333vw, 32px);
   background-color: #00346E;
+  display: none;
 }
 * body .useful-fin .useful-container .cards {
   width: 100%;
   height: auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  margin-top: clamp(35px, 3.6458333333vw, 140px);
+  margin-top: clamp(75px, 7.8125vw, 200px);
+}
+* body .useful-fin .useful-container .cards .card-one-li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+* body .useful-fin .useful-container .cards .card-one-li .muscle-up-icon, * body .useful-fin .useful-container .cards .card-one-li .lightning-icon, * body .useful-fin .useful-container .cards .card-one-li .protection-icon, * body .useful-fin .useful-container .cards .card-one-li .anti-pills-icon, * body .useful-fin .useful-container .cards .card-one-li .delivery-icon {
+  width: clamp(71px, 7.3958333333vw, 284px);
+  height: clamp(75px, 7.8125vw, 300px);
+}
+* body .useful-fin .useful-container .cards .card-one-li .paragraph {
+  width: clamp(150px, 15.625vw, 600px);
+  text-align: center;
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 300;
+  color: white;
+  font-size: clamp(10px, 1.0416666667vw, 40px);
+  margin-top: clamp(32px, 3.3333333333vw, 128px);
 }
 
 @media screen and (max-width: 448px) {

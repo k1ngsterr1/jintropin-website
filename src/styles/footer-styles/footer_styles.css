@@ -3,7 +3,7 @@
 * body .footer {
   width: 100%;
   height: auto;
-  background-color: #588EF7;
+  background-color: #0B357A;
 }
 * body .footer .footer-content {
   width: 86.4583333333%;
@@ -32,8 +32,6 @@
 }
 * body .footer .footer-content .logo-content .footer-p {
   width: clamp(169px, 17.6041666667vw, 676px);
-  font-family: "FTY STRATEGYCIDE NCV";
-  font-style: normal;
   font-weight: 400;
   font-size: clamp(13px, 1.3541666667vw, 52px);
   color: #F4F5F8;
@@ -52,13 +50,11 @@
   text-decoration: underline;
 }
 * body .footer .footer-content .footer-navigation {
-  width: auto;
+  width: 100%;
+  margin-left: clamp(65px, 6.7708333333vw, 260px);
   display: flex;
-  flex-direction: column;
 }
 * body .footer .footer-content .footer-navigation .footer-header {
-  font-family: "FTY STRATEGYCIDE NCV";
-  font-style: normal;
   font-weight: 400;
   font-size: clamp(16px, 1.6666666667vw, 64px);
   color: white;
@@ -71,7 +67,7 @@
   margin-top: clamp(11.5px, 1.1979166667vw, 46px);
 }
 * body .footer .footer-content .footer-navigation .main-link {
-  font-family: "Roboto Condensed";
+  font-family: "Unbounded";
   font-style: normal;
   font-weight: 700;
   text-decoration: none;
@@ -81,17 +77,14 @@
   cursor: pointer;
 }
 * body .footer .footer-content .footer-navigation .link {
-  font-family: "Roboto Condensed";
+  font-family: "Unbounded";
   font-style: normal;
   font-weight: 700;
   text-decoration: none;
-  font-size: clamp(9px, 0.9375vw, 36px);
+  font-size: clamp(6.5px, 0.6770833333vw, 26px);
   cursor: pointer;
   color: white;
   transition: 0.3s all;
-}
-* body .footer .footer-content .footer-navigation .link:hover {
-  color: #00346E;
 }
 * body .footer .footer-content .footer-contacts {
   width: auto;
@@ -122,21 +115,21 @@
 * body .footer .footer-content .footer-contacts .contacts-container .instagram-circle, * body .footer .footer-content .footer-contacts .contacts-container .telegram-circle, * body .footer .footer-content .footer-contacts .contacts-container .envelope-circle {
   width: clamp(21px, 2.1875vw, 84px);
   height: clamp(21px, 2.1875vw, 84px);
-  background: #B5CCF8;
-  border: 1.5px solid #376298;
+  background: transparent;
+  border: 2px solid #FCEE03;
   border-radius: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 * body .footer .footer-content .footer-contacts .contacts-container .instagram-circle .instagram, * body .footer .footer-content .footer-contacts .contacts-container .instagram-circle .telegram, * body .footer .footer-content .footer-contacts .contacts-container .instagram-circle .envelope, * body .footer .footer-content .footer-contacts .contacts-container .telegram-circle .instagram, * body .footer .footer-content .footer-contacts .contacts-container .telegram-circle .telegram, * body .footer .footer-content .footer-contacts .contacts-container .telegram-circle .envelope, * body .footer .footer-content .footer-contacts .contacts-container .envelope-circle .instagram, * body .footer .footer-content .footer-contacts .contacts-container .envelope-circle .telegram, * body .footer .footer-content .footer-contacts .contacts-container .envelope-circle .envelope {
-  color: #376298;
+  color: white;
   font-size: clamp(12px, 1.25vw, 48px);
   cursor: pointer;
   transition: 0.3s all;
 }
 * body .footer .footer-content .footer-contacts .contacts-container .instagram-circle .instagram:hover, * body .footer .footer-content .footer-contacts .contacts-container .instagram-circle .telegram:hover, * body .footer .footer-content .footer-contacts .contacts-container .instagram-circle .envelope:hover, * body .footer .footer-content .footer-contacts .contacts-container .telegram-circle .instagram:hover, * body .footer .footer-content .footer-contacts .contacts-container .telegram-circle .telegram:hover, * body .footer .footer-content .footer-contacts .contacts-container .telegram-circle .envelope:hover, * body .footer .footer-content .footer-contacts .contacts-container .envelope-circle .instagram:hover, * body .footer .footer-content .footer-contacts .contacts-container .envelope-circle .telegram:hover, * body .footer .footer-content .footer-contacts .contacts-container .envelope-circle .envelope:hover {
-  color: #00346E;
+  color: #FCEE03;
 }
 * body .footer .footer-content .upper-button {
   width: clamp(153px, 15.9375vw, 612px);

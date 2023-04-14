@@ -6,6 +6,10 @@ import pills from "../assets/pills_ill.svg";
 import cart from "../assets/cart_ill.svg";
 import world from "../assets/world_ill.svg";
 
+import health_img from "../assets/health-yellow.png";
+import laptop_img from "../assets/laptop-card.png";
+import delivery_img from "../assets/delivery.png";
+
 import { useTranslation, Trans } from "react-i18next";
 
 const RealisationScreen = () => {
@@ -22,7 +26,7 @@ const RealisationScreen = () => {
         </div>
         <div className="realisation-content">
           <div className="realisation-row-1">
-            <img className="realisation-img-1" src={pills}></img>
+            <img className="realisation-img-1" src={health_img}></img>
             <div className="realisation-text-1">
               <h6 className="realisation-heading-1">
                 {t("realisation-one.key")}
@@ -33,7 +37,7 @@ const RealisationScreen = () => {
             </div>
           </div>
           <div className="realisation-row-2">
-            <img className="realisation-img-2-mob" src={cart}></img>
+            <img className="realisation-img-2-mob" src={laptop_img}></img>
             {/* <div className="realisation-text-2">
               <h6 className="realisation-heading-2">
                 {t("realisation-two.key")}
@@ -42,7 +46,7 @@ const RealisationScreen = () => {
                 {t("realisation-two-text.key")}
               </p>
             </div> */}
-            <img className="realisation-img-2" src={cart}></img>
+            <img className="realisation-img-2" src={laptop_img}></img>
             <div className="realisation-text-2">
               <h6 className="realisation-heading-2">
                 {t("realisation-two.key")}
@@ -53,7 +57,7 @@ const RealisationScreen = () => {
             </div>
           </div>
           <div className="realisation-row-3">
-            <img className="realisation-img-3" src={world}></img>
+            <img className="realisation-img-3" src={delivery_img}></img>
             <div className="realisation-text-3">
               <h6 className="realisation-heading-3">
                 {t("realisation-three.key")}

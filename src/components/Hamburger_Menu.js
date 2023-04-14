@@ -19,7 +19,7 @@ const Hamburger_Menu = () => {
 
   var styles = {
     bmBurgerButton: {
-      position: "absolute",
+      position: "fixed",
       width: "clamp(16px,1.6666666666666667vw,64px)",
       height: "clamp(12px,1.25vw,48px)",
       left: "clamp(878px,91.45833333333333vw,3512px)",
@@ -44,7 +44,7 @@ const Hamburger_Menu = () => {
       overflowX: "hidden",
     },
     bmCross: {
-      background: "#588EF7",
+      background: "#FCEE03",
       width: "3px",
       height: "clamp(13.5px,1.40625vw,54px)",
     },
@@ -54,7 +54,7 @@ const Hamburger_Menu = () => {
       top: "0px",
     },
     bmMenu: {
-      background: "#FFFFFF",
+      background: "#022761",
       padding: "2.5em 1.5em 0",
       fontSize: "1.15em",
       overflowX: "hidden",
@@ -75,7 +75,7 @@ const Hamburger_Menu = () => {
       fontWeight: "600",
       fontSize: "clamp(9.25px,0.9635416666666666vw,37px)",
       textAlign: "left",
-      color: "#00346E",
+      color: "#FCEE03",
       overflowX: "hidden",
     },
     bmItem: {
