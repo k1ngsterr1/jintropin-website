@@ -144,7 +144,6 @@
     width: 100%;
     height: auto;
     display: flex;
-    margin-top: clamp(25px, 12.1359223301vw, 100px) !important;
     flex-direction: column;
   }
   .contacts .contacts-container {
@@ -168,12 +167,8 @@
     margin-top: clamp(40px, 22.2222222222vw, 160px) !important;
   }
   .contacts .contacts-container .contacts-heading-container .contacts-heading {
-    font-family: "FTY STRATEGYCIDE NCV";
-    font-style: normal;
-    font-weight: 400;
-    font-size: clamp(18px, 8.4112149533vw, 72px) !important;
-    margin: auto;
-    color: #00346E;
+    text-align: center !important;
+    font-size: clamp(17px, 7.9439252336vw, 68px) !important;
   }
   .contacts .contacts-container .contacts-heading-container .separator {
     width: clamp(295px, 30.7291666667vw, 1180px);
@@ -194,16 +189,14 @@
   }
   .contacts .contacts-container .contacts-main-content .contacts-content {
     display: flex;
+    align-items: center !important;
     flex-direction: column;
   }
   .contacts .contacts-container .contacts-main-content .contacts-content .section-heading {
-    width: clamp(166px, 77.5700934579vw, 664px) !important;
-    font-family: "FTY STRATEGYCIDE NCV";
+    width: auto !important;
     font-style: normal;
-    text-align: center;
-    font-weight: 400;
+    text-align: center !important;
     font-size: clamp(16px, 7.476635514vw, 64px) !important;
-    color: #D23127;
   }
   .contacts .contacts-container .contacts-main-content .contacts-content .section-paragraph {
     width: clamp(165.5px, 77.3364485981vw, 662px) !important;
@@ -213,6 +206,7 @@
     text-align: center;
     font-size: clamp(11.5px, 5.3738317757vw, 46px) !important;
     color: #1e1e1e;
+    margin-right: 0px !important;
     margin-top: clamp(32px, 3.3333333333vw, 128px) !important;
   }
   .contacts .contacts-container .contacts-main-content .form {

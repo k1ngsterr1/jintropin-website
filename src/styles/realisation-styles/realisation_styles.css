@@ -106,7 +106,6 @@
     width: 100%;
     height: auto;
     font-family: "Raleway", sans-serif;
-    background-color: white !important;
     font-display: fallback;
     overflow-x: hidden !important;
   }
@@ -115,7 +114,6 @@
     height: auto;
     display: flex;
     margin: auto;
-    background-color: white;
     flex-direction: column;
   }
   body .realisation-screen .realisation-container {
@@ -137,12 +135,8 @@
     flex-direction: column !important;
   }
   body .realisation-screen .realisation-container .realisation-heading-container .realisation-heading {
-    font-family: "Roboto Condensed" !important;
-    font-style: normal !important;
-    font-weight: 700 !important;
-    font-size: clamp(18px, 8.4112149533vw, 72px) !important;
+    font-size: clamp(17px, 7.9439252336vw, 68px) !important;
     text-transform: uppercase !important;
-    color: #00346E !important;
     text-align: center !important;
   }
   body .realisation-screen .realisation-container .realisation-content {

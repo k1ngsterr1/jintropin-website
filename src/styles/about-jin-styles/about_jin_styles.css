@@ -20,6 +20,9 @@
   left: clamp(375px, 39.0625vw, 1500px);
   top: clamp(700px, 72.9166666667vw, 2800px);
 }
+* body .about-jin .girl-about-phone {
+  display: none;
+}
 * body .about-jin .about-jin-container {
   width: 86.4583333333%;
   height: auto;
@@ -98,6 +101,9 @@
     margin-top: clamp(32px, 3.3333333333vw, 128px);
     background-color: #F4F5F8;
   }
+  .about-jin .girl-about-phone {
+    display: flex !important;
+  }
   .about-jin .about-arrow {
     display: none;
   }
@@ -127,7 +133,8 @@
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    font-size: clamp(18px, 8.4112149533vw, 72px) !important;
+    font-size: clamp(17px, 7.9439252336vw, 68px) !important;
+    text-align: center !important;
   }
   .about-jin .about-heading-container .separator {
     width: clamp(145.5px, 67.9906542056vw, 582px);
@@ -142,20 +149,21 @@
   .about-jin .about-content .about-paragraph {
     width: clamp(180px, 84.1121495327vw, 720px) !important;
     height: auto;
-    font-family: "Raleway" !important;
-    font-style: normal;
+    font-family: "Unbounded" !important;
+    font-style: normal !important;
     font-weight: 500;
-    font-size: clamp(12.5px, 5.8411214953vw, 50px) !important;
+    font-size: 20px !important;
     margin-top: clamp(16px, 7.476635514vw, 64px) !important;
     font-weight: 500 !important;
     margin: auto;
+    color: #022B6B !important;
     text-align: center;
   }
   .about-jin .more-info {
-    width: clamp(173.5px, 81.0747663551vw, 694px) !important;
+    width: clamp(178.5px, 83.4112149533vw, 714px) !important;
     height: clamp(34px, 15.8878504673vw, 136px) !important;
     margin-top: clamp(16px, 7.476635514vw, 64px) !important;
     margin-bottom: clamp(32px, 14.953271028vw, 128px) !important;
-    font-size: clamp(12.5px, 5.8411214953vw, 50px) !important;
+    font-size: clamp(9px, 4.2056074766vw, 36px) !important;
   }
 }/*# sourceMappingURL=about_jin_styles.css.map */

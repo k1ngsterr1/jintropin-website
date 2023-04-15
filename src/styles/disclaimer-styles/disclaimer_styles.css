@@ -104,23 +104,23 @@
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    font-size: clamp(18px, 8.4112149533vw, 72px) !important;
+    font-size: clamp(17px, 7.9439252336vw, 68px) !important;
   }
   .disclaimer-screen .disclaimer-container .disclaimer-content .disclaimer-paragraph {
     width: clamp(180px, 84.1121495327vw, 720px) !important;
     height: auto;
-    font-family: "Raleway" !important;
+    font-family: "Unbounded";
     font-style: normal;
-    font-weight: 500;
     font-size: clamp(11px, 5.3140096618vw, 44px) !important;
     margin-top: clamp(16px, 7.476635514vw, 64px) !important;
-    font-weight: 500 !important;
+    font-weight: 300 !important;
     margin: auto;
     text-align: center;
   }
   .disclaimer-screen .disclaimer-container .disclaimer-content .disclaimer-bold-paragraph {
     width: clamp(200px, 96.6183574879vw, 800px) !important;
     margin-top: clamp(16px, 7.729468599vw, 64px) !important;
+    font-weight: 500 !important;
     font-size: clamp(13px, 6.2801932367vw, 52px) !important;
   }
   .disclaimer-screen .disclaimer-container .disclaimer-content .disclaimer-icon {

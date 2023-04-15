@@ -47,6 +47,9 @@
   left: clamp(550px, 57.2916666667vw, 2200px);
   margin-top: -90px;
 }
+* html .main-screen .container .proto-photo-phone, * body .main-screen .container .proto-photo-phone {
+  display: none;
+}
 * html .main-screen .container .main-heading, * body .main-screen .container .main-heading {
   width: clamp(500px, 52.0833333333vw, 2000px);
   height: clamp(80px, 8.3333333333vw, 320px);
@@ -122,21 +125,27 @@
   .main-screen .container .proto-photo {
     display: none;
   }
+  .main-screen .container .proto-photo-phone {
+    width: auto;
+    height: auto;
+    margin-top: clamp(-100px, -46.7289719626vw, -400px);
+    display: flex !important;
+  }
   .main-screen .container .main-content .main-heading {
-    width: clamp(149.5px, 69.8598130841vw, 598px) !important;
+    width: clamp(188.5px, 88.0841121495vw, 754px) !important;
     height: clamp(118px, 55.1401869159vw, 472px) !important;
     margin: auto;
-    font-size: clamp(27.5px, 12.8504672897vw, 110px) !important;
-    text-align: center;
+    font-size: clamp(21.5px, 10.046728972vw, 86px) !important;
+    text-align: center !important;
   }
   .main-screen .container .main-content .description {
-    width: clamp(150px, 72.4637681159vw, 600px) !important;
-    height: clamp(105px, 49.0654205607vw, 420px) !important;
+    width: clamp(176px, 82.2429906542vw, 704px) !important;
+    height: auto !important;
     text-align: center;
     margin: auto;
-    font-weight: 400;
-    font-size: clamp(11.5px, 5.8974358974vw, 46px) !important;
-    margin-top: clamp(32px, 14.953271028vw, 128px) !important;
+    font-weight: 300;
+    font-size: clamp(9px, 4.2056074766vw, 36px);
+    margin-top: clamp(8px, 3.738317757vw, 32px);
   }
   .main-screen .container .main-content .buttons {
     display: flex;
@@ -146,18 +155,13 @@
     margin-top: clamp(145px, 74.358974359vw, 580px) !important;
   }
   .main-screen .container .main-content .buttons .main-button, .main-screen .container .main-content .buttons .more-button {
-    width: 84% !important;
+    width: clamp(178.5px, 83.4112149533vw, 714px) !important;
     height: clamp(31.5px, 14.7196261682vw, 126px) !important;
-    font-size: clamp(12px, 5.6074766355vw, 48px);
+    font-size: clamp(10.5px, 4.9065420561vw, 42px);
     margin: auto;
-    margin-top: clamp(45px, 23.0769230769vw, 180px) !important;
+    margin-top: clamp(-250px, 116.8224299065vw, -1000px) !important;
   }
   .main-screen .container .main-content .buttons .main-button {
     height: clamp(34px, 15.8878504673vw, 136px) !important;
-  }
-  .main-screen .container .main-content .buttons .more-button {
-    width: 83% !important;
-    margin-top: clamp(16px, 7.476635514vw, 64px);
-    margin-bottom: clamp(32px, 14.953271028vw, 128px);
   }
 }/*# sourceMappingURL=main_screen.css.map */

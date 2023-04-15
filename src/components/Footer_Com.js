@@ -24,19 +24,21 @@ const Footer_Com = () => {
         <div className="footer-contacts-mob">
           {/* <h4 className="contacts-header-mob">КОНТАКТЫ</h4> */}
           <div className="contacts-container-mob">
-            <FaInstagram className="instagram-mob"></FaInstagram>
-            <FaTelegramPlane className="telegram-mob"></FaTelegramPlane>
+            <a
+              href="https://www.instagram.com/jintropine_shop/"
+              target="_blank"
+            >
+              <FaInstagram className="instagram-mob"></FaInstagram>
+            </a>
+            <a href="https://t.me/Jintropine_Bot" target="_blank">
+              <FaTelegramPlane className="telegram-mob"></FaTelegramPlane>
+            </a>
             {/* <RxEnvelopeClosed className="envelope-mob"></RxEnvelopeClosed> */}
           </div>
         </div>
         <img className="logo-mobile" alt="logo" src={logo}></img>
         <div className="logo-content">
           <img className="logo" alt="logo" src={logo}></img>
-          {/* <p className="footer-p">{t("footer-p.key")}</p> */}
-          {/* <p className="contact-us">
-            {t("contact-us.key")}{" "}
-            <span className="underline">{t("underline.key")}</span>
-          </p> */}
         </div>
         <nav className="footer-navigation">
           {/* <h4 className="footer-header">{t("footer-header.key")}</h4> */}

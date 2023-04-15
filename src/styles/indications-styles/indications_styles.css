@@ -215,12 +215,12 @@
     flex-direction: column !important;
   }
   .indication-screen .indication-container .indication-heading-container .indication-heading {
-    font-family: "Roboto Condensed" !important;
-    font-style: normal !important;
-    font-weight: 700 !important;
-    font-size: clamp(18px, 8.4112149533vw, 72px) !important;
+    font-family: "Unbounded";
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(13.25px, 6.191588785vw, 53px) !important;
     text-transform: uppercase !important;
-    color: #00346E !important;
+    color: #FFF200 !important;
     text-align: center !important;
   }
   .indication-screen .indication-container .button-indication {
@@ -230,7 +230,7 @@
   .indication-screen .indication-container .button-indication .protiv-indication-not, .indication-screen .indication-container .button-indication .indication-button-choosen, .indication-screen .indication-container .button-indication .protiv-indication-choosen, .indication-screen .indication-container .button-indication .indication-button-not {
     width: clamp(135px, 65.2173913043vw, 540px) !important;
     height: clamp(23.5px, 11.3526570048vw, 94px) !important;
-    font-size: clamp(10.5px, 5.0724637681vw, 42px) !important;
+    font-size: clamp(9.5px, 4.4392523364vw, 38px) !important;
   }
   .indication-screen .indication-container .button-indication .indication-button-choosen, .indication-screen .indication-container .button-indication .indication-button-not {
     margin-top: clamp(16px, 8.2051282051vw, 64px) !important;
@@ -240,12 +240,11 @@
     flex-direction: column;
   }
   .indication-screen .indication-container .cards-indication .card-content {
-    width: clamp(155px, 79.4871794872vw, 620px) !important;
-    height: clamp(130px, 66.6666666667vw, 520px) !important;
+    width: clamp(180px, 84.1121495327vw, 720px) !important;
+    height: clamp(150px, 70.0934579439vw, 600px) !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
-    border: 3px solid #F4F5F8;
     border-radius: 15px;
   }
   .indication-screen .indication-container .cards-indication .card-content .card-heading-container {
@@ -255,12 +254,18 @@
     margin-left: 0px !important;
     margin-right: 0px !important;
   }
-  .indication-screen .indication-container .cards-indication .card-content .card-heading-container .icon-check, .indication-screen .indication-container .cards-indication .card-content .card-heading-container .card-header {
-    font-size: clamp(9.5px, 4.8717948718vw, 38px) !important;
+  .indication-screen .indication-container .cards-indication .card-content .card-heading-container .card-header {
+    font-size: 17px !important;
+    text-align: center;
+  }
+  .indication-screen .indication-container .cards-indication .card-content .card-heading-container .icon-check {
+    display: none !important;
   }
   .indication-screen .indication-container .cards-indication .card-content .card-paragraph {
-    font-size: clamp(8.25px, 4.2307692308vw, 33px) !important;
+    width: 280px !important;
+    font-size: 16px !important;
     text-align: center;
+    margin-left: 0px !important;
   }
   .indication-screen .indication-container .medical-indication {
     display: flex;

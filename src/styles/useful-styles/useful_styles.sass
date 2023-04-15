@@ -133,6 +133,9 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
             margin: auto
                 // border: 2px solid blue
 
+            .qualified-product
+                font-size: clamp(8.5px,3.97196261682243vw,34px) !important
+
             .useful-heading-container
                 display: flex
                 flex-direction: column
@@ -142,12 +145,16 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 margin-top: clamp(32px,14.953271028037383vw,128px) !important
 
                 .useful-heading
-                    font-family: 'Roboto Condensed' !important
-                    font-style: normal !important
-                    font-weight: 700 !important
-                    font-size: clamp(18px,8.411214953271028vw,72px) !important
+                    font-size: clamp(17px,7.94392523364486vw,68px) !important
                     text-transform: uppercase !important
-                    color: $main_blue !important
+                    color: white !important
+
+                .best-hormone
+                    font-size: clamp(11.5px,5.373831775700935vw,46px) !important
+
+                .best-hormone-white
+                    font-size: clamp(8.5px,3.97196261682243vw,34px) !important
+                    text-align: center !important
 
                 .separator
                     width: clamp(295px,30.729166666666668vw,1180px)
@@ -160,43 +167,26 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 height: auto
                 display: flex
                 flex-direction: column !important
-                align-items: center
+                align-items: center !important
                 justify-content: space-between
-                margin-top: clamp(35px, 3.6458333333333335vw, 140px)
+                margin-top: clamp(25px,11.682242990654206vw,100px) !important
 
-                .power-card, .muscle-card, .imm-card
-                    width: clamp(182px,85.04672897196262vw,728px)
-                    height: clamp(231px,107.94392523364486vw,924px)
-                    display: flex
-                    flex-direction: column
-                    border-radius: 6px
-                    align-items: center
-                    cursor: pointer
-                    background-color: $main_cream
-                    transition: 0.3s all
-                    margin-bottom: clamp(40px,4.166666666666667vw,160px)
+                .card-one-li
+                    display: flex !important
+                    align-items: center !important
+                    flex-direction: row !important
+                    margin-top: clamp(16px,7.4766355140186915vw,64px) !important
 
-                    .power-circle, .muscle-circle, .imm-circle
-                        width: clamp(53px,24.766355140186917vw,212px)
-                        height: clamp(53px,24.766355140186917vw,212px)
-                        background: #B5CCF8
-                        border-radius: 100%
-                        display: flex
-                        align-items: center
-                        justify-content: center
-                        border: 5px solid #4A6E98
-                        margin-top: clamp(20.5px, 2.1354166666666665vw, 82px)
+                    .muscle-up-icon, .lightning-icon, .protection-icon, .anti-pills-icon, .delivery-icon
+                        width: clamp(53.5px,25vw,214px) !important
+                        height: clamp(30px,14.018691588785046vw,120px) !important
 
-                        .dumbbell-icon, .heart-icon, .weight-icon
-                            font-size: clamp(25px,11.682242990654206vw,100px) !important
-                            color: #4A6E98
-
-                    .imm-c-heading, .power-c-heading, .muscle-c-heading
-                        font-size: clamp(18.5px,8.644859813084112vw,74px)
-
-                    .power-c-p, .muscle-c-p, .imm-c-p
-                        width: clamp(139px,64.95327102803738vw,556px)
-                        font-size: clamp(12.5px,5.841121495327103vw,50px)
+                    .paragraph
+                        font-size: clamp(7px,3.2710280373831777vw,28px) !important
+                        width: clamp(125px,58.41121495327103vw,500px) !important
+                        text-align: left !important
+                        margin-top: 0px !important
+                        margin-left: clamp(8px,3.7383177570093458vw,32px) !important
 
             .shop-button
                 width: clamp(173.5px,81.07476635514018vw,694px) !important

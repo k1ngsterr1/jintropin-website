@@ -225,12 +225,8 @@
     flex-direction: column !important;
   }
   .composition-screen .composition-container .heading-container .composition-heading {
-    font-family: "Roboto Condensed" !important;
-    font-style: normal !important;
-    font-weight: 700 !important;
-    font-size: clamp(18px, 8.4112149533vw, 72px) !important;
+    font-size: clamp(17px, 7.9439252336vw, 68px) !important;
     text-transform: uppercase !important;
-    color: #00346E !important;
     text-align: center !important;
   }
   .composition-screen .composition-container .composition-card-container {
@@ -248,14 +244,15 @@
   }
   .composition-screen .composition-container .composition-card-container .column-one .composition-card-content {
     width: clamp(180px, 92.3076923077vw, 720px) !important;
-    height: clamp(60px, 30.7692307692vw, 240px) !important;
+    height: clamp(60px, 28.0373831776vw, 240px) !important;
     margin-top: clamp(8px, 4.1025641026vw, 32px) !important;
   }
   .composition-screen .composition-container .composition-card-container .column-one .composition-card-content .card-composition-header {
-    font-size: clamp(10.1px, 5.1794871795vw, 40.4px) !important;
+    font-size: clamp(9px, 4.2056074766vw, 36px) !important;
   }
   .composition-screen .composition-container .composition-card-container .column-one .composition-card-content .card-composition-paragraph {
-    font-size: clamp(6.5px, 3.3333333333vw, 26px) !important;
+    width: clamp(175px, 81.7757009346vw, 700px) !important;
+    font-size: clamp(6.75px, 3.1542056075vw, 27px) !important;
   }
   .composition-screen .composition-container .composition-card-container .column-two {
     display: flex !important;
@@ -264,7 +261,7 @@
   }
   .composition-screen .composition-container .composition-card-container .column-two .composition-card-content {
     width: clamp(180px, 92.3076923077vw, 720px) !important;
-    height: clamp(60px, 30.7692307692vw, 240px) !important;
+    height: clamp(85px, 39.7196261682vw, 340px) !important;
     margin-top: clamp(8px, 4.1025641026vw, 32px) !important;
   }
   .composition-screen .composition-container .composition-card-container .column-two .composition-card-content .card-composition-header {
@@ -281,7 +278,7 @@
   }
   .composition-screen .composition-container .composition-card-container .row-one .composition-card-content-l {
     width: clamp(180px, 92.3076923077vw, 720px) !important;
-    height: clamp(90px, 46.1538461538vw, 360px) !important;
+    height: clamp(120px, 56.0747663551vw, 480px) !important;
     margin-top: clamp(8px, 4.1025641026vw, 32px) !important;
   }
   .composition-screen .composition-container .composition-card-container .row-one .composition-card-content-l .card-composition-header-l {
@@ -292,7 +289,8 @@
     font-size: clamp(6.5px, 3.3333333333vw, 26px) !important;
   }
   .composition-screen .composition-container .composition-card-container .row-one .composition-card-content-l .bold-text {
-    font-size: clamp(6.5px, 3.3333333333vw, 26px) !important;
+    margin-top: clamp(8px, 3.738317757vw, 32px);
+    font-size: clamp(6.75px, 3.1542056075vw, 27px) !important;
   }
   .composition-screen .composition-container .composition-card-container .row-two {
     display: flex !important;
@@ -301,7 +299,7 @@
   }
   .composition-screen .composition-container .composition-card-container .row-two .composition-card-content-l-bl {
     width: clamp(180px, 92.3076923077vw, 720px) !important;
-    height: clamp(90px, 46.1538461538vw, 360px) !important;
+    height: clamp(120px, 56.0747663551vw, 480px) !important;
     margin-top: clamp(8px, 4.1025641026vw, 32px) !important;
   }
   .composition-screen .composition-container .composition-card-container .row-two .composition-card-content-l-bl .card-composition-header-l-bl {

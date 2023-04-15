@@ -10,6 +10,7 @@ import styles from "../styles/main-screen-styles/main_screen.css";
 // Assets
 import photo from "../assets/main-man.png";
 import arrow from "../assets/main_arrow.svg";
+import phoneMan from "../assets/main-man-phone.png";
 
 // Icons
 import { FaTelegramPlane } from "react-icons/fa";
@@ -44,6 +45,11 @@ const MainScreen = () => {
           </div>
         </div>
         <img className="proto-photo" src={photo} alt="mains_screen_photo"></img>
+        <img
+          className="proto-photo-phone"
+          src={phoneMan}
+          alt="mains_screen_photo_phone"
+        ></img>
       </div>
       <img src={arrow} className="arrow-blue"></img>
     </main>

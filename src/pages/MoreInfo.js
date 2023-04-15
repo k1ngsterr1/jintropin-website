@@ -34,7 +34,6 @@ const MoreInfo = () => {
               href="https://t.me/Jintropine_Bot"
               target="_blank"
             >
-              <FaTelegramPlane className="telegram-icon" />
               {t("main-button.key")}{" "}
             </a>
           </div>

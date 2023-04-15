@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: white !important;
+  background-color: #022B6B;
   margin: auto;
 }
 * body .more-info-page .more-info-container {
@@ -26,10 +26,10 @@
 }
 * body .more-info-page .paragraph-container .info-paragraph {
   width: clamp(496.5px, 51.71875vw, 1986px);
-  font-family: "Raleway" !important;
-  font-style: normal !important;
-  font-weight: 500 !important;
-  color: #00346E;
+  font-family: "Unbounded";
+  font-style: normal;
+  font-weight: 300;
+  color: #FFF200;
   font-weight: 500;
   font-size: clamp(10.5px, 1.09375vw, 42px);
 }
@@ -42,37 +42,37 @@
 * body .more-info-page .buttons-container .go-back-button {
   width: clamp(179px, 18.6458333333vw, 716px);
   height: clamp(32px, 3.3333333333vw, 128px);
-  font-family: "Roboto Condensed";
+  font-family: "Unbounded";
   font-style: normal;
-  font-weight: 700;
-  font-size: clamp(12.5px, 1.3020833333vw, 50px);
-  color: white;
-  background-color: #588EF7;
+  font-weight: 600;
+  font-size: clamp(10.5px, 1.09375vw, 42px);
+  color: #022B6B;
+  background-color: #FFF200;
   border-radius: 60px;
   transition: 0.3s all;
 }
 * body .more-info-page .buttons-container .go-back-button:hover {
-  background-color: #2B6FF5;
+  background-color: #EDE100;
 }
 * body .more-info-page .buttons-container .main-button {
   width: clamp(179px, 18.6458333333vw, 716px);
   height: clamp(32px, 3.3333333333vw, 128px);
   text-decoration: none !important;
-  font-family: "Roboto Condensed";
+  font-family: "Unbounded";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: clamp(12.5px, 1.3020833333vw, 50px);
-  color: white;
+  font-size: 21px;
+  color: #022B6B;
   border-radius: 60px;
-  background-color: #588EF7;
+  background-color: #FFF200;
   margin-left: clamp(16px, 1.6666666667vw, 64px);
   transition: 0.3s all;
 }
 * body .more-info-page .buttons-container .main-button:hover {
-  background-color: #2B6FF5;
+  background-color: #EDE100;
 }
 * body .more-info-page .buttons-container .main-button .telegram-icon {
   margin-right: clamp(6px, 0.625vw, 24px);
@@ -105,11 +105,22 @@
   }
   .more-info-page .paragraph-container .info-paragraph {
     width: clamp(182px, 85.046728972vw, 728px) !important;
-    font-family: "Gothic A1", sans-serif;
-    font-style: normal;
-    color: #00346E;
     font-weight: 500 !important;
     text-align: center;
-    font-size: clamp(9px, 4.2056074766vw, 36px) !important;
+    font-size: 16px !important;
+  }
+  .more-info-page .paragraph-container .buttons-container {
+    display: flex !important;
+    margin: auto !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    margin-top: clamp(32px, 14.953271028vw, 128px) !important;
+  }
+  .more-info-page .paragraph-container .buttons-container .go-back-button, .more-info-page .paragraph-container .buttons-container .main-button {
+    width: clamp(150px, 70.0934579439vw, 600px) !important;
+    margin-top: clamp(8px, 3.738317757vw, 32px) !important;
+    height: clamp(27.5px, 12.8504672897vw, 110px) !important;
+    font-size: clamp(8px, 3.738317757vw, 32px) !important;
+    margin-left: 0 !important;
   }
 }/*# sourceMappingURL=more-info.css.map */

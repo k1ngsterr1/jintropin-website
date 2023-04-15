@@ -110,12 +110,8 @@
     flex-direction: column !important;
   }
   .video-screen .video-screen-container .video-screen-heading-container .v-screen-heading {
-    font-family: "Roboto Condensed" !important;
-    font-style: normal !important;
-    font-weight: 700 !important;
-    font-size: clamp(18px, 8.4112149533vw, 72px) !important;
+    font-size: clamp(14.5px, 6.7757009346vw, 58px) !important;
     text-transform: uppercase !important;
-    color: #00346E !important;
     text-align: center !important;
   }
   .video-screen .video-screen-container .video-content {
@@ -138,7 +134,7 @@
   }
   .video-screen .video-screen-container .video-content .video-description .v-description-p {
     width: clamp(150px, 76.9230769231vw, 600px) !important;
-    font-size: clamp(9px, 4.6153846154vw, 36px) !important;
+    font-size: clamp(9px, 4.2056074766vw, 36px) !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     margin: auto !important;

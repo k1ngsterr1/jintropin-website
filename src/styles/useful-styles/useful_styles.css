@@ -108,6 +108,9 @@
     flex-direction: column;
     margin: auto;
   }
+  .useful-fin .useful-container .qualified-product {
+    font-size: clamp(8.5px, 3.9719626168vw, 34px) !important;
+  }
   .useful-fin .useful-container .useful-heading-container {
     display: flex;
     flex-direction: column;
@@ -117,12 +120,16 @@
     margin-top: clamp(32px, 14.953271028vw, 128px) !important;
   }
   .useful-fin .useful-container .useful-heading-container .useful-heading {
-    font-family: "Roboto Condensed" !important;
-    font-style: normal !important;
-    font-weight: 700 !important;
-    font-size: clamp(18px, 8.4112149533vw, 72px) !important;
+    font-size: clamp(17px, 7.9439252336vw, 68px) !important;
     text-transform: uppercase !important;
-    color: #00346E !important;
+    color: white !important;
+  }
+  .useful-fin .useful-container .useful-heading-container .best-hormone {
+    font-size: clamp(11.5px, 5.3738317757vw, 46px) !important;
+  }
+  .useful-fin .useful-container .useful-heading-container .best-hormone-white {
+    font-size: clamp(8.5px, 3.9719626168vw, 34px) !important;
+    text-align: center !important;
   }
   .useful-fin .useful-container .useful-heading-container .separator {
     width: clamp(295px, 30.7291666667vw, 1180px);
@@ -135,43 +142,26 @@
     height: auto;
     display: flex;
     flex-direction: column !important;
-    align-items: center;
+    align-items: center !important;
     justify-content: space-between;
-    margin-top: clamp(35px, 3.6458333333vw, 140px);
+    margin-top: clamp(25px, 11.6822429907vw, 100px) !important;
   }
-  .useful-fin .useful-container .cards .power-card, .useful-fin .useful-container .cards .muscle-card, .useful-fin .useful-container .cards .imm-card {
-    width: clamp(182px, 85.046728972vw, 728px);
-    height: clamp(231px, 107.9439252336vw, 924px);
-    display: flex;
-    flex-direction: column;
-    border-radius: 6px;
-    align-items: center;
-    cursor: pointer;
-    background-color: #F4F5F8;
-    transition: 0.3s all;
-    margin-bottom: clamp(40px, 4.1666666667vw, 160px);
+  .useful-fin .useful-container .cards .card-one-li {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    margin-top: clamp(16px, 7.476635514vw, 64px) !important;
   }
-  .useful-fin .useful-container .cards .power-card .power-circle, .useful-fin .useful-container .cards .power-card .muscle-circle, .useful-fin .useful-container .cards .power-card .imm-circle, .useful-fin .useful-container .cards .muscle-card .power-circle, .useful-fin .useful-container .cards .muscle-card .muscle-circle, .useful-fin .useful-container .cards .muscle-card .imm-circle, .useful-fin .useful-container .cards .imm-card .power-circle, .useful-fin .useful-container .cards .imm-card .muscle-circle, .useful-fin .useful-container .cards .imm-card .imm-circle {
-    width: clamp(53px, 24.7663551402vw, 212px);
-    height: clamp(53px, 24.7663551402vw, 212px);
-    background: #B5CCF8;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid #4A6E98;
-    margin-top: clamp(20.5px, 2.1354166667vw, 82px);
+  .useful-fin .useful-container .cards .card-one-li .muscle-up-icon, .useful-fin .useful-container .cards .card-one-li .lightning-icon, .useful-fin .useful-container .cards .card-one-li .protection-icon, .useful-fin .useful-container .cards .card-one-li .anti-pills-icon, .useful-fin .useful-container .cards .card-one-li .delivery-icon {
+    width: clamp(53.5px, 25vw, 214px) !important;
+    height: clamp(30px, 14.0186915888vw, 120px) !important;
   }
-  .useful-fin .useful-container .cards .power-card .power-circle .dumbbell-icon, .useful-fin .useful-container .cards .power-card .power-circle .heart-icon, .useful-fin .useful-container .cards .power-card .power-circle .weight-icon, .useful-fin .useful-container .cards .power-card .muscle-circle .dumbbell-icon, .useful-fin .useful-container .cards .power-card .muscle-circle .heart-icon, .useful-fin .useful-container .cards .power-card .muscle-circle .weight-icon, .useful-fin .useful-container .cards .power-card .imm-circle .dumbbell-icon, .useful-fin .useful-container .cards .power-card .imm-circle .heart-icon, .useful-fin .useful-container .cards .power-card .imm-circle .weight-icon, .useful-fin .useful-container .cards .muscle-card .power-circle .dumbbell-icon, .useful-fin .useful-container .cards .muscle-card .power-circle .heart-icon, .useful-fin .useful-container .cards .muscle-card .power-circle .weight-icon, .useful-fin .useful-container .cards .muscle-card .muscle-circle .dumbbell-icon, .useful-fin .useful-container .cards .muscle-card .muscle-circle .heart-icon, .useful-fin .useful-container .cards .muscle-card .muscle-circle .weight-icon, .useful-fin .useful-container .cards .muscle-card .imm-circle .dumbbell-icon, .useful-fin .useful-container .cards .muscle-card .imm-circle .heart-icon, .useful-fin .useful-container .cards .muscle-card .imm-circle .weight-icon, .useful-fin .useful-container .cards .imm-card .power-circle .dumbbell-icon, .useful-fin .useful-container .cards .imm-card .power-circle .heart-icon, .useful-fin .useful-container .cards .imm-card .power-circle .weight-icon, .useful-fin .useful-container .cards .imm-card .muscle-circle .dumbbell-icon, .useful-fin .useful-container .cards .imm-card .muscle-circle .heart-icon, .useful-fin .useful-container .cards .imm-card .muscle-circle .weight-icon, .useful-fin .useful-container .cards .imm-card .imm-circle .dumbbell-icon, .useful-fin .useful-container .cards .imm-card .imm-circle .heart-icon, .useful-fin .useful-container .cards .imm-card .imm-circle .weight-icon {
-    font-size: clamp(25px, 11.6822429907vw, 100px) !important;
-    color: #4A6E98;
-  }
-  .useful-fin .useful-container .cards .power-card .imm-c-heading, .useful-fin .useful-container .cards .power-card .power-c-heading, .useful-fin .useful-container .cards .power-card .muscle-c-heading, .useful-fin .useful-container .cards .muscle-card .imm-c-heading, .useful-fin .useful-container .cards .muscle-card .power-c-heading, .useful-fin .useful-container .cards .muscle-card .muscle-c-heading, .useful-fin .useful-container .cards .imm-card .imm-c-heading, .useful-fin .useful-container .cards .imm-card .power-c-heading, .useful-fin .useful-container .cards .imm-card .muscle-c-heading {
-    font-size: clamp(18.5px, 8.6448598131vw, 74px);
-  }
-  .useful-fin .useful-container .cards .power-card .power-c-p, .useful-fin .useful-container .cards .power-card .muscle-c-p, .useful-fin .useful-container .cards .power-card .imm-c-p, .useful-fin .useful-container .cards .muscle-card .power-c-p, .useful-fin .useful-container .cards .muscle-card .muscle-c-p, .useful-fin .useful-container .cards .muscle-card .imm-c-p, .useful-fin .useful-container .cards .imm-card .power-c-p, .useful-fin .useful-container .cards .imm-card .muscle-c-p, .useful-fin .useful-container .cards .imm-card .imm-c-p {
-    width: clamp(139px, 64.953271028vw, 556px);
-    font-size: clamp(12.5px, 5.8411214953vw, 50px);
+  .useful-fin .useful-container .cards .card-one-li .paragraph {
+    font-size: clamp(7px, 3.2710280374vw, 28px) !important;
+    width: clamp(125px, 58.4112149533vw, 500px) !important;
+    text-align: left !important;
+    margin-top: 0px !important;
+    margin-left: clamp(8px, 3.738317757vw, 32px) !important;
   }
   .useful-fin .useful-container .shop-button {
     width: clamp(173.5px, 81.0747663551vw, 694px) !important;

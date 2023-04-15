@@ -107,7 +107,6 @@
     width: 86.4583333333%;
     height: auto;
     margin: auto;
-    border: 2px solid red !important;
     display: none !important;
     justify-content: space-between;
     align-items: center;
@@ -129,17 +128,17 @@
   body .nav-container .nav-mob .for-burger-menu .bars {
     font-size: clamp(20px, 9.3457943925vw, 80px);
     cursor: pointer;
-    color: #588EF7;
+    color: #FFF200;
   }
   body .nav-container .nav-mob .for-burger-menu .cross-icon {
     font-size: clamp(20px, 9.3457943925vw, 80px);
     cursor: pointer;
-    color: #588EF7;
+    color: #FFF200;
   }
   body .nav-container .nav-mob .for-burger-menu .nav-links-mobile {
     width: 100% !important;
     height: auto !important;
-    background-color: white !important;
+    background-color: #022B6B !important;
     top: clamp(34.5px, 16.1214953271vw, 138px);
     box-shadow: 0px 16px 16px rgba(0, 0, 0, 0.1) !important;
     display: flex !important;
@@ -155,7 +154,7 @@
   }
   body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .main-link-mobile, body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .verification-mobile-link, body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .contact-with-us-mob, body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .indication-mob, body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .available-mob, body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .document-mob, body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .realisation-conditions-mob {
     font-size: clamp(10px, 4.6728971963vw, 40px);
-    color: #00346E;
+    color: #FFF200;
     text-decoration: none;
   }
   body .nav-container .nav-mob .for-burger-menu .nav-links-mobile .indication-mob {

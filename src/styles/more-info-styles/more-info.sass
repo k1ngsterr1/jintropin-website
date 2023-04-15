@@ -30,7 +30,7 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
             display: flex
             flex-direction: column
             justify-content: space-between
-            background: $background !important
+            background-color: #022B6B
             margin: auto
 
             .more-info-container
@@ -50,10 +50,10 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 
                 .info-paragraph
                     width: clamp(496.5px,51.71875vw,1986px)
-                    font-family: 'Raleway' !important
-                    font-style: normal !important
-                    font-weight: 500 !important
-                    color: $main_blue
+                    font-family: 'Unbounded'
+                    font-style: normal
+                    font-weight: 300
+                    color: #FFF200
                     font-weight: 500
                     font-size: clamp(10.5px,1.09375vw,42px)
 
@@ -66,35 +66,35 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
                 .go-back-button
                     width: clamp(179px,18.645833333333332vw,716px)
                     height: $sixtyfourclamp
-                    font-family: 'Roboto Condensed'
+                    font-family: 'Unbounded'
                     font-style: normal
-                    font-weight: 700
-                    font-size: clamp(12.5px,1.3020833333333333vw,50px)
-                    color: $background
-                    background-color: $red
+                    font-weight: 600
+                    font-size: clamp(10.5px,1.09375vw,42px)
+                    color: #022B6B
+                    background-color: #FFF200
                     border-radius: 60px
                     transition: 0.3s all
                     &:hover
-                        background-color: $button_hover
+                        background-color: #EDE100
 
                 .main-button
                     width: clamp(179px,18.645833333333332vw,716px)
                     height: $sixtyfourclamp
                     text-decoration: none !important
-                    font-family: 'Roboto Condensed'
+                    font-family: 'Unbounded'
                     font-style: normal
-                    font-weight: 700
+                    font-weight: 600
                     display: flex
                     align-items: center
                     justify-content: center
-                    font-size: clamp(12.5px,1.3020833333333333vw,50px)
-                    color: $background
+                    font-size: 21px
+                    color: #022B6B
                     border-radius: 60px
-                    background-color: $red
+                    background-color: #FFF200
                     margin-left: $thirtytwoclamp
                     transition: 0.3s all
                     &:hover
-                        background-color: $button_hover
+                        background-color: #EDE100
 
                     .telegram-icon
                         margin-right: clamp(6px,0.625vw,24px)
@@ -127,9 +127,20 @@ $twofivesixclamp: clamp(128px,13.333333333333334vw,512px)
 
             .info-paragraph
                 width: clamp(182px,85.04672897196262vw,728px) !important
-                font-family: 'Gothic A1', sans-serif
-                font-style: normal
-                color: $main_blue
                 font-weight: 500 !important
                 text-align: center
-                font-size: clamp(9px,4.205607476635514vw,36px) !important
+                font-size: 16px !important
+
+            .buttons-container
+                display: flex !important
+                margin: auto !important
+                align-items: center !important
+                flex-direction: column !important
+                margin-top: clamp(32px,14.953271028037383vw,128px) !important
+
+                .go-back-button, .main-button
+                    width: clamp(150px,70.09345794392523vw,600px) !important
+                    margin-top: clamp(8px,3.7383177570093458vw,32px) !important
+                    height: clamp(27.5px,12.850467289719626vw,110px) !important
+                    font-size: clamp(8px,3.7383177570093458vw,32px) !important
+                    margin-left: 0 !important

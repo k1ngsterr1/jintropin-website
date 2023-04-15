@@ -110,10 +110,9 @@
 @media screen and (max-width: 448px) {
   .verification-screen {
     width: 100%;
-    height: 110vh;
+    height: auto;
     display: flex;
     margin: auto;
-    background-color: #F4F5F8;
     flex-direction: column;
   }
   .verification-screen .verification-container {
@@ -129,14 +128,10 @@
     margin-left: 0px !important;
   }
   .verification-screen .verification-container .verification-heading {
-    width: clamp(100px, 72.8155339806vw, 600px) !important;
-    font-family: "Roboto Condensed" !important;
-    font-style: normal !important;
+    font-size: clamp(17px, 7.9439252336vw, 68px) !important;
     text-align: center !important;
-    font-weight: 700 !important;
-    font-size: clamp(18px, 8.4112149533vw, 72px) !important;
+    margin-left: 0px !important;
     text-transform: uppercase !important;
-    color: #00346E !important;
     margin-top: clamp(16px, 7.7669902913vw, 64px) !important;
   }
   .verification-screen .verification-container .separator {
@@ -147,8 +142,7 @@
   }
   .verification-screen .verification-content {
     width: clamp(175px, 84.9514563107vw, 700px) !important;
-    height: clamp(355px, 172.3300970874vw, 1420px) !important;
-    background-color: #588EF7 !important;
+    height: auto !important;
     border-radius: 18px !important;
     margin: auto !important;
     display: flex !important;
@@ -159,6 +153,7 @@
     width: clamp(131px, 63.5922330097vw, 524px) !important;
     height: clamp(131px, 63.5922330097vw, 524px) !important;
     display: flex !important;
+    align-items: center !important;
     margin: auto !important;
     margin-top: clamp(16px, 7.7669902913vw, 64px) !important;
   }
@@ -166,24 +161,18 @@
     display: none !important;
   }
   .verification-screen .verification-content .ver-description-heading {
-    font-family: "Roboto Condensed" !important;
-    font-style: normal !important;
-    font-weight: 700 !important;
     font-size: clamp(12.5px, 6.067961165vw, 50px) !important;
-    color: #1e1e1e !important;
     margin: auto !important;
     text-align: center !important;
     margin-top: clamp(8px, 3.8834951456vw, 32px) !important;
   }
   .verification-screen .verification-content .ver-paragraph-zero, .verification-screen .verification-content .ver-paragraph-one, .verification-screen .verification-content .ver-paragraph-two {
     width: clamp(158.5px, 76.9417475728vw, 634px) !important;
-    font-family: "Raleway" !important;
     text-align: center !important;
-    font-style: normal !important;
     font-weight: 600 !important;
-    color: #1e1e1e !important;
     padding: 0 !important;
     margin: 0 !important;
+    margin-left: clamp(8px, 3.738317757vw, 32px) !important;
     font-size: clamp(8px, 3.8834951456vw, 32px) !important;
   }
   .verification-screen .verification-content .ver-paragraph-zero, .verification-screen .verification-content .ver-paragraph-one, .verification-screen .verification-content .ver-paragraph-two {
@@ -198,5 +187,6 @@
     margin: auto !important;
     margin-top: clamp(16px, 7.7669902913vw, 64px) !important;
     font-size: 19px !important;
+    margin-bottom: 32px !important;
   }
 }/*# sourceMappingURL=verification-styles.css.map */

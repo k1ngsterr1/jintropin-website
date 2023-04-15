@@ -10,6 +10,8 @@ import "../styles/about-jin-styles/about_jin_styles.css";
 import prototype from "../assets/girl-about.png";
 import arrow from "../assets/about_arrow.svg";
 
+import girlAbout from "../assets/girl-about-phone.png";
+
 const AboutJinScreen = () => {
   const navigate = useNavigate();
 
@@ -40,6 +42,7 @@ const AboutJinScreen = () => {
           </div>
         </div>
       </div>
+      <img src={girlAbout} className="girl-about-phone"></img>
       <img src={arrow} className="about-arrow"></img>
     </div>
   );
